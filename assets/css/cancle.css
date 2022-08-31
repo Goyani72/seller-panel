@@ -1,0 +1,153 @@
+.box_cancle_main{
+     color: #000;
+}
+.cancle_cart_top{
+     right: 10px;
+     top: 40px;
+}
+
+.cancle_by_customer_main_box{
+     display: flex;
+     align-items: center;
+}
+.cancle_by_customer_main_box div{
+     margin: 15px 20px;
+}
+.cancle_single_box,.cancle_single_box_green{
+     background: linear-gradient(270deg, #CE00D2 0%, #D3B5D8 100%);
+     border-radius: 20px;
+     padding: 30px 45px;
+     color: #fff;
+     text-align: center;
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 700;
+}
+.cancle_single_box_green{
+     background: linear-gradient(270deg, #00D215 0%, #B5D8BE 100%);
+}
+
+.cancle_single_box p{
+     font-size: 36px;
+     line-height: 54px;
+}
+.cancle_single_box span{
+     font-size: 14px;
+     line-height: 21px;
+}
+.all_cancle {
+     border: 1px;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.089);
+     border-radius: 5px;
+     appearance: none;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     background: #F1F8F6;
+     background-image: url(../image/cancle/dropdown_icon_cancle.svg);
+     background-repeat: no-repeat;
+     background-position-y: 54%;
+     background-position-x: 88%;
+     text-align: center;
+     padding: 8px 8px;
+     padding-right: 32px;
+     cursor: pointer;
+     width: 191px;
+}
+
+
+/* download btn */
+.download_report_cancle_btn{
+     padding: 12px 28px;
+     color: #fff;
+     background-color: #4D7C73;
+     display: inline-block;
+     border-radius: 50px;
+     font-weight: 700;
+     font-size: 18px;
+     margin: 35px 10px 25px 0px;
+}
+
+.modal_close_btn {
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+     background-color: #4D7C73;
+     position: absolute;
+     left: 10px;
+     top: 10px;
+     padding: 5px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+ }
+
+#style_2{
+     box-shadow:0px 2px 5px rgba(95, 93, 93, 0.555);
+     border-radius: 5px;
+}
+
+/* Start scrollbar */
+#style_2::-webkit-scrollbar {
+     width:12px;
+     border-radius: 5px;
+ }
+ 
+#style_2::-webkit-scrollbar-track {
+     -webkit-border-radius:10px;
+     border-radius:10px;
+     background:transparent;
+}
+#style_2::-webkit-scrollbar-thumb {
+     -webkit-border-radius:10px;
+     border-radius:10px;
+
+     background: #A2CDC5;
+} 
+#style_2::-webkit-scrollbar-thumb:hover {
+     background: #A2CDC5;
+
+ }
+#style_2::-webkit-scrollbar-thumb:window-inactive {
+     background: #A2CDC5;
+ }
+
+
+
+/* ===========media quary=========== */
+@media screen and (max-width:1024px){
+     .cancle_by_customer_main_box div {
+          margin: 15px 10px;
+     }
+     .cancle_single_box, .cancle_single_box_green {
+          padding: 10px 20px;
+     }
+   
+}
+@media screen and (max-width:767px){
+     .cancle_cart_top{
+          position: unset;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+     }
+     .cancle_by_customer_main_box {
+          justify-content: center;
+     }
+     .cancle_single_box p {
+          font-size: 20px;
+          line-height: 20px;
+     }
+     .cancle_by_customer_main_box div {
+          margin: 15px 10px;
+          padding: 20px 15px;
+     }
+}
+@media screen and (max-width: 425px){
+     .cancle_by_customer_main_box div {
+          margin: 25px 5px;
+     }
+     .cancle_single_box, .cancle_single_box_green {
+          padding: 10px 10px;
+     }
+}

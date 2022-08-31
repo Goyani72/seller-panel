@@ -1,0 +1,802 @@
+
+
+.create_new_camping_side_main {
+    align-items: center;
+}
+
+.create_new_title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height:50px;
+    margin-top: 50px;
+}
+
+.manually_select_marketing{
+    font-size: 20px;
+    line-height: 30px
+}
+.star_create_new_camping{
+    color: #FF0000;
+}
+.camping_name_box{
+    padding: 10px 60px 10px 20px;
+    width: 100%;
+    background: #FBFDFD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    border: transparent;
+    margin-top: 20px;
+}
+
+.daily_btn a{
+    color: #116252;
+}
+.marketing_main_table{
+    overflow: auto;
+}
+
+
+.daily_btn{
+    background: #FFFFFF;
+    border: 1px solid #4D7C73;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(77, 124, 115, 0.39);
+    border-radius: 15px;
+    padding: 8px 45px 8px 58px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+.daily_btn::before{
+    content: '';
+    background-image: url(../image/create_new_camping/daily_btn.png);
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    top: 7px;
+    left: 10px;
+}
+.select_product_title{
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 25px;
+}
+.select_btn{
+    background: #A2CDC5;
+    border-radius: 10px;
+    padding: 8px 35px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.select_btn:hover{
+    background-color: #4D7C73;
+    transition: 0.2s ease-in;
+}
+.select_any_title{
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 12px;
+}
+
+.amount_create_new_camping::placeholder{
+    color: #116252;
+}
+.amount_create_new_camping{
+    height: 100%;
+    width: 70%;
+    background: #FFFFFF;
+    border: 1px solid #4D7C73;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(77, 124, 115, 0.39);
+    position: relative;
+    padding: 10px 100px 10px 58px;
+    color: #116252;
+}
+.ruppy_sign{
+    border: 1px solid #116252;
+    position: absolute;
+    height: 46px;
+    width: 45px;
+    top: 0;
+    left: 0;
+    text-align: center;
+    line-height: 45px;
+    font-size: 18px;
+}
+.minimun_amount_camping{
+    color: #000;
+    opacity: 0.5;
+    font-size: 14px;
+}
+/* date */
+.date_main .date_btn{
+    margin: 0 8px;
+}
+.date_main{
+    display: flex;
+    align-items: baseline;
+}
+.daily_main {
+    margin-top: 10px;
+}
+.daily_main .daily_btn{
+    margin:0 10px;
+}
+
+.daily_main{
+    display: flex;
+}
+.date_btn{
+    position: relative;
+    cursor: pointer;
+    display: inline;
+}
+.date_btn input{
+    background: #FFFFFF;
+    border: 1px solid #4D7C73;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(77, 124, 115, 0.39);
+    border-radius: 15px;
+    padding: 8px 50px 8px 25px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 8px;
+    color: #000;
+    background-image: url(../image/create_new_camping/calender_icon_create_new_camping.png);
+    background-repeat: no-repeat;
+    background-position: 95% ;
+}
+  /* Start check box */
+
+.checkbox {
+    --background: #fff;
+    --border: #d1d6ee;
+    --border-hover: #bbc1e1;
+    --border-active: #4d7c73;
+    --tick: #fff;
+    position: relative;
+  }
+  .checkbox input,
+  .checkbox svg {
+    width: 24px;
+    height: 24px;
+    display: block;
+  }
+  .checkbox input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    outline: none;
+    background: var(--background);
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: box-shadow 0.3s;
+    box-shadow: inset 0 0 0 var(--s, 1px) var(--b, var(--border));
+  }
+  .checkbox input:hover {
+    --s: 2px;
+    --b: var(--border-hover);
+  }
+  .checkbox input:checked {
+    --b: #4D7C73;
+  }
+  .checkbox svg {
+    pointer-events: none;
+    fill: none;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: var(--stroke, var(--border-active));
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    transform: scale(var(--scale, 1)) translateZ(0);
+  }
+  .checkbox.path input:checked {
+    --s: 2px;
+    transition-delay: 0.4s;
+  }
+  .checkbox.path input:checked + svg {
+    --a: 16.1 86.12;
+    --o: 102.22;
+  }
+  .checkbox.path svg {
+    stroke-dasharray: var(--a, 86.12);
+    stroke-dashoffset: var(--o, 86.12);
+    transition: stroke-dasharray 0.6s, stroke-dashoffset 0.6s;
+  }
+  .checkbox.bounce {
+    --stroke: var(--tick);
+  }
+  .checkbox.bounce input:checked {
+    --s: 15px;
+  }
+  .checkbox.bounce input:checked + svg {
+    -webkit-animation: bounce 0.4s linear forwards 0.2s;
+    animation: bounce 0.4s linear forwards 0.2s;
+  }
+  .checkbox.bounce svg {
+    --scale: 0;
+  }
+
+  @-webkit-keyframes bounce {
+    50% {
+      transform: scale(1.2);
+    }
+    75% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes bounce {
+    50% {
+      transform: scale(1.2);
+    }
+    75% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  /* End check box */
+
+
+
+  .enter_capaning_name{
+    font-size: 28px;
+    padding-top: 35px;
+}
+.checkbox_bottom_main{
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    padding: 20px  0;
+}
+
+
+
+
+/* Start table */
+.table_heding_marketing,.marketing_body tr td
+{
+    font-size: 8px !important;
+    line-height: normal;
+    white-space: nowrap;
+
+}
+.img_create_new_camping div img{
+    margin-right: 8px;
+}
+.img_create_new_camping{
+   padding: 0 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   width: 250px;
+}
+.marketing_body tr td{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+/* cpc box */
+.cpc_box_main{
+    width: 150px ;
+    position: relative;
+}
+.ruppy_sign_cpm{
+    position: absolute;
+    left: 15%;
+    top: 10%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.create_cpm_check_boc svg{
+    height: 15px;
+    width: 15px;
+    left: 5px;
+}
+.create_cpm_check_boc input{
+    height: 15px;
+    width: 15px;
+    border-radius: 1.5px;
+    margin-left: 5px;
+}
+.ruppy_sign_cpm p{
+    padding-top: 3px;
+}
+
+/* End table */
+.no_end_date{
+    font-size: 15px;
+}
+/* add Other Product Btn */
+.add_other_product_btn a{
+    padding: 25px 45px;
+}
+.select_drop_down_model{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* =================Start model_table====================== */
+.table_select_product{
+    margin: 0;
+    max-width:90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 25px;
+}
+.bold_upto{
+    font-weight: 600;
+}
+.you_can_now_text .bold_upto{
+    font-size: 10px !important;
+    color: #000;
+}
+.search_by_product{
+    padding: 10px 30px;
+    border-radius: 35px;
+    width: 250px;
+    height: 45px;
+    border:1px solid #11625225;
+    box-shadow: 0 2px 2px #11625238;
+    position: relative;
+}
+.search_by_product::before{
+   content: '#';
+   position: absolute;
+   top: 5px;
+   right: 5px;
+   background-repeat:no-repeat;
+    z-index: 1;
+}
+.filter_add_new_camping_model{
+    font-size: 18px;
+    color: #000;
+}
+.category_model{
+    border: transparent;
+    background-color: #11625234;
+    color: #fff;
+    padding: 6px 5px;
+    width: 100px;
+}
+.table_model{
+    height: 350px;
+    overflow: scroll;
+}
+.model_img_create_new_camping{
+    display: unset;
+}
+.model_create_new tr td{
+    height: 50px;
+    padding: 0;
+}
+.submit_product{
+    padding: 15px 25px;
+    color: #116252;
+    border-radius: 10px;
+    border: #116252 1px solid;
+    margin-right: 15px;
+}
+/* =================End model_table====================== */
+
+
+
+/* scroll */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 11px;
+}
+
+/* Start Sellect Btn Model */
+
+
+
+.product_image_list_manually{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product_image_list_manually p{
+    display: inline-block;
+}
+
+
+
+.create_new_title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: #000;
+    padding: 45px 0;
+  }
+  
+  .fixed_headers {
+    border-collapse: collapse;
+    border-radius: 10px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  .fixed_headers thead {
+    background-color: #dce4e3;
+    border-top-left-radius: 10px;
+    color: #000;
+  }
+  .fixed_headers th {
+    padding: 10px 0;
+  }
+  
+  .fixed_headers_body tr {
+    padding: 10px 0;
+    display: block;
+  }
+  
+  .fixed_headers td,
+  .fixed_headers th {
+    text-align: center;
+  }
+  .fixed_headers td:nth-child(1),
+  .fixed_headers th:nth-child(1) {
+    width: 170px;
+  }
+  .fixed_headers td:nth-child(2),
+  .fixed_headers th:nth-child(2) {
+    width: 210px;
+  }
+  .fixed_headers td:nth-child(3),
+  .fixed_headers th:nth-child(3) {
+    width: 120px;
+  }
+  .fixed_headers td:nth-child(4),
+  .fixed_headers th:nth-child(4) {
+    width: 150px;
+  }
+  .fixed_headers td:nth-child(5),
+  .fixed_headers th:nth-child(5) {
+    width: 150px;
+  }
+  .fixed_headers td:nth-child(6),
+  .fixed_headers th:nth-child(6) {
+      width: 180px;
+      border-top-right-radius: 10px;
+    }
+    .fixed_headers td:nth-child(7),
+    .fixed_headers th:nth-child(7) {
+      width: 60px;
+    }
+  
+  .fixed_headers thead tr {
+    display: block;
+    position: relative;
+    width: calc(100% - 7px);
+  }
+  .fixed_headers tbody {
+    display: block;
+    overflow-x: auto;
+    height: 210px;
+  }
+  
+  /* edit btn */
+  .edit_btn_create_camping{
+       height: 25px;
+       background-color: #a2cdc5;
+       color: #fff;
+       display: flex;
+       align-items: center;
+       margin: auto;
+       width: 30px;
+       border-radius: 6px;
+       border: transparent;
+       justify-content: space-around;
+  }
+  .edit_btn_create_camping:hover{
+       background-color: #4D7C73;
+       transition: 0.2s;
+  }
+  .edit_btn_create_camping .fa-pen{
+       font-size: 12px;
+  }
+  /* Create Campaign */
+  .top_create_btn{
+       height: 38px;
+       width: 240px;
+       font-size: 18px;
+       background-color: #a2cdc5;
+       border-radius: 6px;
+       border: transparent;
+       padding: 5px 8px;
+       color: #fff;
+  }
+  .top_create_btn:hover{
+       background-color: #4D7C73;
+       transition: 0.2s;
+  }
+  
+  /*Start scroll */
+  ::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #a2cdc5;
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+  }
+  
+  /*end scroll */
+  
+  /*=========Start Media Responsive========= */
+  @media screen and (max-width:1024px) {
+       .fixed_headers td:nth-child(1), .fixed_headers th:nth-child(1) {
+            min-width: 150px;
+       }
+       .fixed_headers td:nth-child(2), .fixed_headers th:nth-child(2) {
+            min-width: 160px;
+       }
+       .fixed_headers td:nth-child(3), .fixed_headers th:nth-child(3) {
+            min-width: 90px;
+       }
+       .fixed_headers td:nth-child(4), .fixed_headers th:nth-child(4) {
+            min-width: 110px;
+       }
+       .fixed_headers td:nth-child(5), .fixed_headers th:nth-child(5) {
+            min-width: 90px;
+       }
+       .fixed_headers td:nth-child(6), .fixed_headers th:nth-child(6) {
+            width: 90px;
+       }
+       
+  }
+  
+  @media screen and (max-width:425px) {
+  #create_new_camping_scroll{
+      font-size: 10px !important;
+  }
+  .top_create_btn_main{
+      justify-content: center !important;
+  }
+  .create_new_title{
+      padding: 15px 0;
+      font-size: 25px;
+  }
+  .fixed_headers td:nth-child(1), .fixed_headers th:nth-child(1) {
+      min-width: 80px;
+  }
+  .fixed_headers td:nth-child(2), .fixed_headers th:nth-child(2) {
+      min-width: 130px;
+  }
+  .fixed_headers td:nth-child(3), .fixed_headers th:nth-child(3) {
+      display: none;
+  }
+  .fixed_headers td:nth-child(4), .fixed_headers th:nth-child(4) {
+      display: none;
+  }
+  .fixed_headers td:nth-child(5), .fixed_headers th:nth-child(5) {
+      display: none;
+  }
+  .fixed_headers td:nth-child(6), .fixed_headers th:nth-child(6) {
+    width: 85px;
+  }
+  
+  }
+  /*=========End Media Responsive========= */
+
+/* End Sellect Btn Model */
+
+
+
+
+/* Media */
+@media screen and (max-width:1024px) {
+    .left_side_new_camping{
+         width: 35%;
+    }
+    .create_new_title{
+         font-size: 30px;
+         line-height: 40px;
+         margin-top: 50px;
+    }
+    .manuallu_left_txt{
+         font-size: 16px;
+    }
+    /* .camping_name_box {
+         padding: 10px 0px 10px 10px;
+     } */
+     .select_product_title{
+          font-size: 14px;
+     }
+     .select_btn {
+         border-radius: 7px;
+         padding: 4px 20px;
+         font-size: 16px;
+         line-height: 30px;
+         margin-top: 10px;
+         display: inline-block;
+     }
+     .manually_select_marketing{
+          font-size: 16px;
+     } 
+    /* table */
+    .campain_right_side_table {
+         box-shadow: 2px 2px 10px #ddd;
+     }
+    .table_heding_marketing tr th,.marketing_body tr td
+    {
+         font-size: 8px !important;
+         line-height: normal;
+         padding: 0 10px;
+         height: 50px;
+         margin: 5px 0 0 0;
+    }
+     .amount_create_new_camping {
+         width: 100%;
+         padding: 10px 0px 10px 58px;
+     }
+
+
+}
+@media screen and (max-width:768px) {
+    .create_new_title{
+         font-size: 28px;
+    } 
+    
+  
+    .select_product_title {
+         font-size: 16px ;
+    }
+    .select_btn {
+         padding: 5px 30px;
+    }
+    .create_new_camping_side_main {
+         display: unset !important;
+         justify-content: center;
+    }
+    .left_side_new_camping{
+         width: 100%;
+         text-align: center;
+    }
+    .daily_main {
+         display: flex;
+         margin: auto;
+         justify-content: center;
+         margin-top: 5px;
+     }
+     .palyment_amount_main
+     {
+          text-align: start;
+     }
+     .amount_create_new_camping{
+          width: 100%;
+     }
+     .date_main {
+         display: flex;
+         align-items: baseline;
+         justify-content: center;
+     }
+     .date_btn input {
+         padding: 8px 70px 8px 25px;       
+         background-image: url(../image/create_new_camping/calender_icon_create_new_camping.png);
+         background-position: 90%;
+     }.daily_main .daily_btn {
+         margin: 0px  8px;
+     } .checkbox_bottom_main{
+        justify-content: center;
+    }
+     
+}
+@media screen and (max-width:767px) {
+    .create_new_camping_side_main {
+         display: block !important;
+    }
+    .left_side_new_camping{
+         width: 100%;
+    }
+    .date_main{
+         display: block;
+    }
+    /* model */
+    .select_drop_down_model{
+         display: unset;
+         text-align: center;
+    }
+    .search_by_product{
+         width: 80%;
+         margin: 15px 0;
+    }
+    .profile_model_info {
+         text-align: center;
+    }
+    .table_heding_marketing tr th{
+         padding: 0 60px;
+    } 
+    
+}
+
+@media screen and (max-width:767px) {
+    .daily_main .daily_btn {
+        margin: 8px 0px;
+    }
+    .daily_main{
+        display: block;
+        text-align: center;
+     }
+     .date_main span{
+          padding:10px 0 0 0 ;
+     }
+     .create_new_title{
+        padding-top:20px !important;
+        margin-top: 0 !important;
+        text-align: center;
+     } 
+     .enter_capaning_name{
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    .manuallu_left_txt{
+        font-size: 16px !important;
+    }
+    .daily_main {
+        display: block;
+        text-align: center;
+    }
+}
+@media screen and (max-width:375px) {
+        .amount_create_new_camping {
+            width: 80%;
+        }
+        .date_create_new_camping{
+            width: 90%;
+        }
+        .camping_name_box{
+            margin-top: 5px;
+        }
+      
+        .palyment_amount_main,.minimun_amount_camping{
+            text-align: center !important;
+        }
+        .ruppy_sign {
+            border: 1px solid #116252;
+            position: absolute;
+            height: 46px;
+            width: 45px;
+            top: 0;
+            left: 10%;
+            text-align: center;
+            line-height: 45px;
+            font-size: 18px;
+        }
+}
+

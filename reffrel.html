@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Product View</title>
+
+    <link type="image/x-icon" rel="shortcut icon" href="assets/images/favicon.png" />
+
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font-Awesome Fonts -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- refferel css -->
+    <link rel="stylesheet" href="assets/css/reffrel.css">
+
+    <!-- Style Sheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <link rel="icon" href="assets/image/logo.png">
+
+</head>
+
+<body class="product_view_page">
+    <div class="main_wrapper dashboard_wrap">
+        <!-- Sidebar Start -->
+        <div class="sidebar_wrapper">
+            <div class="sidebar_block">
+                <div class="sidebar_menu_block">
+                    <div class="mobile_menu_header">
+                        <div class="logo_wrap">
+                            <div class="logo">
+                                <a href="#0">
+                                    <img src="assets/image/dashborad_logo.png" alt="logo" class="logo_img">
+                                </a>
+                            </div>
+                            <a href="#0" class="menu_trigger">
+                                <svg width="9" height="13" viewBox="0 0 9 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8.72577 6.50537L0.755156 12.1304L4.50093 6.50397L0.75 0.880371L8.72577 6.50537Z"
+                                        fill="#FFCE55" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sidebar_menu">
+                        <ul>
+                            <li>
+                                <a href="index.html" data-bs-toggle="tooltip" data-bs-placement="right"
+                                    title="Dashboard">
+                                    <div class="menu_icon">
+                                        <img src="assets/image/sidebar/dashboard.png" alt="icon">
+                                    </div>
+                                    <div class="menu_text">Dashboard</div>
+                                </a>
+                            </li>
+                            <li>
+                                <div class="accordion_menu_wrap">
+                                    <a class="active" href="0#" data-bs-toggle="tooltip" data-bs-placement="right"
+                                        title="Termine">
+                                        <div class="menu_icon">
+                                            <img src="assets/image/sidebar/product.png" alt="icon">
+                                        </div>
+                                        <div class="menu_text">Product</div>
+                                    </a>
+
+                                    <div class="accordion_menu_info">
+                                        <ul>
+                                            <li>
+                                                <a href="#0" class="active">
+                                                    product view
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#0">
+                                                    product upload
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#0">
+                                                    image bulk upload
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="order.html" data-bs-toggle="tooltip" data-bs-placement="right" title="Labor">
+                                    <div class="menu_icon">
+                                        <img src="assets/image/sidebar/order.png" alt="icon">
+                                    </div>
+                                    <div class="menu_text">Order</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html" data-bs-toggle="tooltip" data-bs-placement="right"
+                                    title="Dashboard">
+                                    <div class="menu_icon">
+                                        <img src="assets/image/sidebar/marketing.png" alt="icon">
+                                    </div>
+                                    <div class="menu_text">Marketing</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="termine.html" data-bs-toggle="tooltip" data-bs-placement="right"
+                                    title="Termine">
+                                    <div class="menu_icon">
+                                        <img src="assets/image/sidebar/payment.png" alt="icon">
+                                    </div>
+                                    <div class="menu_text">Payment</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="Labor.html" data-bs-toggle="tooltip" data-bs-placement="right" title="Labor">
+                                    <div class="menu_icon">
+                                        <img src="assets/image/sidebar/wallet.png" alt="icon">
+                                    </div>
+                                    <div class="menu_text">Wallet</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html" data-bs-toggle="tooltip" data-bs-placement="right"
+                                    title="Dashboard">
+                                    <div class="menu_icon">
+                                        <img src="assets/image/sidebar/support.png" alt="icon">
+                                    </div>
+                                    <div class="menu_text">Support</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="termine.html" data-bs-toggle="tooltip" data-bs-placement="right"
+                                    title="Termine">
+                                    <div class="menu_icon">
+                                        <img src="assets/image/sidebar/referralsystem.png" alt="icon">
+                                    </div>
+                                    <div class="menu_text">Referral System</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="Labor.html" data-bs-toggle="tooltip" data-bs-placement="right" title="Labor">
+                                    <div class="menu_icon">
+                                        <img src="assets/image/sidebar/FAQ.png" alt="icon">
+                                    </div>
+                                    <div class="menu_text">Report</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="Labor.html" data-bs-toggle="tooltip" data-bs-placement="right" title="Labor">
+                                    <div class="menu_icon">
+                                        <img src="assets/image/sidebar/FAQ.png" alt="icon">
+                                    </div>
+                                    <div class="menu_text">FAQ</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="Labor.html" data-bs-toggle="tooltip" data-bs-placement="right" title="Labor">
+                                    <div class="menu_icon">
+                                        <img src="assets/image/sidebar/Profile.png" alt="icon">
+                                    </div>
+                                    <div class="menu_text">Profile</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cm-overlay"></div>
+        <!-- Sidebar End -->
+
+        <!-- Main Content Start -->
+        <div class="main_content">
+            <div class="main_content_lg">
+                <div class="common_content_pad_block">
+                    <div class="cart_top_wrap">
+                        <ul>
+                            <li>
+                                <div class="top_right_icon">
+                                    <img src="assets/image/product_view/search_big_icon.png" alt="icon">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="top_right_icon cart_wrap">
+                                    <img src="assets/image/product_view/cart.png" alt="icon">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="top_right_icon notification_wrap">
+                                    <img src="assets/image/product_view/bell.png" alt="icon">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="top_right_icon" type="button" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    <img src="assets/image/product_view/account.png" alt="icon">
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#0" class="menu_trigger d-lg-none">
+                                    <svg width="9" height="13" viewBox="0 0 9 13" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.72577 6.50537L0.755156 12.1304L4.50093 6.50397L0.75 0.880371L8.72577 6.50537Z"
+                                            fill="#FFCE55" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div>
+                            <div>
+                                <ul class=" card_main_reffrel">
+                                    <li class="bg_box_reffrel reffrel_comn_card">
+                                        <div>
+                                            <p>Total Reffrel</p>
+                                            <span>167</span>
+                                        </div>
+                                    </li>
+                                    <li class="bg_box_reffrel_2 reffrel_comn_card">
+                                        <div>
+                                            <p>Reffrel bounce </p>
+                                            <span>Rs.1000.00</span>
+                                        </div>
+                                    </li>
+                                    <li class="reffrel_code">
+                                        <div>
+                                            <p>Reffrel bounce </p>
+                                            <span>Rs.1000.00</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="friend_main_reffrel">
+                            <div class="reffrel_left_side">
+                                <div class="reffrel_a_friend_get_main">
+                                    <div class=" reffrel_a_friend_get">
+                                        <p class="reffrel_friend_title">Refer a Friend & get 1000 Rs Bonus</p>
+                                        <div class="image_main_reffrel">
+                                            <img src="assets/image/reffrel/reffrel_a_friend.png"
+                                                class="image_reffrel_friend img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="text-center send_invitation" > Send Invitations
+                                    </div>
+                                    <div class="link_main_copy_btn">
+                                        <a href="#"
+                                            class="text-center link_copy">htpps://www.ikart.com/refer/xyz1234345623</a>
+                                        <button class="copy_btn">Copy</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="reffrel_bonus_history mb-5">
+                                <div class="">
+                                    <h2 class="reffrel_bonus_history_title text-black">Reffrel&nbsp;Bonus&nbsp;history
+                                    </h2>
+                                </div>
+                                <div >
+                                    <div class="d-flex justify-content-between align-items-center flex-wrap px-2 py-2">
+                                        <div class="d-flex">
+                                            <div class="round_reffrel_bonus_history">
+                                                <img src="assets/image/reffrel/Deposit_from_tstanding.png" alt="">
+                                            </div>
+                                            <div class="deposit_reffrel_single_entry">
+                                                <p>Deposit from Outstanding</p>
+                                                <span>5 march, 18:33</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <span class="price_reffrel">- 1,470</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center flex-wrap px-2 py-2">
+                                        <div class="d-flex">
+                                            <div class="round_reffrel_bonus_history bg_deposit_ui">
+                                                <img src="assets/image/reffrel/Deposit_UPI.png" alt="">
+                                            </div>
+                                            <div class="deposit_reffrel_single_entry">
+                                                <p>Deposit from Outstanding</p>
+                                                <span>5 march, 18:33</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <span class="price_reffrel">- 1,470</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center flex-wrap px-2 py-2">
+                                        <div class="d-flex">
+                                            <div class="round_reffrel_bonus_history bg_deposit_ui">
+                                                <img src="assets/image/reffrel/Deposit_from_Card.png" alt="">
+                                            </div>
+                                            <div class="deposit_reffrel_single_entry">
+                                                <p>Deposit from Outstanding</p>
+                                                <span>5 march, 18:33</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <span class="price_reffrel">- 1,470</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center flex-wrap px-2 py-2">
+                                        <div class="d-flex">
+                                            <div class="round_reffrel_bonus_history cancelled_bg">
+                                                <img src="assets/image/reffrel/Cancelled.png" alt="">
+                                            </div>
+                                            <div class="deposit_reffrel_single_entry">
+                                                <p>Deposit from Outstanding</p>
+                                                <span>5 march, 18:33</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <span class="price_reffrel">- 1,470</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center flex-wrap px-2 py-2">
+                                        <div class="d-flex">
+                                            <div class="round_reffrel_bonus_history cancelled_bg">
+                                                <img src="assets/image/reffrel/Use_For_Markentig.png" alt="">
+                                            </div>
+                                            <div class="deposit_reffrel_single_entry">
+                                                <p>Deposit from Outstanding</p>
+                                                <span>5 march, 18:33</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <span class="price_reffrel">- 1,470</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <div class="bg_main_box">
+                                    <ul class="d-flex justify-content-between align-items-center px-3 pt-3">
+                                        <li class="text-dark pb-3 fs-4">Transaction</li>
+                                        <li> <a href="#"> <img src="assets/image/reffrel/three_dote_reffrel.png" alt="" class="img-fluid"> </a> </li>
+                                    </ul>
+                                    <ul class="d-flex transaction_header">
+                                        <li>Sr no.</li>
+                                        <li>Name</li>
+                                        <li>Bounce</li>
+                                        <li>Date</li>
+                                    </ul>
+                                   <div class="main_transaction_table">
+                                  
+                                    <ul class="transaction_rows_reffrel">
+                                        <li class="counting_number_reffrel">1</li>
+                                        <li>Lucas Wells</li>
+                                        <li>$680</li>
+                                        <li>01-10-2018</li>
+                                    </ul>
+                                    <ul class="transaction_rows_reffrel">
+                                        <li class="counting_number_reffrel">2</li>
+                                        <li>Lucas Wells</li>
+                                        <li>$680</li>
+                                        <li>01-10-2018</li>
+                                    </ul>
+                                    <ul class="transaction_rows_reffrel">
+                                        <li class="counting_number_reffrel">3</li>
+                                        <li>Lucas Wells</li>
+                                        <li>$680</li>
+                                        <li>01-10-2018</li>
+                                    </ul>
+                                    <ul class="transaction_rows_reffrel">
+                                        <li class="counting_number_reffrel">4</li>
+                                        <li>Lucas Wells</li>
+                                        <li>$680</li>
+                                        <li>01-10-2018</li>
+                                    </ul>
+                                    <ul class="transaction_rows_reffrel">
+                                        <li class="counting_number_reffrel">5</li>
+                                        <li>Lucas Wells</li>
+                                        <li>$680</li>
+                                        <li>01-10-2018</li>
+                                    </ul>
+                                    <ul class="transaction_rows_reffrel">
+                                        <li class="counting_number_reffrel">6</li>
+                                        <li>Lucas Wells</li>
+                                        <li>$680</li>
+                                        <li>01-10-2018</li>
+                                    </ul>
+                                    <ul class="transaction_rows_reffrel">
+                                        <li class="counting_number_reffrel">7</li>
+                                        <li>Lucas Wells</li>
+                                        <li>$680</li>
+                                        <li>01-10-2018</li>
+                                    </ul>
+                                    <ul class="transaction_rows_reffrel">
+                                        <li class="counting_number_reffrel">1</li>
+                                        <li>Lucas Wells</li>
+                                        <li>$680</li>
+                                        <li>01-10-2018</li>
+                                    </ul>
+                                    <ul class="transaction_rows_reffrel">
+                                        <li class="counting_number_reffrel">1</li>
+                                        <li>Lucas Wells</li>
+                                        <li>$680</li>
+                                        <li>01-10-2018</li>
+                                    </ul>
+                                    <ul class="transaction_rows_reffrel">
+                                        <li class="counting_number_reffrel">1</li>
+                                        <li>Lucas Wells</li>
+                                        <li>$680</li>
+                                        <li>01-10-2018</li>
+                                    </ul>
+                                    <ul class="transaction_rows_reffrel">
+                                        <li class="counting_number_reffrel">1</li>
+                                        <li>Lucas Wells</li>
+                                        <li>$680</li>
+                                        <li>01-10-2018</li>
+                                    </ul>
+                                    <ul class="transaction_rows_reffrel">
+                                        <li class="counting_number_reffrel">1</li>
+                                        <li>Lucas Wells</li>
+                                        <li>$680</li>
+                                        <li>01-10-2018</li>
+                                    </ul>
+                                    <ul class="transaction_rows_reffrel">
+                                        <li class="counting_number_reffrel">1</li>
+                                        <li>Lucas Wells</li>
+                                        <li>$680</li>
+                                        <li>01-10-2018</li>
+                                    </ul>
+                                    <ul class="transaction_rows_reffrel">
+                                        <li class="counting_number_reffrel">1</li>
+                                        <li>Lucas Wells</li>
+                                        <li>$680</li>
+                                        <li>01-10-2018</li>
+                                    </ul>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main Content End -->
+
+        <!--Start profile Model -->
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+
+                        <div class="close_profile_img">
+                            <button type="button" class="btn-close p-0 m-0" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="profile_model_info">
+                            <div>
+                                <div class="profile_img_round_main">
+                                    <img src="assets/image/image_bluk/profile_pic_model.png" class="profile_img_round"
+                                        alt="">
+                                </div>
+                                <div class="text-center my-3">
+                                    <h4 class="text-dark">DoNotDisturb</h4>
+                                    <p class="text-dark py-2">Lorem ipsum dolor sit amet.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-body modal-body-cancel text-center">
+                        <a class="logout" href="#">Logout</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--End profile Model -->
+    </div>
+
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>

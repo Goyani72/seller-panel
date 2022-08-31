@@ -1,0 +1,46 @@
+.btn_common_return{
+     padding: 0 25px;
+}
+.all_return_btn_main{
+     margin: 5px ;
+     margin-top: 25px;
+}
+.all_return_btn_main ul li{
+     margin-right: 10px;
+     margin-bottom: 0px;
+}
+
+@media screen and (max-width:425px) {
+     .all_return_btn_mai{
+          margin: 0;
+          margin-bottom: 15px;
+     }
+     .drop_down_return{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     }
+}
+
+@media screen and (max-width:1024px) {
+     .all_return_btn_mai{
+          margin: 0;
+          margin-bottom: 15px;
+     }
+     .drop_down_return{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     }
+}
+@media screen and (max-width:1440) {
+     .all_return_btn_mai{
+          margin: 0;
+          margin-bottom: 15px;
+     }
+     .drop_down_return{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     }
+}

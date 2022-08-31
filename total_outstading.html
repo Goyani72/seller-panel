@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Total Outstanding</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+
+  <!-- Font-Awesome Fonts -->
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+  <!-- Style Sheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+  <!-- wallet css -->
+  <link rel="stylesheet" type="text/css" href="assets/css/payment.css" />
+</head>
+
+<body class="product_view_page">
+  <div class="main_wrapper dashboard_wrap">
+    <!-- Sidebar Start -->
+    <div class="sidebar_wrapper">
+      <div class="sidebar_block">
+        <div class="sidebar_menu_block">
+          <div class="mobile_menu_header">
+            <div class="logo_wrap">
+              <div class="logo">
+                <a href="#0">
+                  <img src="assets/image/dashborad_logo.png" alt="logo" class="logo_img" />
+                </a>
+              </div>
+              <a href="#0" class="menu_trigger">
+                <svg width="9" height="13" viewBox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.72577 6.50537L0.755156 12.1304L4.50093 6.50397L0.75 0.880371L8.72577 6.50537Z"
+                    fill="#FFCE55" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="sidebar_menu">
+            <ul>
+              <li>
+                <a href="index.html" data-bs-toggle="tooltip" data-bs-placement="right" title="Dashboard">
+                  <div class="menu_icon">
+                    <img src="assets/image/sidebar/dashboard.png" alt="icon" />
+                  </div>
+                  <div class="menu_text">Dashboard</div>
+                </a>
+              </li>
+              <li>
+                <div class="accordion_menu_wrap">
+                  <a class="" href="productview.html" data-bs-toggle="tooltip" data-bs-placement="right"
+                    title="Termine">
+                    <div class="menu_icon">
+                      <img src="assets/image/sidebar/product.png" alt="icon" />
+                    </div>
+                    <div class="menu_text">Product</div>
+                  </a>
+
+                  <div class="accordion_menu_info">
+                    <ul>
+                      <li>
+                        <a href="#0" class="active"> product view </a>
+                      </li>
+                      <li>
+                        <a href="#0"> product upload </a>
+                      </li>
+                      <li>
+                        <a href="#0"> image bulk upload </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a class="active" href="3" data-bs-toggle="tooltip" data-bs-placement="right" title="Order">
+                  <div class="menu_icon">
+                    <img src="assets/image/sidebar/order.png" alt="icon" />
+                  </div>
+                  <div class="menu_text">Order</div>
+                </a>
+              </li>
+              <li>
+                <a href="index.html" data-bs-toggle="tooltip" data-bs-placement="right" title="Dashboard">
+                  <div class="menu_icon">
+                    <img src="assets/image/sidebar/marketing.png" alt="icon" />
+                  </div>
+                  <div class="menu_text">Marketing</div>
+                </a>
+              </li>
+              <li>
+                <a href="termine.html" data-bs-toggle="tooltip" data-bs-placement="right" title="Termine">
+                  <div class="menu_icon">
+                    <img src="assets/image/sidebar/payment.png" alt="icon" />
+                  </div>
+                  <div class="menu_text">Payment</div>
+                </a>
+              </li>
+              <li>
+                <a href="Labor.html" data-bs-toggle="tooltip" data-bs-placement="right" title="Labor">
+                  <div class="menu_icon">
+                    <img src="assets/image/sidebar/wallet.png" alt="icon" />
+                  </div>
+                  <div class="menu_text">Wallet</div>
+                </a>
+              </li>
+              <li>
+                <a href="index.html" data-bs-toggle="tooltip" data-bs-placement="right" title="Dashboard">
+                  <div class="menu_icon">
+                    <img src="assets/image/sidebar/support.png" alt="icon" />
+                  </div>
+                  <div class="menu_text">Support</div>
+                </a>
+              </li>
+              <li>
+                <a href="termine.html" data-bs-toggle="tooltip" data-bs-placement="right" title="Termine">
+                  <div class="menu_icon">
+                    <img src="assets/image/sidebar/referralsystem.png" alt="icon" />
+                  </div>
+                  <div class="menu_text">Referral System</div>
+                </a>
+              </li>
+              <li>
+                <a href="Labor.html" data-bs-toggle="tooltip" data-bs-placement="right" title="Labor">
+                  <div class="menu_icon">
+                    <img src="assets/image/sidebar/FAQ.png" alt="icon" />
+                  </div>
+                  <div class="menu_text">Report</div>
+                </a>
+              </li>
+              <li>
+                <a href="Labor.html" data-bs-toggle="tooltip" data-bs-placement="right" title="Labor">
+                  <div class="menu_icon">
+                    <img src="assets/image/sidebar/FAQ.png" alt="icon" />
+                  </div>
+                  <div class="menu_text">FAQ</div>
+                </a>
+              </li>
+              <li>
+                <a href="Labor.html" data-bs-toggle="tooltip" data-bs-placement="right" title="Labor">
+                  <div class="menu_icon">
+                    <img src="assets/image/sidebar/Profile.png" alt="icon" />
+                  </div>
+                  <div class="menu_text">Profile</div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cm-overlay"></div>
+    <!-- Sidebar End -->
+
+    <!-- Main Content Start -->
+    <div class="main_content">
+      <div class="main_content_lg" id="payment">
+        <h3 class="payment_title">Payment Overview</h3>
+        <div class="top_payment_header_main">
+          <div class="">
+            <ul class="payment_heading">
+              <li><a class="" href="payment.html">Next payment</a></li>
+              <li><a class="" href="last_payment.html">Last payment</a></li>
+              <li>
+                <a class="active_border" href="total_outstading.html">Total Outstanding</a>
+              </li>
+              <li><a href="penelty.html">penelty</a></li>
+              <li><a href="tcs.html">TCS</a></li>
+              <li><a href="completed_payment.html">Completed payment</a></li>
+            </ul>
+          </div>
+          <div class="donut_pie_chart">
+            <div class="chart_left_side_main d-flex align-items-center">
+              <div id="container"></div>
+              <ul class="chart_middel_text text-center p-0">
+                <li class="mb-2">₹6500</li>
+                <li>Total</li>
+              </ul>
+              <div class="left_seide_content_detail">
+                <div class="left_top_detail_main d-flex justify-content-between">
+                  <ul class="chart_single_detail_main d-flex align-items-baseline">
+                    <li class="chart_dote me-2"></li>
+                    <li>
+                      Active&nbsp;&nbsp;camping<br />
+                      <span class="d-block">6500</span>
+                    </li>
+                  </ul>
+                  <ul class="chart_single_detail_main d-flex align-items-baseline">
+                    <li class="chart_dote dote_2 me-2"></li>
+                    <li>completed&nbsp;&nbsp;camping<br />₹35000</li>
+                  </ul>
+                </div>
+                <div class="left_bottom_detail_main d-flex pt-3 justify-content-between">
+                  <ul class="chart_single_detail_main d-flex align-items-baseline">
+                    <li class="chart_dote dote-3 me-2"></li>
+                    <li>Total&nbsp;&nbsp;penalty<br />2000</li>
+                  </ul>
+                  <ul class="chart_single_detail_main d-flex align-items-baseline">
+                    <li class="chart_dote dote_4 me-2"></li>
+                    <li>pandding&nbsp;&nbsp;penalty<br />₹150054</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pt-3 main_table_out_stading main-table-scroll">
+          <table class="mt-4 fixed_headers total_outstading me-3" id="create_new_camping_scroll">
+            <thead>
+              <tr>
+                <th>no of order</th>
+                <th>Transaction_id</th>
+                <th>Shhiping charges</th>
+                <th>penelty</th>
+                <th>TCS</th>
+                <th>Date of payment</th>
+                <th>Total payment</th>
+                <th>Net payble Amount</th>
+              </tr>
+            </thead>
+            <tbody class="fixed_headers_body">
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                <td>20/1/2022</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td>@fat</td>
+                <td>@fat</td>
+                <td>@fat</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="mt-4 transection_payment outstanding_total_left_table m-0">
+            <div class="d-flex justify-content-between">
+              <p class="transaction_heading_title">Transection</p>
+              <p class="see_all_color_payment">See all</p>
+            </div>
+            <ul>
+              <li class="d-flex justify-content-between">
+                <ul class="w-100">
+                  <li class="d-flex justify-content-between py-2 m-0 image_dp_main">
+                    <img src="assets/image/payment/payment_profile_pic.png" class="img-fluid" alt="" />
+                    <div class="ps-2">
+                      <p class="">Bank Tranfar</p>
+                      <span>25 April at 09:30 am</span>
+                    </div>
+                    <div>Rs.132</div>
+                  </li>
+                  <li class="d-flex justify-content-between py-2 m-0 image_dp_main">
+                    <img src="assets/image/payment/payment_profile_pic.png" class="img-fluid" alt="" />
+                    <div class="ps-2">
+                      <p class="">Bank Tranfar</p>
+                      <span>25 April at 09:30 am</span>
+                    </div>
+                    <div>Rs.132</div>
+                  </li>
+                  <li class="d-flex justify-content-between py-2 m-0 image_dp_main">
+                    <img src="assets/image/payment/payment_profile_pic.png" class="img-fluid" alt="" />
+                    <div class="ps-2">
+                      <p class="">Bank Tranfar</p>
+                      <span>25 April at 09:30 am</span>
+                    </div>
+                    <div>Rs.132</div>
+                  </li>
+                  <li class="d-flex justify-content-between py-2 m-0 image_dp_main">
+                    <img src="assets/image/payment/payment_profile_pic.png" class="img-fluid" alt="" />
+                    <div class="ps-2">
+                      <p class="">Bank Tranfar</p>
+                      <span>25 April at 09:30 am</span>
+                    </div>
+                    <div>Rs.132</div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="download_btn d-flex m-0 py-4">
+          <a href="#">Download Report</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content End -->
+  </div>
+  <script src="assets/js/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+  <script src="./assets/js/order.js"></script>
+
+  <!-- donute min js -->
+  <script src="assets/js/payment_chart/anychart-core.min.js"></script>
+  <!-- donute js -->
+  <script src="assets/js/payment_chart/anychart-pie.min.js"></script>
+
+  <!-- <script src="assets/js/payment_chart/donut_custom.js"></script> -->
+  <script src="assets/js/custom.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>wallet</title>
+
+
+     <!-- Google Fonts -->
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+
+     <!-- Font-Awesome Fonts -->
+     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+     <!-- Style Sheet -->
+     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+     <!-- || Notice || -->
+     <!-- {this link use in cancle page because some class is use in cancle} -->
+     <link rel="stylesheet" type="text/css" href="assets/css/order.css">
+
+     <!-- || Notice || -->
+     <!-- {this link use in cancle page because some class is use in cancle} -->
+     <!-- cancle Sheet -->
+     <link rel="stylesheet" type="text/css" href="assets/css/cancle.css">
+
+     <!-- wallet pie chart css -->
+     <link rel="stylesheet" href="assets/css/wallet_pie_chat.css">
+     <!-- wallet css -->
+     <link rel="stylesheet" type="text/css" href="assets/css/wallet.css">
+
+</head>
+
+<body class="product_view_page">
+
+     <div class="main_wrapper dashboard_wrap">
+          <!-- Sidebar Start -->
+          <div class="sidebar_wrapper">
+               <div class="sidebar_block">
+                    <div class="sidebar_menu_block">
+                         <div class="mobile_menu_header">
+                              <div class="logo_wrap">
+                                   <div class="logo">
+                                        <a href="#0">
+                                             <img src="assets/image/dashborad_logo.png" alt="logo" class="logo_img">
+                                        </a>
+                                   </div>
+                                   <a href="#0" class="menu_trigger">
+                                        <svg width="9" height="13" viewBox="0 0 9 13" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                             <path d="M8.72577 6.50537L0.755156 12.1304L4.50093 6.50397L0.75 0.880371L8.72577 6.50537Z"
+                                                  fill="#FFCE55" />
+                                        </svg>
+                                   </a>
+                              </div>
+                         </div>
+                         <div class="sidebar_menu">
+                              <ul>
+                                   <li>
+                                        <a href="index.html" data-bs-toggle="tooltip" data-bs-placement="right"
+                                             title="Dashboard">
+                                             <div class="menu_icon">
+                                                  <img src="assets/image/sidebar/dashboard.png" alt="icon">
+                                             </div>
+                                             <div class="menu_text">Dashboard</div>
+                                        </a>
+                                   </li>
+                                   <li>
+                                        <div class="accordion_menu_wrap">
+                                             <a class="" href="productview.html" data-bs-toggle="tooltip"
+                                                  data-bs-placement="right" title="Termine">
+                                                  <div class="menu_icon">
+                                                       <img src="assets/image/sidebar/product.png" alt="icon">
+                                                  </div>
+                                                  <div class="menu_text">Product</div>
+                                             </a>
+
+                                             <div class="accordion_menu_info">
+                                                  <ul>
+                                                       <li>
+                                                            <a href="#0" class="active">
+                                                                 product view
+                                                            </a>
+                                                       </li>
+                                                       <li>
+                                                            <a href="#0">
+                                                                 product upload
+                                                            </a>
+                                                       </li>
+                                                       <li>
+                                                            <a href="#0">
+                                                                 image bulk upload
+                                                            </a>
+                                                       </li>
+                                                  </ul>
+                                             </div>
+                                        </div>
+                                   </li>
+                                   <li>
+                                        <a class="active" href="3" data-bs-toggle="tooltip" data-bs-placement="right"
+                                             title="Order">
+                                             <div class="menu_icon">
+                                                  <img src="assets/image/sidebar/order.png" alt="icon">
+                                             </div>
+                                             <div class="menu_text">Order</div>
+                                        </a>
+                                   </li>
+                                   <li>
+                                        <a href="index.html" data-bs-toggle="tooltip" data-bs-placement="right"
+                                             title="Dashboard">
+                                             <div class="menu_icon">
+                                                  <img src="assets/image/sidebar/marketing.png" alt="icon">
+                                             </div>
+                                             <div class="menu_text">Marketing</div>
+                                        </a>
+                                   </li>
+                                   <li>
+                                        <a href="termine.html" data-bs-toggle="tooltip" data-bs-placement="right"
+                                             title="Termine">
+                                             <div class="menu_icon">
+                                                  <img src="assets/image/sidebar/payment.png" alt="icon">
+                                             </div>
+                                             <div class="menu_text">Payment</div>
+                                        </a>
+                                   </li>
+                                   <li>
+                                        <a href="Labor.html" data-bs-toggle="tooltip" data-bs-placement="right"
+                                             title="Labor">
+                                             <div class="menu_icon">
+                                                  <img src="assets/image/sidebar/wallet.png" alt="icon">
+                                             </div>
+                                             <div class="menu_text">Wallet</div>
+                                        </a>
+                                   </li>
+                                   <li>
+                                        <a href="index.html" data-bs-toggle="tooltip" data-bs-placement="right"
+                                             title="Dashboard">
+                                             <div class="menu_icon">
+                                                  <img src="assets/image/sidebar/support.png" alt="icon">
+                                             </div>
+                                             <div class="menu_text">Support</div>
+                                        </a>
+                                   </li>
+                                   <li>
+                                        <a href="termine.html" data-bs-toggle="tooltip" data-bs-placement="right"
+                                             title="Termine">
+                                             <div class="menu_icon">
+                                                  <img src="assets/image/sidebar/referralsystem.png" alt="icon">
+                                             </div>
+                                             <div class="menu_text">Referral System</div>
+                                        </a>
+                                   </li>
+                                   <li>
+                                        <a href="Labor.html" data-bs-toggle="tooltip" data-bs-placement="right"
+                                             title="Labor">
+                                             <div class="menu_icon">
+                                                  <img src="assets/image/sidebar/FAQ.png" alt="icon">
+                                             </div>
+                                             <div class="menu_text">Report</div>
+                                        </a>
+                                   </li>
+                                   <li>
+                                        <a href="Labor.html" data-bs-toggle="tooltip" data-bs-placement="right"
+                                             title="Labor">
+                                             <div class="menu_icon">
+                                                  <img src="assets/image/sidebar/FAQ.png" alt="icon">
+                                             </div>
+                                             <div class="menu_text">FAQ</div>
+                                        </a>
+                                   </li>
+                                   <li>
+                                        <a href="Labor.html" data-bs-toggle="tooltip" data-bs-placement="right"
+                                             title="Labor">
+                                             <div class="menu_icon">
+                                                  <img src="assets/image/sidebar/Profile.png" alt="icon">
+                                             </div>
+                                             <div class="menu_text">Profile</div>
+                                        </a>
+                                   </li>
+                              </ul>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="cm-overlay"></div>
+          <!-- Sidebar End -->
+
+          <!-- Main Content Start -->
+          <div class="main_content ">
+
+
+               <div class="main_content_lg">
+                    <div>
+                         <div class="cart_top_wrap cancle_cart_top">
+                              <ul>
+                                   <li>
+                                        <div class="top_right_icon">
+                                             <img src="assets/image/product_view/search_big_icon.png" alt="icon">
+                                        </div>
+                                   </li>
+                                   <li>
+                                        <div class="top_right_icon cart_wrap">
+                                             <img src="assets/image/product_view/cart.png" alt="icon">
+                                        </div>
+                                   </li>
+                                   <li>
+                                        <div class="top_right_icon notification_wrap">
+                                             <img src="assets/image/product_view/bell.png" alt="icon">
+                                        </div>
+                                   </li>
+                                   <li>
+                                        <div class="top_right_icon" type="button" data-bs-toggle="modal"
+                                             data-bs-target="#exampleModal_2">
+                                             <img src="assets/image/product_view/account.png" alt="icon">
+                                        </div>
+                                   </li>
+                                   <li>
+                                        <a href="#0" class="menu_trigger d-lg-none">
+                                             <svg width="9" height="13" viewBox="0 0 9 13" fill="none"
+                                                  xmlns="http://www.w3.org/2000/svg">
+                                                  <path d="M8.72577 6.50537L0.755156 12.1304L4.50093 6.50397L0.75 0.880371L8.72577 6.50537Z"
+                                                       fill="#FFCE55"></path>
+                                             </svg>
+                                        </a>
+                                   </li>
+                              </ul>
+                         </div>
+                         <div class="cancle_by_customer_main_box text-start">
+                              <div class="cancle_single_box wallet_balance_box_curent_balance">
+                                   <span> Cancle by Customer</span>
+                                   <p>12%</p>
+                              </div>
+                              <div class="cancle_single_box cancle_single_box_green wallet_balance_box_Bonus_balance">
+                                   <span> Cancle by Customer</span>
+                                   <p>7%</p>
+                              </div>
+                              <div class="cancle_single_box cancle_single_box_green cadd_to_wallet_btn">
+                                   <div class="">
+                                        <a href="#" class="create_new_ads" type="button" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal_2">Add to wallet</a>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="w-100 main_info_wallet mt-5">
+                         <div class="wallet_transaction ">
+                              <div class="w-100">
+                                   <div class="w-100 m-0 d-flex align-items-start justify-content-between py-3">
+                                        <p class="ms-2 title_box_wallet">Transaction</p>
+                                        <p class="treedot_wallet text-end"><span class="text-end ">...</span></p>
+                                   </div>
+
+                              </div>
+                              <div class="table_wallet_main ">
+                                   <table class="w-100">
+                                        <thead>
+                                             <tr class="heading_wallet_main">
+                                                  <th class="p-2 check_box_hide">
+                                                       <label class="checkbox bounce">
+                                                            <input type="checkbox" id="check_box">
+                                                            <svg viewBox="0 0 21 21">
+                                                                 <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
+                                                            </svg>
+                                                       </label>
+                                                  </th>
+                                                  <th class="transaction_id">transaction_id</th>
+                                                  <th class="name_wallet">Name</th>
+                                                  <th class="amount_wallet">Amount</th>
+                                                  <th class="date_wallet">Date</th>
+                                                  <th class="download_threedot download_threedot_hide"><img
+                                                            src="assets/image/wallet/download_wallet.png" alt=""> </th>
+                                                  <th class="dote_trasaction"> <a href="#"> <img
+                                                                 src="assets/image/wallet/round_dot_transaction.png"
+                                                                 alt=""></a> </th>
+                                             </tr>
+                                        </thead>
+
+
+                                        <tr class="">
+                                             <td class="ps-1">
+                                                  <label class="checkbox bounce">
+                                                       <input type="checkbox" id="check_box">
+                                                       <svg viewBox="0 0 21 21">
+                                                            <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
+                                                       </svg>
+                                                  </label>
+                                             </td>
+                                             <td class="transaction_id">DC02</td>
+                                             <td class="name_wallet">Isaiah Howard</td>
+                                             <td class="amount_wallet">120%</td>
+                                             <td class="date_wallet">04-11-2018</td>
+                                             <td class="download_threedot ">
+                                             <th class="download_threedot download_threedot_hide"><a href="#"><img
+                                                            src="assets/image/wallet/download_wallet.png" alt=""></a>
+                                             </th>
+                                             </td>
+                                             <td class="dote_trasaction"></td>
+                                        </tr>
+                                        <tr class="bg_active_wallet">
+                                             <td class="ps-1">
+                                                  <label class="checkbox bounce">
+                                                       <input type="checkbox" id="check_box">
+                                                       <svg viewBox="0 0 21 21">
+                                                            <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
+                                                       </svg>
+                                                  </label>
+                                             </td>
+                                             <td class="transaction_id">DC02</td>
+                                             <td class="name_wallet">Isaiah Howard</td>
+                                             <td class="amount_wallet">120%</td>
+                                             <td class="date_wallet">04-11-2018</td>
+                                             <td class="download_threedot">
+                                                  <a href="">
+                                                       <img src="assets/image/wallet/download_wallet.png" alt="">
+                                             </td>
+                                             </a>
+                                             <td class="dote_trasaction">
+                                                  <img src="assets/image/wallet/three_dote_wallet_info.png" alt="">
+                                             </td>
+                                        </tr>
+                                        <tr class="">
+                                             <td class="ps-1">
+                                                  <label class="checkbox bounce">
+                                                       <input type="checkbox" id="check_box">
+                                                       <svg viewBox="0 0 21 21">
+                                                            <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
+                                                       </svg>
+                                                  </label>
+                                             </td>
+                                             <td class="transaction_id">DC02</td>
+                                             <td class="name_wallet">Isaiah Howard</td>
+                                             <td class="amount_wallet">120%</td>
+                                             <td class="date_wallet">04-11-2018</td>
+                                             <td class="download_threedot download_threedot_hide"> </td>
+                                             <td class="dote_trasaction"><a href="#"> <img
+                                                            src="assets/image/wallet/dot_bg_wallet.png" alt=""></a></td>
+                                        </tr>
+                                        <tr class="">
+                                             <td class="ps-1">
+                                                  <label class="checkbox bounce">
+                                                       <input type="checkbox" id="check_box">
+                                                       <svg viewBox="0 0 21 21">
+                                                            <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
+                                                       </svg>
+                                                  </label>
+                                             </td>
+                                             <td class="transaction_id">DC02</td>
+                                             <td class="name_wallet">Isaiah Howard</td>
+                                             <td class="amount_wallet">120%</td>
+                                             <td class="date_wallet">04-11-2018</td>
+                                             <td class="download_threedot"></td>
+                                             <td class="dote_trasaction"></td>
+                                        </tr>
+                                        <tr class="">
+                                             <td class="ps-1">
+                                                  <label class="checkbox bounce">
+                                                       <input type="checkbox" id="check_box">
+                                                       <svg viewBox="0 0 21 21">
+                                                            <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
+                                                       </svg>
+                                                  </label>
+                                             </td>
+                                             <td class="transaction_id">DC02</td>
+                                             <td class="name_wallet">Isaiah Howard</td>
+                                             <td class="amount_wallet">120%</td>
+                                             <td class="date_wallet">04-11-2018</td>
+                                             <td class="download_threedot"></td>
+                                             <td class="dote_trasaction"></td>
+                                        </tr>
+                                   </table>
+
+                              </div>
+                         </div>
+                         <div class="wallet_monthly">
+                              <div class="w-100 m-0 me-1">
+                                   <div class="w-100 m-0 py-2 d-flex align-items-start justify-content-between ">
+                                        <p class="ms-2 title_box_wallet">Monthly Used</p>
+                                        <p class="treedot_wallet text-end"><span class="text-end ">...</span></p>
+                                   </div>
+                                   <div>
+
+
+
+
+                                        <div class='donut'>
+
+                                             <div data-lcolor="#085f63">25.2</div>
+                                             <div data-lcolor="#49beb7">25.6</div>
+                                             <div data-lcolor="#facf5a">34.2</div>
+                                             <div data-lcolor="#ff5959">30.2</div>
+
+
+                                        </div>
+
+                                   </div>
+                                   <ul class="m-0 p-0 w-100 main_monthly_list">
+                                        <li class="d-flex justify-content-between align-items-center">
+                                             <div class="m-0 ms-2 use_single_box">
+                                                  <div class="m-0"><a href="#"><img
+                                                                 src="assets/image/wallet/wallet_round_icon.png" alt=""
+                                                                 class="  "></a></div>
+                                                  <div class="m-0  use_for_marketing">
+                                                       <p>Use For Markentig</p>
+                                                       <span class="date_marketing">5 march, 18:33</span>
+                                                  </div>
+                                             </div>
+                                             <p class="ammount_monthly ammount_monthly_red">- 2,220</p>
+                                        </li>
+                                        <li class="d-flex justify-content-between align-items-center">
+                                             <div class="m-0 ms-2 use_single_box">
+                                                  <div class="m-0"><a href="#"><img
+                                                                 src="assets/image/wallet/wallet_round_icon.png" alt=""
+                                                                 class="  "></a></div>
+                                                  <div class="m-0  use_for_marketing">
+                                                       <p>Use For Markentig</p>
+                                                       <span class="date_marketing">5 march, 18:33</span>
+                                                  </div>
+                                             </div>
+                                             <p class="ammount_monthly ammount_monthly_sky_blue">- 2,220</p>
+                                        </li>
+                                        <li class="d-flex justify-content-between align-items-center">
+                                             <div class="m-0 ms-2 use_single_box">
+                                                  <div class="m-0"><a href="#"><img
+                                                                 src="assets/image/wallet/wallet_round_icon.png" alt=""
+                                                                 class="  "></a></div>
+                                                  <div class="m-0  use_for_marketing">
+                                                       <p>Use For Markentig</p>
+                                                       <span class="date_marketing">5 march, 18:33</span>
+                                                  </div>
+                                             </div>
+                                             <p class="ammount_monthly ammount_monthly_red">- 2,220</p>
+                                        </li>
+                                        <li class="d-flex justify-content-between align-items-center">
+                                             <div class="m-0 ms-2 use_single_box">
+                                                  <div class="m-0"><a href="#"><img
+                                                                 src="assets/image/wallet/wallet_round_icon.png" alt=""
+                                                                 class="  "></a></div>
+                                                  <div class="m-0  use_for_marketing">
+                                                       <p>Use For Markentig</p>
+                                                       <span class="date_marketing">5 march, 18:33</span>
+                                                  </div>
+                                             </div>
+                                             <p class="ammount_monthly ammount_monthly_red">- 2,220</p>
+                                        </li>
+                                        <li class="d-flex justify-content-between align-items-center">
+                                             <div class="m-0 ms-2 use_single_box">
+                                                  <div class="m-0"><a href="#"><img
+                                                                 src="assets/image/wallet/wallet_round_icon.png" alt=""
+                                                                 class="  "></a></div>
+                                                  <div class="m-0  use_for_marketing">
+                                                       <p>Use For Markentig</p>
+                                                       <span class="date_marketing">5 march, 18:33</span>
+                                                  </div>
+                                             </div>
+                                             <p class="ammount_monthly ammount_monthly_sky_blue">- 2,220</p>
+                                        </li>
+                                        <li class="d-flex justify-content-between align-items-center">
+                                             <div class="m-0 ms-2 use_single_box">
+                                                  <div class="m-0"><a href="#"><img
+                                                                 src="assets/image/wallet/wallet_round_icon.png" alt=""
+                                                                 class="  "></a></div>
+                                                  <div class="m-0  use_for_marketing">
+                                                       <p>Use For Markentig</p>
+                                                       <span class="date_marketing">5 march, 18:33</span>
+                                                  </div>
+                                             </div>
+                                             <p class="ammount_monthly ammount_monthly_red">- 2,220</p>
+                                        </li>
+                                   </ul>
+                              </div>
+                         </div>
+                         <div class="wallet_history_main">
+                              <div class="wallet_history_table">
+                                   <div class="w-100 m-0 pe-1">
+                                        <div class="w-100 m-0 py-2 d-flex align-items-start justify-content-between">
+                                             <p class="ms-2 title_box_wallet">wallet history</p>
+                                             <p class="treedot_wallet text-end"><span class="text-end ">...</span></p>
+                                        </div>
+                                        <ul class="m-0 p-0 w-100 main_monthly_list">
+                                             <li class="d-flex justify-content-between align-items-center">
+                                                  <div class="m-0 ms-2 use_single_box">
+                                                       <div class="m-0"><a href="#"><img
+                                                                      src="assets/image/wallet/wallet_history_1.png"
+                                                                      alt="" class="  "></a></div>
+                                                       <div class="m-0  use_for_marketing">
+                                                            <p>Deposit from Outstanding</p>
+                                                            <span class="date_marketing">5 march, 18:33</span>
+                                                       </div>
+                                                  </div>
+                                                  <p class="ammount_monthly ammount_monthly_red">- 2,220</p>
+                                             </li>
+                                             <li class="d-flex justify-content-between align-items-center">
+                                                  <div class="m-0 ms-2 use_single_box">
+                                                       <div class="m-0"><a href="#"><img
+                                                                      src="assets/image/wallet/wallet_history_2.png"
+                                                                      alt="" class="  "></a></div>
+                                                       <div class="m-0  use_for_marketing">
+                                                            <p>Deposit UPI</p>
+                                                            <span class="date_marketing">5 march, 18:33</span>
+                                                       </div>
+                                                  </div>
+                                                  <p class="ammount_monthly ammount_monthly_sky_blue">- 2,220</p>
+                                             </li>
+                                             <li class="d-flex justify-content-between align-items-center">
+                                                  <div class="m-0 ms-2 use_single_box">
+                                                       <div class="m-0"><a href="#"><img
+                                                                      src="assets/image/wallet/wallet_history_3.png"
+                                                                      alt="" class="  "></a></div>
+                                                       <div class="m-0  use_for_marketing">
+                                                            <p>Deposit from Card</p>
+                                                            <span class="date_marketing">5 march, 18:33</span>
+                                                       </div>
+                                                  </div>
+                                                  <p class="ammount_monthly ammount_monthly_red">- 2,220</p>
+                                             </li>
+                                             <li class="d-flex justify-content-between align-items-center">
+                                                  <div class="m-0 ms-2 use_single_box">
+                                                       <div class="m-0"><a href="#"><img
+                                                                      src="assets/image/wallet/wallet_history_4.png"
+                                                                      alt="" class="  "></a></div>
+                                                       <div class="m-0  use_for_marketing">
+                                                            <p>Cancelled</p>
+                                                            <span class="date_marketing">5 march, 18:33</span>
+                                                       </div>
+                                                  </div>
+                                                  <p class="ammount_monthly ammount_monthly_red">- 2,220</p>
+                                             </li>
+                                             <li class="d-flex justify-content-between align-items-center">
+                                                  <div class="m-0 ms-2 use_single_box">
+                                                       <div class="m-0"><a href="#"><img
+                                                                      src="assets/image/wallet/wallet_history_5.png"
+                                                                      alt="" class="  "></a></div>
+                                                       <div class="m-0  use_for_marketing">
+                                                            <p>Use For Markentig</p>
+                                                            <span class="date_marketing">5 march, 18:33</span>
+                                                       </div>
+                                                  </div>
+                                                  <p class="ammount_monthly ammount_monthly_sky_blue">- 2,220</p>
+                                             </li>
+                                             <li class="d-flex justify-content-between align-items-center">
+                                                  <div class="m-0 ms-2 use_single_box">
+                                                       <div class="m-0"><a href="#"><img
+                                                                      src="assets/image/wallet/wallet_history_1.png"
+                                                                      alt="" class="  "></a></div>
+                                                       <div class="m-0  use_for_marketing">
+                                                            <p>Deposit from UPI</p>
+                                                            <span class="date_marketing">5 march, 18:33</span>
+                                                       </div>
+                                                  </div>
+                                                  <p class="ammount_monthly ammount_monthly_red">- 2,220</p>
+                                             </li>
+                                        </ul>
+                                   </div>
+
+                              </div>
+                              <div class="wallet_history_table bounce_history_main m-0 my-4 ">
+                                   <div class="">
+                                        <div class="w-100 m-0 me-1">
+                                             <div
+                                                  class="w-100 m-0 py-2 d-flex align-items-start justify-content-between ">
+                                                  <p class="ms-2 title_box_wallet">Monthly Used</p>
+                                                  <p class="treedot_wallet text-end"><span
+                                                            class="text-end pe-2">...</span></p>
+                                             </div>
+
+                                             <ul class="m-0 p-0 pe-1 w-100  main_monthly_list">
+                                                  <li class="d-flex justify-content-between align-items-center">
+                                                       <div class="m-0 ms-2 use_single_box">
+                                                            <div class="m-0"><a href="#"><img
+                                                                           src="assets/image/wallet/wallet_profile_dp.jpg"
+                                                                           alt="" class="  "></a></div>
+                                                            <div class="m-0  use_for_marketing">
+                                                                 <p>Seller Name</p>
+                                                                 <span class="date_marketing">5 march, 18:33</span>
+                                                            </div>
+                                                       </div>
+                                                       <p class="ammount_monthly ammount_monthly_sky_blue">- 2,220</p>
+                                                  </li>
+                                                  <li class="d-flex justify-content-between align-items-center">
+                                                       <div class="m-0 ms-2 use_single_box">
+                                                            <div class="m-0"><a href="#"><img
+                                                                           src="assets/image/wallet/wallet_profile_dp.jpg"
+                                                                           alt="" class="  "></a></div>
+                                                            <div class="m-0  use_for_marketing">
+                                                                 <p>Seller Name</p>
+                                                                 <span class="date_marketing">5 march, 18:33</span>
+                                                            </div>
+                                                       </div>
+                                                       <p class="ammount_monthly ammount_monthly_sky_blue">- 2,220</p>
+                                                  </li>
+                                                  <li class="d-flex justify-content-between align-items-center">
+                                                       <div class="m-0 ms-2 use_single_box">
+                                                            <div class="m-0"><a href="#"><img
+                                                                           src="assets/image/wallet/wallet_profile_dp.jpg"
+                                                                           alt="" class="  "></a></div>
+                                                            <div class="m-0  use_for_marketing">
+                                                                 <p>Seller Name</p>
+                                                                 <span class="date_marketing">5 march, 18:33</span>
+                                                            </div>
+                                                       </div>
+                                                       <p class="ammount_monthly ammount_monthly_sky_blue">- 2,220</p>
+                                                  </li>
+                                                  <li class="d-flex justify-content-between align-items-center">
+                                                       <div class="m-0 ms-2 use_single_box">
+                                                            <div class="m-0"><a href="#"><img
+                                                                           src="assets/image/wallet/wallet_profile_dp.jpg"
+                                                                           alt="" class="  "></a></div>
+                                                            <div class="m-0  use_for_marketing">
+                                                                 <p>Seller Name</p>
+                                                                 <span class="date_marketing">5 march, 18:33</span>
+                                                            </div>
+                                                       </div>
+                                                       <p class="ammount_monthly ammount_monthly_sky_blue">- 2,220</p>
+                                                  </li>
+                                                  <li class="d-flex justify-content-between align-items-center">
+                                                       <div class="m-0 ms-2 use_single_box">
+                                                            <div class="m-0"><a href="#"><img
+                                                                           src="assets/image/wallet/wallet_profile_dp.jpg"
+                                                                           alt="" class="  "></a></div>
+                                                            <div class="m-0  use_for_marketing">
+                                                                 <p>Seller Name</p>
+                                                                 <span class="date_marketing">5 march, 18:33</span>
+                                                            </div>
+                                                       </div>
+                                                       <p class="ammount_monthly ammount_monthly_sky_blue">- 2,220</p>
+                                                  </li>
+                                                  <li class="d-flex justify-content-between align-items-center">
+                                                       <div class="m-0 ms-2 use_single_box">
+                                                            <div class="m-0"><a href="#"><img
+                                                                           src="assets/image/wallet/wallet_profile_dp.jpg"
+                                                                           alt="" class="  "></a></div>
+                                                            <div class="m-0  use_for_marketing">
+                                                                 <p>Seller Name</p>
+                                                                 <span class="date_marketing">5 march, 18:33</span>
+                                                            </div>
+                                                       </div>
+                                                       <p class="ammount_monthly ammount_monthly_sky_blue">- 2,220</p>
+                                                  </li>
+                                                  <li class="d-flex justify-content-between align-items-center">
+                                                       <div class="m-0 ms-2 use_single_box">
+                                                            <div class="m-0"><a href="#"><img
+                                                                           src="assets/image/wallet/wallet_profile_dp.jpg"
+                                                                           alt="" class="  "></a></div>
+                                                            <div class="m-0  use_for_marketing">
+                                                                 <p>Seller Name</p>
+                                                                 <span class="date_marketing">5 march, 18:33</span>
+                                                            </div>
+                                                       </div>
+                                                       <p class="ammount_monthly ammount_monthly_sky_blue">- 2,220</p>
+                                                  </li>
+
+                                             </ul>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+               </div>
+
+
+               <!--Start profile Modal -->
+               <div class="modal fade" id="exampleModal_2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                         <div class="modal-content">
+                              <div class="modal-header">
+                                   <div>
+                                        <div class="main_add_money_to_wallet">
+                                             <p>Add money to wallet</p>
+                                             <ul class="outstanding_model_wallet">
+                                                  <li>Outstanding  balance: <span>Rs.40,000.0</span> </li>
+                                                  <li>Wallet balance: <span>Rs.200.0</span> </li>
+                                             </ul>
+                                        </div>
+                                        <p class="select_pie_chart_model_sub_title">Select Payment method</p>
+                                        <div>
+                                             <div>
+                                                  <ul class="box_main_amout_model">
+                                                       <li>Outstanding Amount
+                                                       </li>
+                                                       <li>Rezorpay</li>
+                                                  </ul>
+                                             </div>
+                                        </div>
+                                        <div class="amount_model_main">
+                                             <p>Amount</p>
+                                             <div class="amount_single_box_model">Rs.200.0</div>
+                                        </div>
+                                        <div class="main_pay_btn_model text-end me-3"><a href="#" class="">Play</a></div>
+                                   </div>
+                                  
+                              </div>
+                              
+
+                         </div>
+                    </div>
+               </div>
+               <!--End profile Model -->
+
+
+          </div>
+
+          <!-- Main Content End -->
+
+
+
+     </div>
+     <script src="assets/js/jquery-3.5.1.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+     <script src="./assets/js/order.js"></script>
+
+     <!-- pie_chart js-->
+     <script type="text/javascript" src="assets/js/wallet_pie_chart.js"></script>
+     <!-- pie_chart  js-->
+     <script src="assets/js/pie_chart_wallet_listtopie.min.js"></script>
+
+     <script src="assets/js/custom.js"></script>
+
+
+
+     <!-- model js -->
+     <script>
+          $(document).ready(function () {
+               //Popover Js
+               var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+               var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                    return new bootstrap.Popover(popoverTriggerEl)
+               })
+          });
+     </script>
+     <!--End model js -->
+
+
+     <!--start pie chart  -->
+     <script>
+          $('#static').listtopie({
+               startAngle: 0,
+               strokeWidth: 0,
+               hoverEvent: false,
+               drawType: 'round',
+               speedDraw: 150,
+               hoverColor: '#ffffff',
+               textColor: '#000',
+               strokeColor: '#ffffff',
+               textSize: '18',
+               hoverAnimate: true,
+               marginCenter: 1,
+               sectorRotate: true,
+               easingType: mina.bounce,
+               infoText: true,
+          });
+          $('.donut').listtopie({
+               startAngle: 270,
+               strokeWidth: 2,
+               hoverEvent: true,
+               hoverBorderColor: '#2a363b',
+               hoverAnimate: false,
+               drawType: 'round',
+               speedDraw: 150,
+               hoverColor: '#ffffff',
+               textColor: '#000',
+               strokeColor: '#ffffff',
+               textSize: '14',
+               hoverAnimate: true,
+               marginCenter: 50,
+          });
+     </script>
+     <!--End pie chart  -->
+
+
+</body>
+
+</html>

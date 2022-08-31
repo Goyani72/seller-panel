@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Return Order</title>
+
+
+     <!-- Google Fonts -->
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+
+     <!-- Font-Awesome Fonts -->
+     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+     <!-- Style Sheet -->
+     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+     <!-- || Notice || -->
+     <!-- {this link use in cancle page because some class is use in cancle} -->
+     <link rel="stylesheet" type="text/css" href="assets/css/order.css">
+     
+     <!-- {this link use in cancle page because some class is use in cancle} -->
+     <!-- cancle Sheet -->
+     <link rel="stylesheet" type="text/css" href="assets/css/cancle.css">
+
+     <link rel="stylesheet" href="assets/css/return_order.css">
+
+
+</head>
+
+<body class="product_view_page">
+
+     <div class="main_wrapper dashboard_wrap">
+          <!-- Sidebar Start -->
+          <div class="sidebar_wrapper">
+               <div class="sidebar_block">
+                    <div class="sidebar_menu_block">
+                         <div class="mobile_menu_header">
+                              <div class="logo_wrap">
+                                   <div class="logo">
+                                        <a href="#0">
+                                             <img src="assets/image/dashborad_logo.png" alt="logo" class="logo_img">
+                                        </a>
+                                   </div>
+                                   <a href="#0" class="menu_trigger">
+                                        <svg width="9" height="13" viewBox="0 0 9 13" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                             <path d="M8.72577 6.50537L0.755156 12.1304L4.50093 6.50397L0.75 0.880371L8.72577 6.50537Z"
+                                                  fill="#FFCE55" />
+                                        </svg>
+                                   </a>
+                              </div>
+                         </div>
+                         <div class="sidebar_menu">
+                              <ul>
+                                   <li>
+                                        <a href="index.html" data-bs-toggle="tooltip" data-bs-placement="right"
+                                             title="Dashboard">
+                                             <div class="menu_icon">
+                                                  <img src="assets/image/sidebar/dashboard.png" alt="icon">
+                                             </div>
+                                             <div class="menu_text">Dashboard</div>
+                                        </a>
+                                   </li>
+                                   <li>
+                                        <div class="accordion_menu_wrap">
+                                             <a class="" href="productview.html" data-bs-toggle="tooltip"
+                                                  data-bs-placement="right" title="Termine">
+                                                  <div class="menu_icon">
+                                                       <img src="assets/image/sidebar/product.png" alt="icon">
+                                                  </div>
+                                                  <div class="menu_text">Product</div>
+                                             </a>
+
+                                             <div class="accordion_menu_info">
+                                                  <ul>
+                                                       <li>
+                                                            <a href="#0" class="active">
+                                                                 product view
+                                                            </a>
+                                                       </li>
+                                                       <li>
+                                                            <a href="#0">
+                                                                 product upload
+                                                            </a>
+                                                       </li>
+                                                       <li>
+                                                            <a href="#0">
+                                                                 image bulk upload
+                                                            </a>
+                                                       </li>
+                                                  </ul>
+                                             </div>
+                                        </div>
+                                   </li>
+                                   <li>
+                                        <a class="active" href="3" data-bs-toggle="tooltip" data-bs-placement="right"
+                                             title="Order">
+                                             <div class="menu_icon">
+                                                  <img src="assets/image/sidebar/order.png" alt="icon">
+                                             </div>
+                                             <div class="menu_text">Order</div>
+                                        </a>
+                                   </li>
+                                   <li>
+                                        <a href="index.html" data-bs-toggle="tooltip" data-bs-placement="right"
+                                             title="Dashboard">
+                                             <div class="menu_icon">
+                                                  <img src="assets/image/sidebar/marketing.png" alt="icon">
+                                             </div>
+                                             <div class="menu_text">Marketing</div>
+                                        </a>
+                                   </li>
+                                   <li>
+                                        <a href="termine.html" data-bs-toggle="tooltip" data-bs-placement="right"
+                                             title="Termine">
+                                             <div class="menu_icon">
+                                                  <img src="assets/image/sidebar/payment.png" alt="icon">
+                                             </div>
+                                             <div class="menu_text">Payment</div>
+                                        </a>
+                                   </li>
+                                   <li>
+                                        <a href="Labor.html" data-bs-toggle="tooltip" data-bs-placement="right"
+                                             title="Labor">
+                                             <div class="menu_icon">
+                                                  <img src="assets/image/sidebar/wallet.png" alt="icon">
+                                             </div>
+                                             <div class="menu_text">Wallet</div>
+                                        </a>
+                                   </li>
+                                   <li>
+                                        <a href="index.html" data-bs-toggle="tooltip" data-bs-placement="right"
+                                             title="Dashboard">
+                                             <div class="menu_icon">
+                                                  <img src="assets/image/sidebar/support.png" alt="icon">
+                                             </div>
+                                             <div class="menu_text">Support</div>
+                                        </a>
+                                   </li>
+                                   <li>
+                                        <a href="termine.html" data-bs-toggle="tooltip" data-bs-placement="right"
+                                             title="Termine">
+                                             <div class="menu_icon">
+                                                  <img src="assets/image/sidebar/referralsystem.png" alt="icon">
+                                             </div>
+                                             <div class="menu_text">Referral System</div>
+                                        </a>
+                                   </li>
+                                   <li>
+                                        <a href="Labor.html" data-bs-toggle="tooltip" data-bs-placement="right"
+                                             title="Labor">
+                                             <div class="menu_icon">
+                                                  <img src="assets/image/sidebar/FAQ.png" alt="icon">
+                                             </div>
+                                             <div class="menu_text">Report</div>
+                                        </a>
+                                   </li>
+                                   <li>
+                                        <a href="Labor.html" data-bs-toggle="tooltip" data-bs-placement="right"
+                                             title="Labor">
+                                             <div class="menu_icon">
+                                                  <img src="assets/image/sidebar/FAQ.png" alt="icon">
+                                             </div>
+                                             <div class="menu_text">FAQ</div>
+                                        </a>
+                                   </li>
+                                   <li>
+                                        <a href="Labor.html" data-bs-toggle="tooltip" data-bs-placement="right"
+                                             title="Labor">
+                                             <div class="menu_icon">
+                                                  <img src="assets/image/sidebar/Profile.png" alt="icon">
+                                             </div>
+                                             <div class="menu_text">Profile</div>
+                                        </a>
+                                   </li>
+                              </ul>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="cm-overlay"></div>
+          <!-- Sidebar End -->
+
+          <!-- Main Content Start -->
+          <div class="main_content">
+
+
+               <div class="main_content_lg">
+                   <div>
+                     <div class="cart_top_wrap cancle_cart_top">
+                         <ul>
+                             <li>
+                                 <div class="top_right_icon">
+                                     <img src="assets/image/product_view/search_big_icon.png" alt="icon">
+                                 </div>
+                             </li>
+                             <li>
+                                 <div class="top_right_icon cart_wrap">
+                                     <img src="assets/image/product_view/cart.png" alt="icon">
+                                 </div>
+                             </li>
+                             <li>
+                                 <div class="top_right_icon notification_wrap">
+                                     <img src="assets/image/product_view/bell.png" alt="icon">
+                                 </div>
+                             </li>
+                             <li>
+                                <div class="top_right_icon" type="button" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal_return">
+                                     <img src="assets/image/product_view/account.png" alt="icon">
+                                 </div>
+                             </li>
+                             <li>
+                                 <a href="#0" class="menu_trigger d-lg-none">
+                                     <svg width="9" height="13" viewBox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                         <path d="M8.72577 6.50537L0.755156 12.1304L4.50093 6.50397L0.75 0.880371L8.72577 6.50537Z" fill="#FFCE55"></path>
+                                     </svg>                                    
+                                 </a>
+                             </li>
+                         </ul>
+                     </div>
+                   
+                     <div class="cancle_by_customer_main_box">
+                         <div class="cancle_single_box">
+                              <p>12%</p>
+                              <span> Cancle  by Customer</span>
+                         </div>
+                         <div class="cancle_single_box cancle_single_box_green">
+                              <p>7%</p>
+                              <span> Cancle  by Customer</span>
+                         </div>
+                     </div>
+                     <div class="all_button_wrap all_return_btn_mai">
+                        <ul class="cm_tab">
+                            <li>
+                                <a href="#0" class="common_btn btn_common_return" data-tab="allproduct">Total Order </a>
+                            </li>
+                            <li>
+                                <a href="#0" class="common_btn btn_common_return" data-tab="qcprogress">delivred Order</a>
+                            </li>
+                            <li>
+                                <a href="#0" class="common_btn btn_common_return" data-tab="qcprogress">Pending Delivery</a>
+                            </li>
+
+                          
+                        </ul>
+                    </div>
+                     <div class="text-end me-3 mb-4 drop_down_return">
+                            <select class="all_cancle">
+                            <option value="by,day's">All </option>
+                            <option value="Sunday">Sunday </option>
+                            <option value="Monday">Monday</option>
+                            <option value="Tuesday">Tuesday</option>
+                            <option value="Wednesday">Wednesday</option>
+                            <option value="Thursday">Thursday</option>
+                            <option value="Friday">Friday</option>
+                            <option value="Saturday">Saturday</option>
+                            </select>
+                     </div>
+                   </div>
+                   <div>
+                          <div class="table_wrap_section">
+                            <div class="cm_tab_contain allproduct active">
+                                <div class="product_section_wrap table-responsive" id="style_2">
+                                   <table class="table cm_table cancle_table " >
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Sr. No.</th>
+                                                <th scope="col" style="padding:20px 40px 20px;">Product_id</th>
+                                                <th scope="col" style="padding:20px 140px 20px;" id="id01">Product</th>
+                                                <th scope="col">SKU_Id</th>
+                                                <th scope="col">Invoice No.</th>
+                                                <th scope="col">AWB Number</th>
+                                                <th scope="col">Order_Id</th>
+                                                <th scope="col">Order date</th>
+                                                <th scope="col">Total Amount</th>
+                                                <th scope="col">Return Order Date</th>
+                                                <th scope="col">Return Type</th>
+                                                <th scope="col">Return Order Date</th>
+                                                <th scope="col">Delivary partner</th>
+                                                <th scope="col">Delivary Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="gfg cancle_scroll_bar">
+                                            <tr>
+                                                <td scope="row">
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <span>1</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <p>12D3421SVAF23633</p>
+                                                </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_img_and_name">
+                                                        <div class="product_img" data-bs-toggle="modal" data-bs-target="#product_modal">
+                                                            <img src="assets/image/product_view/product_1.png" alt="product">
+                                                        </div>
+                                                        <span id="list">zpple Watch Series 5</span>
+                                                    </div>
+                                                </td>
+                                                <td class="table_cm_text">4</td>
+                                                <td class="table_cm_text">4774320779547743295</td>
+                                                <td class="table_cm_text">56424846569</td>
+                                                <td class="table_cm_text">ORDNUMJADDMMYYY</td>
+                                                <td class="table_cm_text">DD/MM/YYYY</td>
+                                                <td class="table_cm_text">764</td>
+                                                <td class="table_cm_text">01/06/2021</td>
+                                                <td class="table_cm_text">Customer Return</td>
+                                                <td class="table_cm_text">DD/MM/YYYY</td>
+                                                <td class="table_cm_text">ECOM</td>
+                                                <td class="table_cm_text">delivered</td>
+                                            </tr>
+                                            <tr>
+                                                <td scope="row">
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <span>2</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <p>12D3421SVAF23633</p>
+                                                </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_img_and_name">
+                                                        <div class="product_img" data-bs-toggle="modal" data-bs-target="#product_modal">
+                                                            <img src="assets/image/product_view/product_1.png" alt="product">
+                                                        </div>
+                                                        <span id="list">zpple Watch Series 5</span>
+                                                    </div>
+                                                </td>
+                                                <td class="table_cm_text">4</td>
+                                                <td class="table_cm_text">4774320779547743295</td>
+                                                <td class="table_cm_text">56424846569</td>
+                                                <td class="table_cm_text">ORDNUMJADDMMYYY</td>
+                                                <td class="table_cm_text">DD/MM/YYYY</td>
+                                                <td class="table_cm_text">764</td>
+                                                <td class="table_cm_text">01/06/2021</td>
+                                                <td class="table_cm_text">Customer Return</td>
+                                                <td class="table_cm_text">DD/MM/YYYY</td>
+                                                <td class="table_cm_text">ECOM</td>
+                                                <td class="table_cm_text">pandding</td>
+                                            </tr>
+                                            <tr>
+                                                <td scope="row">
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <span>3</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <p>12D3421SVAF23633</p>
+                                                </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_img_and_name">
+                                                        <div class="product_img" data-bs-toggle="modal" data-bs-target="#product_modal">
+                                                            <img src="assets/image/product_view/product_1.png" alt="product">
+                                                        </div>
+                                                        <span id="list">zpple Watch Series 5</span>
+                                                    </div>
+                                                </td>
+                                                <td class="table_cm_text">4</td>
+                                                <td class="table_cm_text">4774320779547743295</td>
+                                                <td class="table_cm_text">56424846569</td>
+                                                <td class="table_cm_text">ORDNUMJADDMMYYY</td>
+                                                <td class="table_cm_text">DD/MM/YYYY</td>
+                                                <td class="table_cm_text">764</td>
+                                                <td class="table_cm_text">01/06/2021</td>
+                                                <td class="table_cm_text">Customer Return</td>
+                                                <td class="table_cm_text">DD/MM/YYYY</td>
+                                                <td class="table_cm_text">ECOM</td>
+                                                <td class="table_cm_text">Return</td>
+                                            </tr>
+                                            <tr>
+                                                <td scope="row">
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <span>4</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <p>12D3421SVAF23633</p>
+                                                </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_img_and_name">
+                                                        <div class="product_img" data-bs-toggle="modal" data-bs-target="#product_modal">
+                                                            <img src="assets/image/product_view/product_1.png" alt="product">
+                                                        </div>
+                                                        <span id="list">zpple Watch Series 5</span>
+                                                    </div>
+                                                </td>
+                                                <td class="table_cm_text">4</td>
+                                                <td class="table_cm_text">4774320779547743295</td>
+                                                <td class="table_cm_text">56424846569</td>
+                                                <td class="table_cm_text">ORDNUMJADDMMYYY</td>
+                                                <td class="table_cm_text">DD/MM/YYYY</td>
+                                                <td class="table_cm_text">764</td>
+                                                <td class="table_cm_text">01/06/2021</td>
+                                                <td class="table_cm_text">Customer Return</td>
+                                                <td class="table_cm_text">DD/MM/YYYY</td>
+                                                <td class="table_cm_text">ECOM</td>
+                                                <td class="table_cm_text">delivered</td>
+                                            </tr>
+                                            <tr>
+                                                <td scope="row">
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <span>5</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <p>12D3421SVAF23633</p>
+                                                </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_img_and_name">
+                                                        <div class="product_img" data-bs-toggle="modal" data-bs-target="#product_modal">
+                                                            <img src="assets/image/product_view/product_1.png" alt="product">
+                                                        </div>
+                                                        <span id="list">zpple Watch Series 5</span>
+                                                    </div>
+                                                </td>
+                                                <td class="table_cm_text">4</td>
+                                                <td class="table_cm_text">4774320779547743295</td>
+                                                <td class="table_cm_text">56424846569</td>
+                                                <td class="table_cm_text">ORDNUMJADDMMYYY</td>
+                                                <td class="table_cm_text">DD/MM/YYYY</td>
+                                                <td class="table_cm_text">764</td>
+                                                <td class="table_cm_text">01/06/2021</td>
+                                                <td class="table_cm_text">Customer Return</td>
+                                                <td class="table_cm_text">DD/MM/YYYY</td>
+                                                <td class="table_cm_text">ECOM</td>
+                                                <td class="table_cm_text">delivered</td>
+                                            </tr>
+                                            <tr>
+                                                <td scope="row">
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <span>5</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <p>12D3421SVAF23633</p>
+                                                </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_img_and_name">
+                                                        <div class="product_img" data-bs-toggle="modal" data-bs-target="#product_modal">
+                                                            <img src="assets/image/product_view/product_1.png" alt="product">
+                                                        </div>
+                                                        <span id="list">zpple Watch Series 5</span>
+                                                    </div>
+                                                </td>
+                                                <td class="table_cm_text">4</td>
+                                                <td class="table_cm_text">4774320779547743295</td>
+                                                <td class="table_cm_text">56424846569</td>
+                                                <td class="table_cm_text">ORDNUMJADDMMYYY</td>
+                                                <td class="table_cm_text">DD/MM/YYYY</td>
+                                                <td class="table_cm_text">764</td>
+                                                <td class="table_cm_text">01/06/2021</td>
+                                                <td class="table_cm_text">Customer Return</td>
+                                                <td class="table_cm_text">DD/MM/YYYY</td>
+                                                <td class="table_cm_text">ECOM</td>
+                                                <td class="table_cm_text">delivered</td>
+                                            </tr>
+                                            <tr>
+                                                <td scope="row">
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <span>5</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <p>12D3421SVAF23633</p>
+                                                </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_img_and_name">
+                                                        <div class="product_img" data-bs-toggle="modal" data-bs-target="#product_modal">
+                                                            <img src="assets/image/product_view/product_1.png" alt="product">
+                                                        </div>
+                                                        <span id="list">zpple Watch Series 5</span>
+                                                    </div>
+                                                </td>
+                                                <td class="table_cm_text">4</td>
+                                                <td class="table_cm_text">4774320779547743295</td>
+                                                <td class="table_cm_text">56424846569</td>
+                                                <td class="table_cm_text">ORDNUMJADDMMYYY</td>
+                                                <td class="table_cm_text">DD/MM/YYYY</td>
+                                                <td class="table_cm_text">764</td>
+                                                <td class="table_cm_text">01/06/2021</td>
+                                                <td class="table_cm_text">Customer Return</td>
+                                                <td class="table_cm_text">DD/MM/YYYY</td>
+                                                <td class="table_cm_text">ECOM</td>
+                                                <td class="table_cm_text">delivered</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                        
+                         </div>
+                   </div>
+                   <div class="text-end">
+                       <a href="0#" type="button" class="download_report_cancle_btn" data-bs-toggle="modal"  data-bs-target="#exampleModal">Download Rreport</a>
+                   </div>
+
+
+                 <!-- Button trigger modal -->
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                ...
+                                </div>
+                                <div class="">
+                                    <div class="modal_close_btn">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div>
+                                        <p class="px-3">Choose a date:</p>
+                                    </div>
+                                </div>
+
+                                <div class="text-end me-3 mb-4">
+                                    <select class="all_cancle">
+                                        <option value="by,day's">Return</option>
+                                        <option value="Sunday">panding</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+          </div>
+          <!-- Start Model Download -->
+
+           <!--Start profile Model -->
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal_return" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+
+                        <div class="close_profile_img">
+                            <button type="button" class="btn-close p-0 m-0" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="profile_model_info">
+                            <div>
+                                <div class="profile_img_round_main">
+                                    <img src="assets/image/image_bluk/profile_pic_model.png" class="profile_img_round" alt="">
+                                </div>
+                                <div class="text-center my-3">
+                                    <h4 class="text-dark">DoNotDisturb</h4>
+                                    <p class="text-dark py-2">Lorem ipsum dolor sit amet.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-body modal-body-cancel text-center">
+                        <a class="logout" href="#">Logout</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--End profile Model -->
+          <!-- Main Content End -->
+
+
+
+     </div>
+
+
+
+
+     
+     <script src="assets/js/jquery-3.5.1.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+     <script src="assets/js/custom.js"></script>
+     <script src="./assets/js/order.js"></script>
+<script>
+       $(document).ready(function(){
+           //Popover Js
+           var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+           var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+               return new bootstrap.Popover(popoverTriggerEl)
+           })
+       });
+</script>
+
+</body>
+</html>

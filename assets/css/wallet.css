@@ -1,0 +1,536 @@
+
+.main_content_lg{
+     color: #43424B;
+}
+.main_content_lg img{
+     max-width: unset;
+}
+
+
+.wallet_balance_box_curent_balance{
+     background: linear-gradient(88.92deg, #A2CDC5 -17.08%, #FC9F35 131.69%);
+}
+.wallet_balance_box_Bonus_balance{
+     background: linear-gradient(88.92deg, #3DB3F5 -17.08%, #5C7CEE 131.69%);
+}
+.cancle_by_customer_main_box {
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+     margin-top: 50px;
+ }
+
+/*Start add to wallet btn */
+
+.create_new_ads {
+     color: #367BF5;
+     font-size: 14px;
+     line-height: 28px;
+     background: #fff;
+     box-shadow: 0px 16px 24px rgba(54, 123, 245, 0.16), 0px 6px 12px rgba(54, 123, 245, 0.16);
+     border-radius: 99px;
+     position: relative;
+     display: inline-block;
+     padding: 10px 35px;
+     padding-left: 45px;
+     font-weight: normal;
+}
+
+.create_new_ads::before {
+     content: url(../image/marketing/create_ads_plush.png);
+     object-fit: cover;
+     position: absolute;
+     z-index: 1;
+     left: 10%;
+     top: 30%;
+}
+
+.create_new_ads:hover {
+     color: #000;
+}
+
+/*End add to wallet btn */
+
+.wallet_flex{
+     flex-wrap: wrap;
+}
+.main_info_wallet{
+     display: flex;
+}
+.main_info_wallet>div{
+     display: flex;
+     flex-wrap: wrap;
+     
+}
+/* .main_info_wallet div{
+     margin: 10px;
+} */
+.wallet_transaction{
+     width:calc(50% - 20px)  ;
+     border: 0.5px solid #E8E8E8;
+     height: 450px  ;
+     overflow: scroll;
+     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.03);
+     border-radius: 10px;
+     color: #43424B;
+     margin: 10px;
+}
+.wallet_monthly{
+     width:calc(25% - 20px)  ;
+     border: 0.5px solid #E8E8E8;
+     height: 450px;
+     overflow: scroll;
+     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.03);
+     border-radius: 10px;
+     margin: 10px;
+}
+
+
+.wallet_history_main{
+     width:calc(25% - 0px)  ;
+    
+     
+     margin: 10px;
+}
+
+
+/* Start wallet history  */
+.wallet_history_table{
+     border: 0.5px solid #E8E8E8;
+     height: 350px;
+     overflow: scroll;
+     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.03);
+     border-radius: 10px;
+     width: 100%;
+     margin-left:15px;
+}
+/* End wallet history  */
+
+
+
+
+
+
+
+
+
+/* Start Transaction left side */
+.title_box_wallet
+{
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 24px;
+}
+.treedot_wallet{
+     font-size: 28px;
+     line-height: 10px;
+     color: #43424B;
+}
+.table_wallet_main{
+     width: 100%;
+     text-align: center;
+     font-size: 14px;
+     margin: 0 !important;
+     padding: 0!important;
+}
+.table_wallet_single{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.table_wallet_main tr
+{
+     height: 74px;
+}
+.check_box_hide{
+     opacity: 0;
+}
+.heading_wallet_main {
+     border-bottom: transparent !important;
+}
+.heading_wallet_main th
+{
+     font-weight: normal !important;
+     padding: 10px;
+}
+.transaction_id{
+     width: 28%;
+}
+.name_wallet{
+     width: 16%;
+     line-height: 100%;
+}
+.amount_wallet{
+     width: 15%;
+}
+.date_wallet{
+     width: 20%;
+}
+
+.download_threedot{
+     width: 15%;
+}
+
+.dote_trasaction{
+     width: 8%;
+}
+.table_wallet_main tr{
+     border-bottom:0.5px solid #5C659D;
+}
+.bg_active_wallet{
+     background: linear-gradient(108.78deg, #A2CDC5 14.42%, #FFCE55 100%);
+     box-shadow: 0px 0px 44px rgba(49, 56, 150, 0.03);
+     border-bottom:0.0px solid rgba(0, 0, 0, 0.096) transparent !important;
+     border: transparent;
+     mix-blend-mode: normal;
+}
+/* End Transaction left side */
+
+
+
+
+
+/* Start Monthly Used center box */
+.date_monthaly .use_for_marketing{
+     font-size: 14px !important;
+}
+.use_for_marketing{
+     font-size: 14px;
+     padding-left: 10px;
+     line-height: 110%;
+     width: 120px;
+}
+.use_single_box{
+     display: flex;
+     align-items: center;
+}
+.ammount_monthly{
+     width:120px;
+     padding-right: 10px;
+     text-align: end;
+     white-space: nowrap;
+}
+.date_marketing{
+     font-size: 13px !important;
+}
+.main_monthly_list li{
+     padding: 12px 0;
+}
+.ammount_monthly_red{
+     color: #FF0000;
+}
+.ammount_monthly_sky_blue{
+     color: #1ABCB0;
+}
+.wallet_monthly{
+     margin-top: 130px;
+}
+/* End Monthly Used center box */
+
+/* Add To wallet BTN */
+.cadd_to_wallet_btn{
+     background-color: transparent !important;
+     background: transparent !important;
+}
+
+.cancle_single_box{
+     display: un;
+     text-align: start;
+} 
+
+/* Start check box */
+.checkbox {
+     --background: #fff;
+     --border: #d1d6ee;
+     --border-hover: #bbc1e1;
+     --border-active: #4d7c73;
+     --tick: #fff;
+     position: relative;
+   }
+   .checkbox input,
+   .checkbox svg {
+     width: 18px;
+     height: 18px;
+     display: block;
+   }
+   .checkbox input {
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     position: relative;
+     outline: none;
+     background: var(--background);
+     border: none;
+     margin: 0;
+     padding: 0;
+     cursor: pointer;
+     border-radius: 4px;
+     transition: box-shadow 0.3s;
+     box-shadow: inset 0 0 0 var(--s, 1px) var(--b, var(--border));
+   }
+   .checkbox input:hover {
+     --s: 2px;
+     --b: var(--border-hover);
+   }
+   .checkbox input:checked {
+     --b: #4D7C73;
+   }
+   .checkbox svg {
+     pointer-events: none;
+     fill: none;
+     stroke-width: 2px;
+     stroke-linecap: round;
+     stroke-linejoin: round;
+     stroke: var(--stroke, var(--border-active));
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 18px;
+     height: 18px;
+     transform: scale(var(--scale, 1)) translateZ(0);
+   }
+   .checkbox.path input:checked {
+     --s: 2px;
+     transition-delay: 0.4s;
+   }
+   .checkbox.path input:checked + svg {
+     --a: 16.1 86.12;
+     --o: 102.22;
+   }
+   .checkbox.path svg {
+     stroke-dasharray: var(--a, 86.12);
+     stroke-dashoffset: var(--o, 86.12);
+     transition: stroke-dasharray 0.6s, stroke-dashoffset 0.6s;
+   }
+   .checkbox.bounce {
+     --stroke: var(--tick);
+   }
+   .checkbox.bounce input:checked {
+     --s: 11px;
+   }
+   .checkbox.bounce input:checked + svg {
+     -webkit-animation: bounce 0.4s linear forwards 0.2s;
+     animation: bounce 0.4s linear forwards 0.2s;
+   }
+   .checkbox.bounce svg {
+     --scale: 0;
+   }
+
+   @-webkit-keyframes bounce {
+     50% {
+       transform: scale(1.2);
+     }
+     75% {
+       transform: scale(0.9);
+     }
+     100% {
+       transform: scale(1);
+     }
+   }
+   
+   @keyframes bounce {
+     50% {
+       transform: scale(1.2);
+     }
+     75% {
+       transform: scale(0.9);
+     }
+     100% {
+       transform: scale(1);
+     }
+}
+/*End Check box */
+
+
+
+/*Start scroll bar */
+::-webkit-scrollbar {
+     width: 6px;
+     height: 10px;
+ }
+  
+ ::-webkit-scrollbar-track {
+     border-radius: 100px;
+ }
+  
+::-webkit-scrollbar-thumb {
+     background-color: #A2CDC5;
+     border-radius: 100px;
+ }
+/*End scroll bar */
+
+
+
+/*Start model box  */
+.main_add_money_to_wallet{
+     color: #000;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-between;
+}
+.main_add_money_to_wallet p{
+     font-weight: 600;
+     font-size: 18px;
+}
+.outstanding_model_wallet{
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-between;
+}
+.outstanding_model_wallet li{
+     padding:5px 10px;
+     border-radius: 50px;
+     background-color: #A2CDC5;
+     margin-right:15px ;
+     margin-top: 15px;
+}
+.outstanding_model_wallet li span{
+     color: #fff;
+}
+.select_pie_chart_model_sub_title{
+     font-size: 18px;
+     color: #000;
+     margin: 25px 0;
+}
+
+.box_main_amout_model{
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     align-items: center;
+     color: #000;
+}
+.box_main_amout_model li{
+     background: #FFFFFF;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+     border-radius: 10px;
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 30px;
+     width: 226px;
+     height: 127px;
+     text-align: end;
+     align-items: center;
+     display: flex;
+     justify-content: end;
+     padding: 20px;
+     margin: 10px;
+}
+.amount_model_main{
+     color: #000;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     margin-top: 35px;
+}
+.amount_model_main p{
+     margin-right: 15px;     
+}
+.amount_single_box_model{
+     padding: 10px 45px;
+     background: #FFFFFF;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     border-radius: 10px;
+}
+.main_pay_btn_model a{
+     color: #000;
+     background-color: #A2CDC5;
+     display: inline-block;
+     padding: 10px 65px;
+     background: #A2CDC5;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+     border-radius: 10px;
+     font-size: 30px;
+     margin: 25px 0;
+}
+
+
+.modal-dialog {
+     max-width: 1000px;
+     margin: 1.75rem auto;
+     padding: 0 20px;
+}
+
+
+/*End model box  */
+
+
+
+
+
+
+/* Responsive CSS */
+@media screen and (max-width: 1200px){
+
+     .heading_wallet_main th
+     {
+          font-weight: normal !important;
+          padding:0 10px;
+     }
+
+}
+@media screen and (max-width: 1024px){
+
+     .heading_wallet_main th
+     {
+          font-weight: normal !important;
+          padding: 0 20px;
+     }
+     .main_info_wallet{
+          display: unset;
+     }
+     .wallet_transaction {
+          width: auto;
+          margin:15px 0;
+      }
+     .wallet_monthly{
+          width: 100%;
+          margin:15px 0;
+
+     }
+     .wallet_history_main{
+          width: 100%; 
+          margin:15px 0;
+     }
+     .wallet_history_table
+     {
+          margin-left: 0;
+     }
+     .wallet_monthly{
+          margin-top: 25px;
+     }
+  
+
+}
+@media screen and (max-width: 425px){
+     
+     .cancle_by_customer_main_box div {
+          margin: 11px 5px;
+     }
+     .select_pie_chart_model_sub_title{
+          text-align: center;
+     }
+     .box_main_amout_model{
+          justify-content: center;
+     }
+     .amount_model_main{
+          justify-content: center;
+          margin: 50px 0;
+     }
+     .main_pay_btn_model{
+          text-align: center !important;
+          margin:15px 0;
+     }
+     
+}
+@media screen and (max-width: 425px){
+     .outstanding_model_wallet li{
+          text-align: center;
+     }
+     .outstanding_model_wallet{
+          display: unset;
+     }
+}
+

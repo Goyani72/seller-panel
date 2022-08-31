@@ -1,0 +1,355 @@
+/****** Font family ******/
+
+/* font-family: 'Mulish', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Quicksand', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+/* font-family: 'Niramit', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Niramit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/****** CSS ******/
+.card_main_reffrel{
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+}
+.card_main_reffrel li{
+     margin: 10px 8px;
+     margin-right: 15px;
+     margin-left: 0;
+}
+.reffrel_comn_card{
+     width: 230px;
+     height: 114px;
+     border-radius: 8px;
+     background-color: aqua;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.reffrel_comn_card div span{
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 36px;
+     line-height: 26px;
+     color: #fff;
+}
+.reffrel_comn_card div p{
+     font-family: 'Mulish';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 24px;
+     color: #fff;
+     margin-bottom: 8px;
+}
+.bg_box_reffrel{
+     background: linear-gradient(88.92deg, #A2CDC5 -17.08%, #FC9F35 )
+}
+.bg_box_reffrel_2{
+     background: linear-gradient(88.92deg, #3DB3F5 -17.08%, #5C7CEE 131.69%);
+}
+
+.reffrel_code{
+     justify-content: center;
+     /* align-items: center; */
+     display: flex;
+     height: 60px;
+     width: 213px;
+     background: #FFFFFF;
+     box-shadow: 20px 20px 24px rgba(162, 205, 197, 0.2), 0px 6px 12px rgba(54, 123, 245, 0.16);
+     border-radius: 99px;
+     text-align: center;
+}
+.reffrel_code div p{
+     font-family: 'Quicksand';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 28px;
+     color: #000;
+}
+.reffrel_code div span{
+     font-family: 'Quicksand';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 24px;
+     line-height: 28px;
+     line-height: 80%;
+}
+
+
+.reffrel_left_side{
+     width: 70%;
+     display: flex;
+}
+.image_reffrel_friend{
+     max-width: 100%;
+     background-repeat: no-repeat;
+     object-fit: cover;
+}
+.reffrel_friend_title{
+     font-family: 'Niramit';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 28px;
+     line-height: 115%;
+     width: 45%;
+     display: block;
+     padding-top: 25px;
+}
+.image_main_reffrel{
+     width: 55%;
+}
+.reffrel_a_friend_get{
+     display: flex;
+     justify-content: space-between;
+}
+.reffrel_a_friend_get_main{
+     padding: 20px 10px;
+     background: #FFFFFF;
+     border: 0.5px solid #E8E8E8;
+     box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.089);
+     border-radius: 10px;
+     margin: 25px 0;
+     margin-bottom: 50px;
+}
+
+.send_invitation{
+     font-family: 'Mulish';
+     font-style: normal;
+     font-weight: 500;
+     text-align: center;
+     color: #000;
+     font-size: 22px;
+     line-height: 24px;
+     display: block;
+     width: 100%;
+     margin-top: 20px;
+}
+.send_invitation:hover{
+     color: #000;
+}
+.reffrel_bonus_history{
+     background: #FFFFFF;
+     border: 0.5px solid #E8E8E8;
+     box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.089);
+     border-radius: 10px;
+     width: 30%;
+     margin: 25px 0 25px 25px;
+     overflow: hidden;
+}
+
+/* link copy */
+.link_main_copy_btn{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+}
+.link_copy{
+     border: 1px solid #000000;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     border-radius: 15px;
+     height: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 0 10px ;
+     color: #000 !important;
+     margin-top: 15px;
+}
+.copy_btn{     
+     background: #4D7C73;
+     border: 1px solid #4D7C73;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     border-radius: 15px;
+     height: 50px;
+     width: 100px;
+     margin-left: 15px;
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 24px;
+     color: #fff;
+     letter-spacing: 1px;
+     margin-top: 15px;
+}
+/**** Reffrel Bonus History Title ****/
+
+.reffrel_bonus_history_title{
+     font-family: 'Mulish';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 18px;
+     color: #43424B;
+     padding-left: 10px;
+     padding-top: 15px;
+}
+.friend_main_reffrel{
+     display: unset;
+}
+.round_reffrel_bonus_history{
+     width: 45px;
+     height: 45px;
+     background: linear-gradient(180deg, #00C6FF 0%, #0072FF 100%);
+     border-radius: 150px;
+}
+.cancelled_bg{
+     background: linear-gradient(180deg, #A2CDC5 0%, #FC9F35 100%);
+}
+.deposit_reffrel_single_entry{
+     padding-left: 10px;
+}
+.deposit_reffrel_single_entry p
+{
+     font-size: 14px;
+}
+.deposit_reffrel_single_entry span{
+    font-size: 13px;
+    line-height: 100%;
+}
+.price_reffrel{
+     padding-right: 10px;
+}
+.round_reffrel_bonus_history{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.bg_deposit_ui{
+     background: linear-gradient(180deg, #8500F9 0%, #E70EFF 100%);
+}
+/* last box */
+.bg_main_box{
+     background: #FFFFFF;
+     border: 0.5px solid #E8E8E8;
+     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.03);
+     border-radius: 10px;
+}
+.transaction_header{
+     font-size: 14px;
+     text-align: center;
+     justify-content: space-between;
+     align-items: center;
+     color: #000;
+     
+}
+.transaction_header li{
+     text-align: center;
+     width: 100%;
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 14px;    
+     padding: 6px 0;
+     border-bottom: 0.5px solid #5c659d77;
+     text-transform: capitalize;
+}
+.transaction_rows_reffrel{
+     color: #43424B;
+     display: flex;
+     align-items: center;
+     text-align: center;
+}
+.main_transaction_table{
+     overflow-y: scroll;
+     height: 550px;
+}
+.main_transaction_table ul{
+     padding: 0 0px;
+}
+
+
+.transaction_rows_reffrel li{
+     width: 100%;
+     text-align: center;
+     padding: 12px 0;
+     border-bottom: 0.5px solid #5c659d77;
+     color:#43424B;
+}
+.counting_number_reffrel{
+     color: #000 !important;
+}
+/****** CSS ******/
+
+/******Strat media CSS  ******/
+@media screen and (min-width:1200px){
+     .reffrel_friend_title{
+          font-size: 30px;
+          line-height: 35px;
+     }
+     .send_invitation{
+          font-size: 24px;
+          line-height: 24px;
+     }
+     .reffrel_bonus_history_title{
+          font-size: 24px;
+          line-height: 24px;
+          text-align: start;
+          width: 100%;
+     }
+}
+@media screen and (max-width:1400px){
+     .reffrel_friend_title{
+          font-size: 36px;
+          line-height: 40px;
+     }
+     .send_invitation{
+          font-size: 28ppx;
+          line-height: 28ppx;
+     }
+     .reffrel_bonus_history div h2{
+          text-align: start;
+          padding: 20px;
+     }
+}
+@media screen and (min-width:1200px){
+     .friend_main_reffrel{
+          display: flex;
+     }
+     .reffrel_bonus_history div h2 {
+          text-align: start;
+          padding-left: 8px;
+      }
+}
+@media screen and (max-width:1100px){
+     .friend_main_reffrel{
+          display: unset !important;
+     }
+     .reffrel_bonus_history{
+          width: auto;
+          margin: auto;
+     }
+     .reffrel_left_side{
+          width: auto;
+     }
+     .main_transaction_table{
+          height: 380px;
+     }
+}
+@media screen and (max-width:425px){
+     .link_copy,.copy_btn{
+          font-size: 8px;
+          height: 30px;
+          border-radius: 6px;
+     }
+     .copy_btn{
+          font-size: 16px;
+     }
+     .reffrel_friend_title {
+          font-size: 24px;
+          line-height: 23px;
+      }
+      .card_main_reffrel{
+           justify-content: center;
+      }
+     .main_transaction_table{
+          height: 150px;
+          overflow-x:scroll;
+     }
+  
+}
+/******End media CSS  ******/

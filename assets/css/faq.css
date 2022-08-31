@@ -1,0 +1,140 @@
+/* font link */
+/* font-family: 'Manrope', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+#faq-main{
+    font-family: 'Manrope', sans-serif;
+    width: 80%;
+}
+
+
+.fequently_text{
+    color: #000;
+    padding: 35px 0;
+    width: 35%;
+}
+
+/*Start faq  */
+.beefup {
+    margin: 1em 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.beefup:hover {
+    border-color: #ccc;
+}
+
+.beefup:first-child {
+    margin-top: 0;
+}
+
+.beefup-head{
+
+    padding: 18px 20px;
+}
+
+
+.beefup-head {
+    cursor: pointer;
+    position: relative;
+    margin: 0;
+    padding-right: 50px;
+    font-size: 22px;
+    /* font-weight: ; */
+    
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 22px;
+}
+
+button.beefup-head,
+.beefup-head>button {
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    background: none;
+    border: 0;
+    font: inherit;
+    text-align: inherit;
+}
+
+button.beefup-head[aria-disabled],
+.beefup-head>button[aria-disabled] {
+    cursor: default;
+    outline: 0;
+}
+
+.beefup-head>button {
+    position: relative;
+    z-index: 1;
+    margin: -10px -50px -10px -20px;
+    padding: inherit;
+    width: calc(100% + 0);
+    background: inherit;
+    border: inherit;
+}
+
+.beefup-head::after {
+    transition: transform 0.2s ease-out;
+    content: "";
+    transform: translate(0, -50%) rotate(45deg);
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    z-index: 0;
+    margin-top: -2px;
+    padding: 4px;
+    border-width: 0 3px 3px 0;
+    border-style: solid;
+    color: #4D7C73;
+}
+
+.beefup.is-open>.beefup-head::after {
+    transform: translate(0, -50%) rotate(225deg);
+    margin-top: 2px;
+}
+.mockup{
+    color: #000;
+    font-weight: 500;    padding: 15px 20px;
+}
+/*End faq  */
+
+@media screen and (min-width:1400px) {
+    .fequently_text{
+        width:25%;
+    }
+}
+@media screen and (max-width:1200px) {
+    .fequently_text{
+        width: 45%;
+    }
+    .beefup-head{
+    padding: 15px 20px;
+}
+}
+@media screen and (max-width:1000px) {
+    .fequently_text{
+        width: 50%;
+    }
+    .beefup-head {
+        padding: 15px 20px;
+    }
+}
+@media screen and (max-width:900px) {
+    .fequently_text{
+        padding-top: 65px;
+        display: block;
+        width: 100%;
+    }
+    .beefup-head {
+        padding: 14px 15px;
+    }
+}
+@media screen and (max-width:425px) {
+    .beefup-head{
+        padding: 12px 15px;
+    }
+}

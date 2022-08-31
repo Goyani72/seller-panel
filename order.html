@@ -1,0 +1,1840 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order View</title>
+    
+    <link type="image/x-icon" rel="icon" href="assets/image/dashborad_logo.png"/>
+    
+    
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Font-Awesome Fonts -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    
+    <!-- Style Sheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/productview.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/order.css">
+    
+    <link rel="stylesheet" href="assets/css/datepicker.css">
+    
+</head>
+<body class="product_view_page">
+    <div class="main_wrapper dashboard_wrap">        
+        <!-- Sidebar Start -->
+        <div class="sidebar_wrapper">
+            <div class="sidebar_block">
+                <div class="sidebar_menu_block">
+                    <div class="mobile_menu_header">
+                        <div class="logo_wrap">
+                            <div class="logo">
+                                <a href="#0">
+                                    <img src="assets/image/dashborad_logo.png" alt="logo" class="logo_img">
+                                </a>
+                            </div>
+                            <a href="#0" class="menu_trigger">
+                                <svg width="9" height="13" viewBox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.72577 6.50537L0.755156 12.1304L4.50093 6.50397L0.75 0.880371L8.72577 6.50537Z" fill="#FFCE55"/>
+                                </svg>                                    
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sidebar_menu">
+                        <ul>
+                            <li>
+                                <a href="index.html" data-bs-toggle="tooltip" data-bs-placement="right" title="Dashboard">
+                                    <div class="menu_icon">
+                                        <img src="assets/image/sidebar/dashboard.png" alt="icon">
+                                    </div>
+                                    <div class="menu_text">Dashboard</div>
+                                </a>
+                            </li>
+                            <li>
+                                <div class="accordion_menu_wrap">
+                                    <a class="" href="productview.html" data-bs-toggle="tooltip" data-bs-placement="right" title="Termine">
+                                        <div class="menu_icon">
+                                            <img src="assets/image/sidebar/product.png" alt="icon">
+                                        </div>
+                                        <div class="menu_text">Product</div>
+                                    </a>
+
+                                    <div class="accordion_menu_info">
+                                        <ul>
+                                            <li>
+                                                <a href="#0" class="active">
+                                                    product view
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#0">
+                                                    product upload
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#0">
+                                                    image bulk upload
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="active" href="3" data-bs-toggle="tooltip" data-bs-placement="right" title="Order">
+                                    <div class="menu_icon">
+                                        <img src="assets/image/sidebar/order.png" alt="icon">
+                                    </div>
+                                    <div class="menu_text">Order</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html" data-bs-toggle="tooltip" data-bs-placement="right" title="Dashboard">
+                                    <div class="menu_icon">
+                                        <img src="assets/image/sidebar/marketing.png" alt="icon">
+                                    </div>
+                                    <div class="menu_text">Marketing</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="termine.html" data-bs-toggle="tooltip" data-bs-placement="right" title="Termine">
+                                    <div class="menu_icon">
+                                        <img src="assets/image/sidebar/payment.png" alt="icon">
+                                    </div>
+                                    <div class="menu_text">Payment</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="Labor.html" data-bs-toggle="tooltip" data-bs-placement="right" title="Labor">
+                                    <div class="menu_icon">
+                                        <img src="assets/image/sidebar/wallet.png" alt="icon">
+                                    </div>
+                                    <div class="menu_text">Wallet</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html" data-bs-toggle="tooltip" data-bs-placement="right" title="Dashboard">
+                                    <div class="menu_icon">
+                                        <img src="assets/image/sidebar/support.png" alt="icon">
+                                    </div>
+                                    <div class="menu_text">Support</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="termine.html" data-bs-toggle="tooltip" data-bs-placement="right" title="Termine">
+                                    <div class="menu_icon">
+                                        <img src="assets/image/sidebar/referralsystem.png" alt="icon">
+                                    </div>
+                                    <div class="menu_text">Referral System</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="Labor.html" data-bs-toggle="tooltip" data-bs-placement="right" title="Labor">
+                                    <div class="menu_icon">
+                                        <img src="assets/image/sidebar/FAQ.png" alt="icon">
+                                    </div>
+                                    <div class="menu_text">Report</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="Labor.html" data-bs-toggle="tooltip" data-bs-placement="right" title="Labor">
+                                    <div class="menu_icon">
+                                        <img src="assets/image/sidebar/FAQ.png" alt="icon">
+                                    </div>
+                                    <div class="menu_text">FAQ</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="Labor.html" data-bs-toggle="tooltip" data-bs-placement="right" title="Labor">
+                                    <div class="menu_icon">
+                                        <img src="assets/image/sidebar/Profile.png" alt="icon">
+                                    </div>
+                                    <div class="menu_text">Profile</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cm-overlay"></div>
+        <!-- Sidebar End -->
+        
+        <!-- Main Content Start -->
+        <div class="main_content">
+            <div class="main_content_lg">
+                <div class="common_content_pad_block">
+                    <div class="total_product_wrap">
+                        <ul>
+                           
+                        </ul>
+                    </div>
+                    <br /> <br />
+                    <div class="all_button_wrap">
+                        <ul class="cm_tab">
+                            <li>
+                                <a href="#0" class="common_btn" data-tab="allproduct">New Order </a>
+                                <span class="red_text" id="no">{{no}}</span>
+                            </li>
+                            <li>
+                                <a href="#0" class="common_btn" data-tab="qcprogress">Pending</a>
+                            </li>
+                            <li>
+                                <a href="#0" class="common_btn" data-tab="qcpass">Ready to ship</a>
+                            </li>
+                            <li>
+                                <a href="#0" class="common_btn" data-tab="qcpending">In Process</a>
+                            </li>
+                            <li>
+                                <a href="#0" class="common_btn" data-tab="qcerro">Shipped</a>
+                            </li>
+                            <li>
+                                <a href="#0" class="common_btn" data-tab="qcfail">Deliverd</a>
+                            </li>
+                          
+                        </ul>
+                    </div>
+                    
+                    <div class="search_and_table_wrap">
+                        <div class="search_wrap">
+                            <div class="search_input_wrap">
+                                <input type="text" placeholder="Search your Product">
+                                
+                                <div class="search_icon">
+                                    <img src="assets/image/product_view/search.png" alt="icon">
+                                </div>
+                            </div>
+                            
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle sort_btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Sort by category
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#" onclick="sortTable(0)">sort by A to Z </a></li>
+                                    <li><a class="dropdown-item" href="#" onclick="sortTable(1)">sort by Z to A</a></li>
+                                    <li><a class="dropdown-item" href="#">sort 3</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <div class="table_wrap_section">
+                            <div class="cm_tab_contain allproduct active">
+                                <div class="product_section_wrap table-responsive">
+                                    <table class="table cm_table" id="myTable">
+                                        <thead>
+                                            <tr>
+                                                <th><input type="checkbox" name="allcheck" id="select"onchange="checkAll(this)"> </th>
+                                                <th scope="col">Sr. No.</th>
+                                                <th scope="col" style="padding:20px 40px 20px;">Product_id</th>
+                                                <th scope="col" style="padding:20px 140px 20px;" id="id01">Product</th>
+                                                <th scope="col">SKU_Id</th>
+                                                <th scope="col">Order_Id</th>
+                                                <th scope="col">Order Date</th>
+                                                <th scope="col">Ikart_Price</th>
+                                                <th scope="col">GST%</th>
+                                                <th scope="col">Shipping Charge</th>
+                                                <th scope="col">Total Amount</th>
+                                                <th scope="col">Dischpach_Day</th>
+                                                <th scope="col">Action</th>
+                                              
+                                            </tr>
+                                        </thead>
+                                        <tbody class="gfg">
+                                            <tr>
+                                                <td>
+                                                    <input type="checkbox" name="allcheck" id="">
+                                                </td>
+                                                <td scope="row">
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <span>1</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <p>jhbjkgkjgkg</p>
+                                                </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_img_and_name">
+                                                        <div class="product_img" data-bs-toggle="modal" data-bs-target="#product_modal">
+                                                            <img src="assets/image/product_view/product_1.png" alt="product">
+                                                        </div>
+                                                        <span id="list">zpple Watch Series 5</span>
+                                                    </div>
+                                                </td>
+                                                <td class="table_cm_text">4</td>
+                                                <td class="table_cm_text">4</td>
+                                                <td class="table_cm_text">255</td>
+                                                <td class="table_cm_text">₹600</td>
+                                                <td class="table_cm_text">18%</td>
+                                                <td class="table_cm_text">₹64</td>
+                                                <td class="table_cm_text">₹664</td>
+                                                
+                                                <td>
+                                                    <div class="qc_status">
+                                                        <div class="qc_status_img">
+                                                            <img src="assets/image/product_view/tick.png" alt="icon">
+                                                        </div>
+                                                        <span class="table_cm_text pass_text">Pass</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="live_wrap">
+                                                        <a href="#0" class="live_btn active">
+                                                            Live
+                                                        </a>
+                                                        <a href="#0" class="pause_btn">
+                                                            Pause
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                              
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <input type="checkbox" name="allcheck" id="">
+                                                </td>
+                                                <td scope="row">
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <span>2</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <p>jhbjkgkjgkg</p>
+                                                </div>
+                                                </td>
+                                                <td id="ul" >
+                                                    <div class="product_img_and_name">
+                                                        <div class="product_img" data-bs-toggle="modal" data-bs-target="#product_modal">
+                                                            <img src="assets/image/product_view/product_1.png" alt="product">
+                                                        </div>
+                                                        <span id="list">apple Watch Series 5</span>
+                                                    </div>
+                                                </td>
+                                                <td class="table_cm_text">4</td>
+                                                <td class="table_cm_text">4</td>
+                                                <td class="table_cm_text">255</td>
+                                                <td class="table_cm_text">₹600</td>
+                                                <td class="table_cm_text">18%</td>
+                                                <td class="table_cm_text">₹64</td>
+                                                <td class="table_cm_text">₹664</td>
+                                                
+                                                <td>
+                                                    <div class="qc_status">
+                                                        <div class="qc_status_img">
+                                                            <img src="assets/image/product_view/tick.png" alt="icon">
+                                                        </div>
+                                                        <span class="table_cm_text pass_text">Pass</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="live_wrap">
+                                                        <a href="#0" class="live_btn active">
+                                                            Live
+                                                        </a>
+                                                        <a href="#0" class="pause_btn">
+                                                            Pause
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                              
+                                            </tr>
+
+                                            
+                                            <tr>
+                                                <td>
+                                                    <input type="checkbox" name="allcheck" id="">
+                                                </td>
+                                                <td scope="row">
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <span>3</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <p>jhbjkgkjgkg</p>
+                                                </div>
+                                                </td>
+                                                <td id="ul" >
+                                                    <div class="product_img_and_name">
+                                                        <div class="product_img" data-bs-toggle="modal" data-bs-target="#product_modal">
+                                                            <img src="assets/image/product_view/product_1.png" alt="product">
+                                                        </div>
+                                                        <span id="list">apple Watch Series 5</span>
+                                                    </div>
+                                                </td>
+                                                <td class="table_cm_text">4</td>
+                                                <td class="table_cm_text">4</td>
+                                                <td class="table_cm_text">255</td>
+                                                <td class="table_cm_text">₹600</td>
+                                                <td class="table_cm_text">18%</td>
+                                                <td class="table_cm_text">₹64</td>
+                                                <td class="table_cm_text">₹664</td>
+                                                
+                                                <td>
+                                                    <div class="qc_status">
+                                                        <div class="qc_status_img">
+                                                            <img src="assets/image/product_view/tick.png" alt="icon">
+                                                        </div>
+                                                        <span class="table_cm_text pass_text">Pass</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="live_wrap">
+                                                        <a href="#0" class="live_btn active">
+                                                            Live
+                                                        </a>
+                                                        <a href="#0" class="pause_btn">
+                                                            Pause
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                              
+                                            </tr>
+          
+                                            <tr>
+                                                <td>
+                                                    <input type="checkbox" name="allcheck" id="">
+                                                </td>
+                                                <td scope="row">
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <span>4</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <p>jhbjkgkjgkg</p>
+                                                </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_img_and_name">
+                                                        <div class="product_img" data-bs-toggle="modal" data-bs-target="#product_modal">
+                                                            <img src="assets/image/product_view/product_1.png" alt="product">
+                                                        </div>
+                                                        <span id="list">zpple Watch Series 5</span>
+                                                    </div>
+                                                </td>
+                                                <td class="table_cm_text">4</td>
+                                                <td class="table_cm_text">4</td>
+                                                <td class="table_cm_text">255</td>
+                                                <td class="table_cm_text">₹600</td>
+                                                <td class="table_cm_text">18%</td>
+                                                <td class="table_cm_text">₹64</td>
+                                                <td class="table_cm_text">₹664</td>
+                                                
+                                                <td>
+                                                    <div class="qc_status">
+                                                        <div class="qc_status_img">
+                                                            <img src="assets/image/product_view/tick.png" alt="icon">
+                                                        </div>
+                                                        <span class="table_cm_text pass_text">Pass</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="live_wrap">
+                                                        <a href="#0" class="live_btn active">
+                                                            Live
+                                                        </a>
+                                                        <a href="#0" class="pause_btn">
+                                                            Pause
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                              
+                                            </tr>
+                                        
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="cm_tab_contain qcprogress">
+                                <div class="product_section_wrap table-responsive">
+                                    <table class="table cm_table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Sr. No.</th>
+                                                <th scope="col">Order_Id</th>
+                                                <th scope="col">SKU_Id</th>
+                                                <th scope="col">Products_ID</th>
+                                                <th scope="col">Delivary Partner</th>
+                                                <th scope="col">MRP</th>
+                                                <th scope="col">Seller Name</th>
+                                                <th scope="col">State</th>
+                                                <th scope="col">Date</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="gfg">
+                                            <tr>
+                                                <td scope="row">
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <span>1</span>
+                                                    </div>
+                                                </td>
+                                                <td class="table_cm_text">23245476485678</td>
+                                                <td class="table_cm_text">2131221454</td>
+                                                <td class="table_cm_text">2454647685587</td>
+                                                <td class="table_cm_text">xyzabc</td>
+                                                <td class="table_cm_text">599</td>
+                                                <td class="table_cm_text">abcdef</td>
+                                                <td class="table_cm_text">Gujrat</td>
+                                                <td class="table_cm_text">dd/mm/yy</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="cm_tab_contain qcpass">
+                                <div class="product_section_wrap table-responsive">
+                                    <table class="table cm_table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Sr. No.</th>
+                                                <th scope="col">Product</th>
+                                                <th scope="col">Category</th>
+                                                <th scope="col">No.Of veration</th>
+                                                <th scope="col">Stock</th>
+                                                <th scope="col">iKart’s price</th>
+                                                <th scope="col">GST%</th>
+                                                <th scope="col">Shipping charges</th>
+                                                <th scope="col">Amount</th>
+                                                <th scope="col">Total Order</th>
+                                                <th scope="col">Return Order</th>
+                                                <th scope="col">panalty</th>
+                                                <th scope="col">Sales</th>
+                                                <th scope="col">Q/C Status</th>
+                                                <th scope="col">Status</th>
+                                                <th scope="col">Rating</th>
+                                                <th scope="col">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="gfg">
+                                            <tr>
+                                                <td scope="row">
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <span>1</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_img_and_name">
+                                                        <div class="product_img">
+                                                            <img src="assets/image/product_view/product_1.png" alt="product">
+                                                        </div>
+                                                        <span>Apple Watch Series 5</span>
+                                                    </div>
+                                                </td>
+                                                <td></td>
+                                                <td class="table_cm_text">4</td>
+                                                <td class="table_cm_text">255</td>
+                                                <td class="table_cm_text">₹600</td>
+                                                <td class="table_cm_text">18%</td>
+                                                <td class="table_cm_text">₹64</td>
+                                                <td class="table_cm_text">₹664</td>
+                                                <td class="table_cm_text">120</td>
+                                                <td class="table_cm_text">120</td>
+                                                <td class="table_cm_text">10020</td>
+                                                <td class="table_cm_text">90%</td>
+                                                <td>
+                                                    <div class="qc_status">
+                                                        <div class="qc_status_img">
+                                                            <img src="assets/image/product_view/tick.png" alt="icon">
+                                                        </div>
+                                                        <span class="table_cm_text pass_text">Pass</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="live_wrap">
+                                                        <a href="#0" class="live_btn active">
+                                                            Live
+                                                        </a>
+                                                        <a href="#0" class="pause_btn">
+                                                            Pause
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="qc_status">
+                                                        <div class="qc_status_img">
+                                                            <img src="assets/image/product_view/star.png" alt="icon">
+                                                        </div>
+                                                        <span class="table_cm_text">4.2</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="#0" class="edit_btn">
+                                                            Edit
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td scope="row">
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <span>2</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_img_and_name">
+                                                        <div class="product_img">
+                                                            <img src="assets/image/product_view/product_5.png" alt="product">
+                                                        </div>
+                                                        <span>Apple Watch Series 5</span>
+                                                    </div>
+                                                </td>
+                                                <td></td>
+                                                <td class="table_cm_text">4</td>
+                                                <td class="table_cm_text">255</td>
+                                                <td class="table_cm_text">₹600</td>
+                                                <td class="table_cm_text">18%</td>
+                                                <td class="table_cm_text">₹64</td>
+                                                <td class="table_cm_text">₹664</td>
+                                                <td class="table_cm_text">120</td>
+                                                <td class="table_cm_text">120</td>
+                                                <td class="table_cm_text">10020</td>
+                                                <td class="table_cm_text">90%</td>
+                                                <td>
+                                                    <div class="qc_status">
+                                                        <div class="qc_status_img">
+                                                            <img src="assets/image/product_view/tick.png" alt="icon">
+                                                        </div>
+                                                        <span class="table_cm_text pass_text">Pass</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="live_wrap">
+                                                        <a href="#0" class="live_btn active">
+                                                            Live
+                                                        </a>
+                                                        <a href="#0" class="pause_btn">
+                                                            Pause
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="qc_status">
+                                                        <div class="qc_status_img">
+                                                            <img src="assets/image/product_view/star.png" alt="icon">
+                                                        </div>
+                                                        <span class="table_cm_text">4.2</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="#0" class="edit_btn">
+                                                            Edit
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+            
+                                            <tr>
+                                                <td scope="row">
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <span>3</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_img_and_name">
+                                                        <div class="product_img">
+                                                            <img src="assets/image/product_view/product_6.png" alt="product">
+                                                        </div>
+                                                        <span>Apple Watch Series 5</span>
+                                                    </div>
+                                                </td>
+                                                <td></td>
+                                                <td class="table_cm_text">4</td>
+                                                <td class="table_cm_text">255</td>
+                                                <td class="table_cm_text">₹600</td>
+                                                <td class="table_cm_text">18%</td>
+                                                <td class="table_cm_text">₹64</td>
+                                                <td class="table_cm_text">₹664</td>
+                                                <td class="table_cm_text">120</td>
+                                                <td class="table_cm_text">120</td>
+                                                <td class="table_cm_text">10020</td>
+                                                <td class="table_cm_text">90%</td>
+                                                <td>
+                                                    <div class="qc_status">
+                                                        <div class="qc_status_img">
+                                                            <img src="assets/image/product_view/tick.png" alt="icon">
+                                                        </div>
+                                                        <span class="table_cm_text pass_text">Pass</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="live_wrap">
+                                                        <a href="#0" class="live_btn">
+                                                            Live
+                                                        </a>
+                                                        <a href="#0" class="pause_btn active">
+                                                            Pause
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="qc_status">
+                                                        <div class="qc_status_img">
+                                                            <img src="assets/image/product_view/star.png" alt="icon">
+                                                        </div>
+                                                        <span class="table_cm_text">4.2</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="#0" class="edit_btn">
+                                                            Edit
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="cm_tab_contain qcpending">
+                                <div class="product_section_wrap table-responsive">
+                                    <table class="table cm_table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Sr. No.</th>
+                                                <th scope="col">Product</th>
+                                                <th scope="col">Category</th>
+                                                <th scope="col">No.Of veration</th>
+                                                <th scope="col">Stock</th>
+                                                <th scope="col">iKart’s price</th>
+                                                <th scope="col">GST%</th>
+                                                <th scope="col">Shipping charges</th>
+                                                <th scope="col">Amount</th>
+                                                <th scope="col">Total Order</th>
+                                                <th scope="col">Return Order</th>
+                                                <th scope="col">panalty</th>
+                                                <th scope="col">Sales</th>
+                                                <th scope="col">Q/C Status</th>
+                                                <th scope="col">Status</th>
+                                                <th scope="col">Rating</th>
+                                                <th scope="col">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="gfg">
+                                            <tr>
+                                                <td scope="row">
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <span>1</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_img_and_name">
+                                                        <div class="product_img">
+                                                            <img src="assets/image/product_view/product_2.png" alt="product">
+                                                        </div>
+                                                        <span>Apple Watch Series 5</span>
+                                                    </div>
+                                                </td>
+                                                <td></td>
+                                                <td class="table_cm_text">4</td>
+                                                <td class="table_cm_text">255</td>
+                                                <td class="table_cm_text">₹600</td>
+                                                <td class="table_cm_text">18%</td>
+                                                <td class="table_cm_text">₹64</td>
+                                                <td class="table_cm_text">₹664</td>
+                                                <td class="table_cm_text">120</td>
+                                                <td class="table_cm_text">120</td>
+                                                <td class="table_cm_text">10020</td>
+                                                <td class="table_cm_text">90%</td>
+                                                <td>
+                                                    <div class="qc_status">
+                                                        <div class="qc_status_img">
+                                                            <img src="assets/image/product_view/settings.png" alt="icon">
+                                                        </div>
+                                                        <span class="table_cm_text pause_text">Pending</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="live_wrap">
+                                                        <a href="#0" class="live_btn">
+                                                            Live
+                                                        </a>
+                                                        <a href="#0" class="pause_btn active">
+                                                            Pause
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="qc_status">
+                                                        <div class="qc_status_img">
+                                                            <img src="assets/image/product_view/star.png" alt="icon">
+                                                        </div>
+                                                        <span class="table_cm_text">4.2</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="#0" class="edit_btn">
+                                                            Edit
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="cm_tab_contain qcerro">
+                                <div class="product_section_wrap table-responsive">
+                                    <table class="table cm_table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Sr. No.</th>
+                                                <th scope="col">Product</th>
+                                                <th scope="col">Category</th>
+                                                <th scope="col">No.Of veration</th>
+                                                <th scope="col">Stock</th>
+                                                <th scope="col">iKart’s price</th>
+                                                <th scope="col">GST%</th>
+                                                <th scope="col">Shipping charges</th>
+                                                <th scope="col">Amount</th>
+                                                <th scope="col">Total Order</th>
+                                                <th scope="col">Return Order</th>
+                                                <th scope="col">panalty</th>
+                                                <th scope="col">Sales</th>
+                                                <th scope="col">Q/C Status</th>
+                                                <th scope="col">Status</th>
+                                                <th scope="col">Rating</th>
+                                                <th scope="col">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="gfg">
+                                            <tr>
+                                                <td scope="row">
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <span>1</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_img_and_name">
+                                                        <div class="product_img">
+                                                            <img src="assets/image/product_view/product_4.png" alt="product">
+                                                        </div>
+                                                        <span>Apple Watch Series 5</span>
+                                                    </div>
+                                                </td>
+                                                <td></td>
+                                                <td class="table_cm_text">4</td>
+                                                <td class="table_cm_text">255</td>
+                                                <td class="table_cm_text">₹600</td>
+                                                <td class="table_cm_text">18%</td>
+                                                <td class="table_cm_text">₹64</td>
+                                                <td class="table_cm_text">₹664</td>
+                                                <td class="table_cm_text">120</td>
+                                                <td class="table_cm_text">120</td>
+                                                <td class="table_cm_text">10020</td>
+                                                <td class="table_cm_text">90%</td>
+                                                <td>
+                                                    <div class="qc_status">
+                                                        <div class="qc_status_img">
+                                                            <img src="assets/image/product_view/error.png" alt="icon">
+                                                        </div>
+                                                        <span class="table_cm_text error_text">Error</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="live_wrap">
+                                                        <a href="#0" class="live_btn active">
+                                                            Live
+                                                        </a>
+                                                        <a href="#0" class="pause_btn">
+                                                            Pause
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="qc_status">
+                                                        <div class="qc_status_img">
+                                                            <img src="assets/image/product_view/star.png" alt="icon">
+                                                        </div>
+                                                        <span class="table_cm_text">4.2</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="#0" class="edit_btn">
+                                                            Edit
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="d-flex justify-content-end py-4">
+                                    <button class="common_btn px-3" data-bs-toggle="modal" data-bs-target="#exampleModal" >Download Rreport</button>
+                                </div>
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <div class="close_profile_img">
+                                                    <button type="button" class="btn-close p-0 m-0" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="w-100 d-flex pe-3 mt-5 justify-content-end">
+                                                    <select aria-placeholder="" class="w-25 d-block date_picker_dropdown">
+                                                            <option value="1">Return</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                    </select>
+                                                </div>
+                                                <p class="pt-3 pb-1">Choose a date:</p>
+                                                <div class="mb-5 c-datepicker-date-editor c-datepicker-single-editor J-datepicker-day mt10">
+                                                    <i class="c-datepicker-range__icon kxiconfont icon-clock"></i>
+                                                    <input type="text" id="myText"  name="" placeholder="Select" class=" c-datepicker-data-input only-date" value="">
+                                                </div>
+                                                <p id="demo" class="py-3 my-2" > </p>
+                                                
+                                            </div>
+                                            <div class="d-flex justify-content-center">
+
+                                                <button onclick="getDateAndTime()"  class="my-3 w-25 common_btn submit_order_date_picker">Submit</button>
+                                            </div>
+
+                                            <!-- <div class="modal-body modal-body-cancel text-center">
+                                                <a class="logout" href="#">Logout</a>
+                                            </div> -->
+                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="cm_tab_contain qcfail">
+                                <div class="product_section_wrap table-responsive">
+                                    <table class="table cm_table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Sr. No.</th>
+                                                <th scope="col">Product</th>
+                                                <th scope="col">Category</th>
+                                                <th scope="col">No.Of veration</th>
+                                                <th scope="col">Stock</th>
+                                                <th scope="col">iKart’s price</th>
+                                                <th scope="col">GST%</th>
+                                                <th scope="col">Shipping charges</th>
+                                                <th scope="col">Amount</th>
+                                                <th scope="col">Total Order</th>
+                                                <th scope="col">Return Order</th>
+                                                <th scope="col">panalty</th>
+                                                <th scope="col">Sales</th>
+                                                <th scope="col">Q/C Status</th>
+                                                <th scope="col">Status</th>
+                                                <th scope="col">Rating</th>
+                                                <th scope="col">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="gfg">
+                                            <tr>
+                                                <td scope="row">
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <span>1</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_img_and_name">
+                                                        <div class="product_img">
+                                                            <img src="assets/image/product_view/product_1.png" alt="product">
+                                                        </div>
+                                                        <span>Apple Watch Series 5</span>
+                                                    </div>
+                                                </td>
+                                                <td></td>
+                                                <td class="table_cm_text">4</td>
+                                                <td class="table_cm_text">255</td>
+                                                <td class="table_cm_text">₹600</td>
+                                                <td class="table_cm_text">18%</td>
+                                                <td class="table_cm_text">₹64</td>
+                                                <td class="table_cm_text">₹664</td>
+                                                <td class="table_cm_text">120</td>
+                                                <td class="table_cm_text">120</td>
+                                                <td class="table_cm_text">10020</td>
+                                                <td class="table_cm_text">90%</td>
+                                                <td>
+                                                    <div class="qc_status">
+                                                        <div class="qc_status_img">
+                                                            <img src="assets/image/product_view/tick.png" alt="icon">
+                                                        </div>
+                                                        <span class="table_cm_text pass_text">Pass</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="live_wrap">
+                                                        <a href="#0" class="live_btn active">
+                                                            Live
+                                                        </a>
+                                                        <a href="#0" class="pause_btn">
+                                                            Pause
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="qc_status">
+                                                        <div class="qc_status_img">
+                                                            <img src="assets/image/product_view/star.png" alt="icon">
+                                                        </div>
+                                                        <span class="table_cm_text">4.2</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="#0" class="edit_btn">
+                                                            Edit
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+            
+                                            <tr>
+                                                <td scope="row">
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <span>2</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_img_and_name">
+                                                        <div class="product_img">
+                                                            <img src="assets/image/product_view/product_2.png" alt="product">
+                                                        </div>
+                                                        <span>Apple Watch Series 5</span>
+                                                    </div>
+                                                </td>
+                                                <td></td>
+                                                <td class="table_cm_text">4</td>
+                                                <td class="table_cm_text">255</td>
+                                                <td class="table_cm_text">₹600</td>
+                                                <td class="table_cm_text">18%</td>
+                                                <td class="table_cm_text">₹64</td>
+                                                <td class="table_cm_text">₹664</td>
+                                                <td class="table_cm_text">120</td>
+                                                <td class="table_cm_text">120</td>
+                                                <td class="table_cm_text">10020</td>
+                                                <td class="table_cm_text">90%</td>
+                                                <td>
+                                                    <div class="qc_status">
+                                                        <div class="qc_status_img">
+                                                            <img src="assets/image/product_view/settings.png" alt="icon">
+                                                        </div>
+                                                        <span class="table_cm_text pause_text">Pending</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="live_wrap">
+                                                        <a href="#0" class="live_btn">
+                                                            Live
+                                                        </a>
+                                                        <a href="#0" class="pause_btn active">
+                                                            Pause
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="qc_status">
+                                                        <div class="qc_status_img">
+                                                            <img src="assets/image/product_view/star.png" alt="icon">
+                                                        </div>
+                                                        <span class="table_cm_text">4.2</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="#0" class="edit_btn">
+                                                            Edit
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+            
+                                            <tr>
+                                                <td scope="row">
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <span>3</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_img_and_name">
+                                                        <div class="product_img">
+                                                            <img src="assets/image/product_view/product_3.png" alt="product">
+                                                        </div>
+                                                        <span>Apple Watch Series 5</span>
+                                                    </div>
+                                                </td>
+                                                <td></td>
+                                                <td class="table_cm_text">4</td>
+                                                <td class="table_cm_text">255</td>
+                                                <td class="table_cm_text">₹600</td>
+                                                <td class="table_cm_text">18%</td>
+                                                <td class="table_cm_text">₹64</td>
+                                                <td class="table_cm_text">₹664</td>
+                                                <td class="table_cm_text">120</td>
+                                                <td class="table_cm_text">120</td>
+                                                <td class="table_cm_text">10020</td>
+                                                <td class="table_cm_text">90%</td>
+                                                <td>
+                                                    <div class="qc_status">
+                                                        <div class="qc_status_img">
+                                                            <img src="assets/image/product_view/darft.png" alt="icon">
+                                                        </div>
+                                                        <span class="table_cm_text darft_text">Draft</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="live_wrap">
+                                                        <a href="#0" class="live_btn active">
+                                                            Live
+                                                        </a>
+                                                        <a href="#0" class="pause_btn">
+                                                            Pause
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="qc_status">
+                                                        <div class="qc_status_img">
+                                                            <img src="assets/image/product_view/star.png" alt="icon">
+                                                        </div>
+                                                        <span class="table_cm_text">4.2</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="#0" class="edit_btn">
+                                                            Edit
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+            
+                                            <tr>
+                                                <td scope="row">
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <span>4</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_img_and_name">
+                                                        <div class="product_img">
+                                                            <img src="assets/image/product_view/product_4.png" alt="product">
+                                                        </div>
+                                                        <span>Apple Watch Series 5</span>
+                                                    </div>
+                                                </td>
+                                                <td></td>
+                                                <td class="table_cm_text">4</td>
+                                                <td class="table_cm_text">255</td>
+                                                <td class="table_cm_text">₹600</td>
+                                                <td class="table_cm_text">18%</td>
+                                                <td class="table_cm_text">₹64</td>
+                                                <td class="table_cm_text">₹664</td>
+                                                <td class="table_cm_text">120</td>
+                                                <td class="table_cm_text">120</td>
+                                                <td class="table_cm_text">10020</td>
+                                                <td class="table_cm_text">90%</td>
+                                                <td>
+                                                    <div class="qc_status">
+                                                        <div class="qc_status_img">
+                                                            <img src="assets/image/product_view/error.png" alt="icon">
+                                                        </div>
+                                                        <span class="table_cm_text error_text">Draft</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="live_wrap">
+                                                        <a href="#0" class="live_btn active">
+                                                            Live
+                                                        </a>
+                                                        <a href="#0" class="pause_btn">
+                                                            Pause
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="qc_status">
+                                                        <div class="qc_status_img">
+                                                            <img src="assets/image/product_view/star.png" alt="icon">
+                                                        </div>
+                                                        <span class="table_cm_text">4.2</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="#0" class="edit_btn">
+                                                            Edit
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+            
+                                            <tr>
+                                                <td scope="row">
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <span>5</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_img_and_name">
+                                                        <div class="product_img">
+                                                            <img src="assets/image/product_view/product_5.png" alt="product">
+                                                        </div>
+                                                        <span>Apple Watch Series 5</span>
+                                                    </div>
+                                                </td>
+                                                <td></td>
+                                                <td class="table_cm_text">4</td>
+                                                <td class="table_cm_text">255</td>
+                                                <td class="table_cm_text">₹600</td>
+                                                <td class="table_cm_text">18%</td>
+                                                <td class="table_cm_text">₹64</td>
+                                                <td class="table_cm_text">₹664</td>
+                                                <td class="table_cm_text">120</td>
+                                                <td class="table_cm_text">120</td>
+                                                <td class="table_cm_text">10020</td>
+                                                <td class="table_cm_text">90%</td>
+                                                <td>
+                                                    <div class="qc_status">
+                                                        <div class="qc_status_img">
+                                                            <img src="assets/image/product_view/tick.png" alt="icon">
+                                                        </div>
+                                                        <span class="table_cm_text pass_text">Pass</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="live_wrap">
+                                                        <a href="#0" class="live_btn active">
+                                                            Live
+                                                        </a>
+                                                        <a href="#0" class="pause_btn">
+                                                            Pause
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="qc_status">
+                                                        <div class="qc_status_img">
+                                                            <img src="assets/image/product_view/star.png" alt="icon">
+                                                        </div>
+                                                        <span class="table_cm_text">4.2</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="#0" class="edit_btn">
+                                                            Edit
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+            
+                                            <tr>
+                                                <td scope="row">
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <span>6</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_img_and_name">
+                                                        <div class="product_img">
+                                                            <img src="assets/image/product_view/product_6.png" alt="product">
+                                                        </div>
+                                                        <span>Apple Watch Series 5</span>
+                                                    </div>
+                                                </td>
+                                                <td></td>
+                                                <td class="table_cm_text">4</td>
+                                                <td class="table_cm_text">255</td>
+                                                <td class="table_cm_text">₹600</td>
+                                                <td class="table_cm_text">18%</td>
+                                                <td class="table_cm_text">₹64</td>
+                                                <td class="table_cm_text">₹664</td>
+                                                <td class="table_cm_text">120</td>
+                                                <td class="table_cm_text">120</td>
+                                                <td class="table_cm_text">10020</td>
+                                                <td class="table_cm_text">90%</td>
+                                                <td>
+                                                    <div class="qc_status">
+                                                        <div class="qc_status_img">
+                                                            <img src="assets/image/product_view/tick.png" alt="icon">
+                                                        </div>
+                                                        <span class="table_cm_text pass_text">Pass</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="live_wrap">
+                                                        <a href="#0" class="live_btn">
+                                                            Live
+                                                        </a>
+                                                        <a href="#0" class="pause_btn active">
+                                                            Pause
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="qc_status">
+                                                        <div class="qc_status_img">
+                                                            <img src="assets/image/product_view/star.png" alt="icon">
+                                                        </div>
+                                                        <span class="table_cm_text">4.2</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="#0" class="edit_btn">
+                                                            Edit
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="cm_tab_contain draft">
+                                <div class="product_section_wrap table-responsive">
+                                    <table class="table cm_table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Sr. No.</th>
+                                                <th scope="col">Order_Id</th>
+                                                <th scope="col">SKU_Id</th>
+                                                <th scope="col">Products_ID</th>
+                                                <th scope="col">Delivary Partner</th>
+                                                <th scope="col">MRP</th>
+                                                <th scope="col">Seller Name</th>
+                                                <th scope="col">State</th>
+                                                <th scope="col">Date</th>
+                                             
+                                            </tr>
+                                        </thead>
+                                        <tbody class="gfg">
+                                            <tr>
+                                                <td scope="row">
+                                                    <div class="product_list_number cm_table_text_wrap">
+                                                        <span>1</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="product_img_and_name">
+                                                        <div class="product_img">
+                                                            <img src="assets/image/product_view/product_3.png" alt="product">
+                                                        </div>
+                                                        <span>Apple Watch Series 5</span>
+                                                    </div>
+                                                </td>
+                                                <td></td>
+                                                <td class="table_cm_text">4</td>
+                                                <td class="table_cm_text">255</td>
+                                                <td class="table_cm_text">₹600</td>
+                                                <td class="table_cm_text">18%</td>
+                                                <td class="table_cm_text">₹64</td>
+                                                <td class="table_cm_text">₹664</td>
+                                                <td class="table_cm_text">120</td>
+                                                <td class="table_cm_text">120</td>
+                                                <td class="table_cm_text">10020</td>
+                                                <td class="table_cm_text">90%</td>
+                                                <td>
+                                                    <div class="qc_status">
+                                                        <div class="qc_status_img">
+                                                            <img src="assets/image/product_view/darft.png" alt="icon">
+                                                        </div>
+                                                        <span class="table_cm_text darft_text">Draft</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="live_wrap">
+                                                        <a href="#0" class="live_btn active">
+                                                            Live
+                                                        </a>
+                                                        <a href="#0" class="pause_btn">
+                                                            Pause
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="qc_status">
+                                                        <div class="qc_status_img">
+                                                            <img src="assets/image/product_view/star.png" alt="icon">
+                                                        </div>
+                                                        <span class="table_cm_text">4.2</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="#0" class="edit_btn">
+                                                            Edit
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart_top_wrap" class="cart-top">
+                        <ul>
+                            <li>
+                                <div class="top_right_icon">
+                                    <img src="assets/image/product_view/search_big_icon.png" alt="icon">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="top_right_icon cart_wrap">
+                                    <img src="assets/image/product_view/cart.png" alt="icon">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="top_right_icon notification_wrap">
+                                    <img src="assets/image/product_view/bell.png" alt="icon">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="top_right_icon" type="button" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                    <img src="assets/image/product_view/account.png" alt="icon">
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#0" class="menu_trigger d-lg-none">
+                                    <svg width="9" height="13" viewBox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8.72577 6.50537L0.755156 12.1304L4.50093 6.50397L0.75 0.880371L8.72577 6.50537Z" fill="#FFCE55"/>
+                                    </svg>                                    
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main Content End -->
+        
+        
+        <!-- Checkin Bestätigung Modal -->
+        <div class="modal fade common_modal" id="product_modal" tabindex="-1"  aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content terimin_content">
+                    <div class="modal-body">
+                        <div class="close_btn" data-bs-dismiss="modal">
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                        </div>
+                        <div class="common_product_content">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="product_img_wrap">
+                                        <img src="assets/image/product_view/product_big_img.png" alt="product">
+                                    </div>
+                                    <div class="product_small_img_wrap">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="product_small">
+                                                    <img src="assets/image/product_view/product_small_img_1.png" alt="small product">
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="product_small">
+                                                    <img src="assets/image/product_view/product_small_img_2.png" alt="small product">
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="product_small">
+                                                    <img src="assets/image/product_view/product_small_img_1.png" alt="small product">
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="product_small">
+                                                    <img src="assets/image/product_view/product_small_img_2.png" alt="small product">
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="product_small">
+                                                    <img src="assets/image/product_view/product_small_img_1.png" alt="small product">
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="product_small">
+                                                    <img src="assets/image/product_view/product_small_img_2.png" alt="small product">
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="product_small">
+                                                    <img src="assets/image/product_view/product_small_img_1.png" alt="small product">
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="product_small">
+                                                    <img src="assets/image/product_view/product_small_img_2.png" alt="small product">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="product_right_info">
+                                        <h3>The Atelier Tailored Coat</h3>
+                                        <div class="rate_wrap">
+                                            <div class="start_wrap">
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                            </div>
+                                            <span>4.5 / 1320 reviews</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="product_details">
+                                        <div class="product_name">
+                                            <p>Price:</p>
+                                            <span>₹499.00</span>
+                                        </div>
+                                        <div class="product_name">
+                                            <p>SKU Code :</p>
+                                            <span>#4657</span>
+                                        </div>
+                                        <div class="product_name">
+                                            <p>Tags :</p>
+                                            <span>Fashion, Hood, Classic</span>
+                                        </div>
+                                        <div class="product_name">
+                                            <p>Available Stock :</p>
+                                            <span>500</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="product_dec">
+                                        <p>Sleek, polished, and boasting an impeccably modern fit, this blue, 2-but-
+                                            ton Lazio suit features a notch lapel, flap pockets, and accompanying flat
+                                            front trousers—all in pure wool by Vitale Barberis Canonico.
+                                            
+                                            •  Dark blue suit for a tone-on-tone look
+                                            •  Regular fit
+                                            •  100% Cotton
+                                            •  Free shipping with 4 days delivery
+                                        </p>
+                                    </div>
+
+                                    <div class="color_varient">
+                                        <h3>Varient:</h3>
+                                        <div class="var_wrap">
+                                            <div class="color_wrap">
+                                                <p>Color</p>
+                                                <ul>
+                                                    <li class="bg_black"></li>
+                                                    <li class="bg_yellow"></li>
+                                                    <li class="bg_orange"></li>
+                                                    <li class="bg_green"></li>
+                                                </ul>
+                                            </div>
+                                            <div class="size_wrap">
+                                                <p>Size</p>
+                                                <ul>
+                                                    <li class="size_fild">S</li>
+                                                    <li class="size_fild">M</li>
+                                                    <li class="size_fild">L</li>
+                                                    <li class="size_fild">XL</li>
+                                                    <li class="size_fild">XXL</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="size">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product_bottom_shape">
+                        <svg viewBox="0 0 440 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M439.091 60.3085C439.107 53.1509 435.834 46.3828 430.213 41.9511C421.31 34.9314 402.51 21.8898 384.677 19.8503C365.853 17.8087 347.996 26.7692 329.163 28.7276C311.321 30.6881 292.502 26.6465 274.68 19.607C255.867 12.5654 238.049 3.52598 219.225 1.48434C201.392 -0.555115 183.546 3.40542 164.687 17.3637C146.82 30.3243 127.943 52.2826 110.095 57.2431C91.2577 61.2014 73.449 48.162 54.6515 34.1204C36.8429 21.081 18.0432 8.03935 9.14 1.01964C5.34354 -1.54661 0.220919 1.16659 0.210783 5.74903L0.0198238 92.081C0.00892857 97.0066 3.99313 101.009 8.91881 101.019C17.8375 101.039 36.6659 101.081 54.5034 101.12C73.3317 101.162 91.1692 101.201 109.998 101.243C127.835 101.282 146.663 101.324 164.501 101.364C183.329 101.405 201.167 101.445 219.004 101.484C237.832 101.526 255.67 101.565 274.498 101.607C292.336 101.646 311.164 101.688 329.002 101.727C347.83 101.769 365.667 101.808 384.496 101.85C402.333 101.89 421.162 101.931 430.08 101.951C435.006 101.962 439.008 97.9777 439.019 93.052L439.091 60.3085Z" fill="url(#paint0_radial_700_3904)"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M439.091 60.3085C439.107 53.1509 435.834 46.3828 430.213 41.9511C421.31 34.9314 402.51 21.8898 384.677 19.8503C365.853 17.8087 347.996 26.7692 329.163 28.7276C311.321 30.6881 292.502 26.6465 274.68 19.607C255.867 12.5654 238.049 3.52598 219.225 1.48434C201.392 -0.555115 183.546 3.40542 164.687 17.3637C146.82 30.3243 127.943 52.2826 110.095 57.2431C91.2577 61.2014 73.449 48.162 54.6515 34.1204C36.8429 21.081 18.0432 8.03935 9.14 1.01964C5.34354 -1.54661 0.220919 1.16659 0.210783 5.74903L0.0198238 92.081C0.00892857 97.0066 3.99313 101.009 8.91881 101.019C17.8375 101.039 36.6659 101.081 54.5034 101.12C73.3317 101.162 91.1692 101.201 109.998 101.243C127.835 101.282 146.663 101.324 164.501 101.364C183.329 101.405 201.167 101.445 219.004 101.484C237.832 101.526 255.67 101.565 274.498 101.607C292.336 101.646 311.164 101.688 329.002 101.727C347.83 101.769 365.667 101.808 384.496 101.85C402.333 101.89 421.162 101.931 430.08 101.951C435.006 101.962 439.008 97.9777 439.019 93.052L439.091 60.3085Z" fill="url(#paint1_linear_700_3904)" fill-opacity="0.47"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M439.091 60.3085C439.107 53.1509 435.834 46.3828 430.213 41.9511C421.31 34.9314 402.51 21.8898 384.677 19.8503C365.853 17.8087 347.996 26.7692 329.163 28.7276C311.321 30.6881 292.502 26.6465 274.68 19.607C255.867 12.5654 238.049 3.52598 219.225 1.48434C201.392 -0.555115 183.546 3.40542 164.687 17.3637C146.82 30.3243 127.943 52.2826 110.095 57.2431C91.2577 61.2014 73.449 48.162 54.6515 34.1204C36.8429 21.081 18.0432 8.03935 9.14 1.01964C5.34354 -1.54661 0.220919 1.16659 0.210783 5.74903L0.0198238 92.081C0.00892857 97.0066 3.99313 101.009 8.91881 101.019C17.8375 101.039 36.6659 101.081 54.5034 101.12C73.3317 101.162 91.1692 101.201 109.998 101.243C127.835 101.282 146.663 101.324 164.501 101.364C183.329 101.405 201.167 101.445 219.004 101.484C237.832 101.526 255.67 101.565 274.498 101.607C292.336 101.646 311.164 101.688 329.002 101.727C347.83 101.769 365.667 101.808 384.496 101.85C402.333 101.89 421.162 101.931 430.08 101.951C435.006 101.962 439.008 97.9777 439.019 93.052L439.091 60.3085Z"/>
+                            <defs>
+                            <radialGradient id="paint0_radial_700_3904" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(219.617 48.4853) rotate(-89.8733) scale(53 219.5)">
+                            <stop stop-color="#A2CDC5"/>
+                            <stop offset="1" stop-color="#A2CDC5" stop-opacity="0"/>
+                            </radialGradient>
+                            <linearGradient id="paint1_linear_700_3904" x1="219.5" y1="101.485" x2="219.734" y2="-4.51455" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#A2CDC5"/>
+                            <stop offset="1" stop-color="#A2CDC5" stop-opacity="0"/>
+                            </linearGradient>
+                            </defs>
+                        </svg>                                                  
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" ></script> 
+    <script src="assets/js/custom.js"></script>
+    <script src="./assets/js/order.js"></script>
+    
+    <script>
+       
+
+    
+    </script>
+
+
+    <!-- DATE PICKER JS -->
+        <!-- moment for time -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+        <!-- custom min JS for Date picker -->
+        <script src="assets/js/datepicker.all.min.js"></script>
+        <script src="assets/js/datepicker.en.js"></script>
+
+
+    <!-- if you can change default time ==> for js below  -->
+    <script type="text/javascript"> 
+        $(function(){
+          $('.J-datepicker-time').datePicker({
+            format: 'HH:mm:ss',
+            min: '04:23:11',
+            language: 'en'
+          });
+          $('.J-datepicker-time-range').datePicker({
+            format: 'HH:mm:ss',
+            isRange: true,
+            min: '04:23:11',
+            max: '20:59:59',
+            language: 'en'
+          });
+  
+          var DATAPICKERAPI = {
+            activeMonthRange: function () {
+              return {
+                begin: moment().set({ 'date': 1, 'hour': 0, 'minute': 0, 'second': 0 }).format('YYYY-MM-DD HH:mm:ss'),
+                end: moment().set({ 'hour': 23, 'minute': 59, 'second': 59 }).format('YYYY-MM-DD HH:mm:ss')
+              }
+            },
+            shortcutMonth: function () {
+              var nowDay = moment().get('date');
+              var prevMonthFirstDay = moment().subtract(1, 'months').set({ 'date': 1 });
+              var prevMonthDay = moment().diff(prevMonthFirstDay, 'days');
+              return {
+                now: '-' + nowDay + ',0',
+                prev: '-' + prevMonthDay + ',-' + nowDay
+              }
+            },
+            shortcutPrevHours: function (hour) {
+              var nowDay = moment().get('date');
+              var prevHours = moment().subtract(hour, 'hours');
+              var prevDate=prevHours.get('date')- nowDay;
+              var nowTime=moment().format('HH:mm:ss');
+              var prevTime = prevHours.format('HH:mm:ss');
+              return {
+                day: prevDate + ',0',
+                time: prevTime+',' + nowTime,
+                name: 'Nearly '+ hour+' Hours'
+              }
+            },
+            rangeMonthShortcutOption1: function () {
+              var result = DATAPICKERAPI.shortcutMonth();
+              var resultTime= DATAPICKERAPI.shortcutPrevHours(18);
+              return [{
+                name: 'Yesterday',
+                day: '-1,-1',
+                time: '00:00:00,23:59:59'
+              }, {
+                name: 'This Month',
+                day: result.now,
+                time: '00:00:00,'
+              }, {
+                name: 'Lasy Month',
+                day: result.prev,
+                time: '00:00:00,23:59:59'
+              }, {
+                name: resultTime.name,
+                day: resultTime.day,
+                time: resultTime.time
+              }];
+            },
+            rangeShortcutOption1: [{
+              name: 'Last week',
+              day: '-7,0'
+            }, {
+              name: 'Last Month',
+              day: '-30,0'
+            }, {
+              name: 'Last Three Months',
+              day: '-90, 0'
+            }],
+            singleShortcutOptions1: [{
+              name: 'Today',
+              day: '0',
+              time: '00:00:00'
+            }, {
+              name: 'Yesterday',
+              day: '-1',
+              time: '00:00:00'
+            }, {
+              name: 'One Week Ago',
+              day: '-7'
+            }]
+          };
+            $('.J-datepicker').datePicker({
+              hasShortcut:true,
+              language: 'en',
+              min:'2018-01-01 04:00:00',
+              max:'2029-10-29 20:59:59',
+              shortcutOptions:[{
+                name: 'Today',
+                day: '0'
+              }, {
+                name: 'Yesterday',
+                day: '-1',
+                time: '00:00:00'
+              }, {
+                name: 'One Week Ago',
+                day: '-7'
+              }],
+              hide:function(){
+                console.info(this)
+              }
+            });
+  
+  
+            $('.J-datepicker-day').datePicker({
+              hasShortcut: true,
+              language: 'en',
+              shortcutOptions: [{
+                name: 'Today',
+                day: '0'
+              }, {
+                name: 'Yesterday',
+                day: '-1'
+              }, {
+                name: 'One week ago',
+                day: '-7'
+              }]
+            });
+  
+  
+            $('.J-datepicker-range-day').datePicker({
+              hasShortcut: true,
+              language: 'en',
+              format: 'YYYY-MM-DD',
+              isRange: true,
+              shortcutOptions: DATAPICKERAPI.rangeShortcutOption1
+            });
+  
+  
+            $('.J-datepickerTime-single').datePicker({
+              format: 'YYYY-MM-DD HH:mm',
+              language: 'en',
+            });
+  
+  
+            $('.J-datepickerTime-range').datePicker({
+              format: 'YYYY-MM-DD HH:mm',
+              isRange: true,
+              language: 'en'
+            });
+  
+  
+            $('.J-datepicker-range').datePicker({
+              hasShortcut: true,
+              language: 'en',
+              min: '2018-01-01 06:00:00',
+              max: '2029-04-29 20:59:59',
+              isRange: true,
+              shortcutOptions: [{
+                name: 'Yesterday',
+                day: '-1,-1',
+                time: '00:00:00,23:59:59'
+              },{
+                name: 'Last Week',
+                day: '-7,0',
+                time:'00:00:00,'
+              }, {
+                name: 'Last Month',
+                day: '-30,0',
+                time: '00:00:00,'
+              }, {
+                name: 'Last Three Months',
+                day: '-90, 0',
+                time: '00:00:00,'
+              }],
+              hide: function (type) {
+                console.info(this.$input.eq(0).val(), this.$input.eq(1).val());
+                console.info('Type:',type)
+              }
+            });
+            $('.J-datepicker-range-betweenMonth').datePicker({
+              isRange: true,
+              between:'month',
+              language: 'en',
+              hasShortcut: true,
+              shortcutOptions: DATAPICKERAPI.rangeMonthShortcutOption1()
+            });
+  
+  
+            $('.J-datepicker-range-between30').datePicker({
+              isRange: true,
+              language: 'en',
+              between: 30
+            });
+  
+            $('.J-yearMonthPicker-single').datePicker({
+              format: 'YYYY-MM',
+              language: 'en',
+              min: '2018-01',
+              max: '2029-04',
+              hide: function (type) {
+                console.info(this.$input.eq(0).val());
+              }
+            });
+  
+            $('.J-yearPicker-single').datePicker({
+              format: 'YYYY',
+              language: 'en',
+              min: '2018',
+              max: '2029'
+            });
+            
+        });
+            function getDateAndTime() {
+                var x = document.getElementById("myText").value;
+                document.getElementById("demo").innerHTML = x;
+            }
+    </script>
+
+</body>
+</html>

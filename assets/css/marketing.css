@@ -1,0 +1,493 @@
+.cart_top_wrap{
+     z-index: 1;
+}
+.create_new_ads {
+     color: #367BF5;
+     font-size: 14px;
+     line-height: 28px;
+     background: #fff;
+     box-shadow: 0px 16px 24px rgba(54, 123, 245, 0.16), 0px 6px 12px rgba(54, 123, 245, 0.16);
+     border-radius: 99px;
+     position: relative;
+     display: inline-block;
+     padding: 10px 35px;
+     padding-left: 45px;
+}
+.create_new_ads::before {
+     content: url(../image/marketing/create_ads_plush.png);
+     object-fit: cover;
+     position: absolute;
+     z-index: 1;
+     left: 10%;
+     top: 30%;
+}
+
+.create_new_ads:hover {
+     color: #000;
+}
+
+.avalible_balance_marketing {
+     color: #000;
+     font-size: 14px;
+     line-height: 28px;
+     background: #fff;
+     box-shadow: 0px 16px 24px rgba(54, 123, 245, 0.16), 0px 6px 12px rgba(54, 123, 245, 0.16);
+     border-radius: 99px;
+     position: relative;
+     display: inline-block;
+     padding: 15px 30px;
+     font-size: 24px;
+     padding-left: 45px;
+}
+
+.avalible_balance_marketing:hover {
+     color: #4D7C73;
+}
+
+.avalible_balance_marketing span {
+     color: #367BF5;
+}
+
+.marketing_btn {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+/* chart box */
+
+.marketing_chart_single_box {
+     background-color: #fff;
+     width: 212px;
+     height: 136px;
+     background: #F7F9FA;
+     border-radius: 16px;
+     display: flex;
+     align-items: center;
+     padding-left: 20px;
+     margin-right: 15px;
+
+}
+
+.view_box_main .marketing_chart_single_box div p {
+     font-size: 48px;
+     font-weight: 500;
+}
+
+.overview_title h2
+{
+     font-size: 18px;
+}
+.overview_title p{
+     font-size: 12px;
+     color: #B5B5C3;
+}
+/* color Class box */
+.views_clr {
+     color: #FF6F8C;
+}
+
+.click_clr {
+     color: #53B9EA;
+}
+
+.order_clr {
+     color: #F5A623;
+}
+
+.conversation_clr {
+     color: #3CCBBA;
+}
+
+.marketing_chart_single_box div span {
+     font-size: 20px;
+     color: #000;
+}
+
+.table_heding_marketing tr {
+     border-radius: 60px;
+     text-align: center;
+}
+
+.table_heding_marketing {
+     height: 50px;
+     background: #F3F6F9;
+     border-radius: 60px;
+     color: #B5B5C3;
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 12px;
+     line-height: 18px;
+     letter-spacing: 0.03em;
+}
+
+
+
+.marketing_main_table {
+     width: 100%;
+     border-top-left-radius: 6px;
+     border-top-right-radius: 6px;
+     overflow: hidden;
+}
+
+table {
+     height: 500px;
+     overflow-y: scroll;
+}
+
+.marketing_body tr {
+     margin: 10px 0;
+}
+
+.marketing_body tr td {
+     text-align: center;
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 21px;
+     padding: 10px 0;
+}
+.input_boxtable_wrap_marketing{
+     overflow: scroll;
+     height: 250px;
+     position: relative;
+}
+
+/* ======================Start Toggle====================== */
+.netliva-switch {
+     display: inline-block;
+     vertical-align: middle;
+}
+
+.netliva-switch input[type=checkbox] {
+     height: 0;
+     width: 0;
+     visibility: hidden;
+     position: absolute;
+}
+
+.netliva-switch label {
+     cursor: pointer;
+     font-size: 14px;
+     text-indent: -9999px;
+     width: 45px !important;
+     height: 25px;
+     --switch-passive-color: #bbb;
+     background: var(--switch-passive-color);
+     display: block;
+     border-radius: 100px;
+     position: relative;
+     margin: 0;
+}
+
+.netliva-switch input:checked+label {
+     --switch-active-color: #1f7f4d;
+     background: var(--switch-active-color);
+}
+
+.netliva-switch input:disabled+label {
+     opacity: 0.6;
+}
+
+.netliva-switch label:after {
+     content: '';
+     position: absolute;
+     top: 3px;
+     left: 3px;
+     width: 18px;
+     height: 18px;
+     background: #fff;
+     border-radius: 90px;
+     transition: 0.2s;
+}
+
+.netliva-switch input:checked+label:after {
+     left: calc(100% - 2px);
+     transform: translateX(-100%);
+}
+
+.netliva-switch input:not(:disabled)+label:active:after {
+     width: 90%;
+     width: calc(100% - 4px);
+}
+
+.netliva-switch input+label:before {
+     content: attr(data-passive-text);
+     left: 30px;
+     right: 10px;
+     text-align: right;
+     justify-content: flex-end;
+     top: 5px;
+     bottom: 5px;
+     display: flex;
+     align-items: center;
+     position: absolute;
+     transition: 0.3s;
+     text-indent: 0;
+     color: #fff;
+     font-size: 14px;
+}
+
+.netliva-switch input:checked+label:before {
+     content: attr(data-active-text);
+     left: 10px;
+     right: 30px;
+     text-align: left;
+     justify-content: flex-start;
+}
+
+.netliva-switch input[data-size="mini"]+label {
+     height: 16px;
+}
+
+.netliva-switch input[data-size="mini"]+label:after {
+     height: 12px;
+     width: 12px;
+}
+
+.netliva-switch input[data-size="mini"]+label::before {
+     top: 1px;
+     bottom: 1px;
+     font-size: 10px;
+     left: 10px;
+     right: 5px;
+}
+
+.netliva-switch input[data-size="mini"]:checked+label:before {
+     left: 5px;
+     right: 10px;
+}
+
+.netliva-switch input[data-size="mini"]+label {
+     font-size: 10px;
+}
+.in_proccess_marketing{
+     font-size: 13px;
+}
+.main_marketing_scroll{
+     height: 350px;
+     overflow: scroll;
+}
+
+/*Start scroll bar */
+::-webkit-scrollbar {
+     width: 10px;
+     height: 5px;
+ }
+  
+ ::-webkit-scrollbar-track {
+     /* background-color: #e4e4e4; */
+     border-radius: 100px;
+ }
+  
+::-webkit-scrollbar-thumb {
+     background-color: #A2CDC5;
+     border-radius: 100px;
+ }
+/*End scroll bar */
+
+
+/* ====================== start marketing view click chart ====================== */
+
+.box_threedote_conversation
+{
+     cursor: pointer;
+}
+
+/* ====================== End marketing view click chart ====================== */
+
+/* ======================End Toggle====================== */
+/* ======================Start pie chart====================== */
+.marketing_pie_chart_value{
+     font-size: 12px;
+}
+.pie_chart {
+     width: 30%;
+}
+.pie_chart_box{
+     border: 2px solid #ccc;
+    box-shadow: 0px 2px 5px rgb(0 0 0 / 19%);
+    padding: 10px;
+
+}
+.pie {
+  max-width: 180px;
+  background: #f06; 
+  border-radius: 50%;
+     margin: auto;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.pie circle {
+  fill: none;
+  stroke: #4D7C73;
+  stroke-width: 32;
+  animation: rotate 1.5s ease-in;
+  cursor: pointer;
+
+}
+.pai_chart_dot
+{
+  width: 8px;
+  height: 8px;
+  left: 256px;
+  background: #4D7C73;
+  border-radius: 50px;
+}
+.paichart_value
+{
+  padding:15px 10px 0px 10px;
+  display: flex;
+}
+
+.paichart_value li
+{
+  display: flex;
+  align-items: center;
+  padding: 2px 8px;
+}
+.paichart_value li p
+{
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+.paichart_value li:nth-child(2) div
+{
+  width: 8px;
+height: 8px;
+background: #9B51E0;
+}
+.paichart_value li:nth-child(3) div
+{
+  width: 8px;
+height: 8px;
+background: #FB8832;
+}
+
+.layer_order_img_marketing{
+     position: absolute;
+     top: 36%;
+     right: 5%;
+     
+}
+.order_text_marketing{
+     font-size: 22px;
+}
+
+/* ======================End pie chart====================== */
+
+/* =======================Start_india_map======================= */
+#marketing_view_click_chart {
+     height: 500px;
+     min-width: 310px;
+     max-width: 1500px;
+     margin: 0 auto;
+}
+.loading{
+     margin-top: 10em;
+     text-align: center;
+     color: gray;
+}
+.highcharts-point:hover
+{
+     fill:red;
+}
+.highcharts-credits{
+     display: none;
+}
+.highcharts-background{
+     width: 100% !important;
+}
+.highcharts-root .highcharts-root *{
+     width: 100% !important;
+}
+.highcharts-no-tooltip{
+     display: none;
+}
+/* =======================End_india_map======================= */
+
+
+
+
+
+/* Media */
+@media screen and (max-width:1024px) {
+     .marketing_chart_single_box {
+          margin-right: 15px;
+
+     }
+}
+
+@media screen and (max-width:768px) {
+     .avalible_balance_marketing {
+          font-size: 14px;
+          padding: 10px 25px;
+     }
+     .table_heding_marketing tr th{
+          padding: 0 10px;
+
+     }
+     .marketing_chart_single_box {
+          width: 192px;
+          height: 116px;
+          background: #F7F9FA;
+          border-radius: 16px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin:10px 10px;
+          padding:0 ;
+     }
+     .view_box_main ul{
+          justify-content:center;
+          flex-wrap: wrap;
+          align-items: flex-start;
+     }
+     .marketing_view_click_chart{
+     
+          width: 60%;
+     }
+     .pie_chart{
+          width: 40%;
+     }
+}
+@media screen and (max-width:767px) {
+     .chart_main_marketing{
+          display: unset;
+     }
+     .pie_chart{
+          width: 100%;
+     } 
+     .marketing_view_click_chart{
+          width: 0;
+     }
+     .chart_main_marketing {
+          margin: 0 !important;
+          padding: 0 !important;
+     }
+     .ads_name_marketing{
+          padding: 0 65px !important;
+     }
+}
+@media screen and (max-width:480px) {
+     .marketing_btn {
+          display: block;
+          align-items: center;
+     }
+
+     .marketing_btn div {
+          text-align: center;
+          margin: 15px 0;
+     }
+     .table_heding_marketing tr th {
+          padding: 0 40px;
+      }
+      .ads_name_marketing{
+          padding: 0 70px;
+     }
+}
