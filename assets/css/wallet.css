@@ -66,31 +66,34 @@
      margin: 10px;
 } */
 .wallet_transaction{
-     width:calc(50% - 20px)  ;
-     border: 0.5px solid #E8E8E8;
+     width: 50%;
      height: 450px  ;
-     overflow: scroll;
-     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.03);
-     border-radius: 10px;
+     overflow: auto;
      color: #43424B;
-     margin: 10px;
+     padding: 10px;
+}
+.wallet_transaction{
+     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.03);
+     border: 0.5px solid #E8E8E8;
+     border-radius: 10px;
+
 }
 .wallet_monthly{
-     width:calc(25% - 20px)  ;
-     border: 0.5px solid #E8E8E8;
+     width: 25%;
      height: 450px;
-     overflow: scroll;
-     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.03);
-     border-radius: 10px;
-     margin: 10px;
+     overflow: auto;
+     padding: 10px;
 }
 
+.wallet_monthly > div{
+     border: 0.5px solid #E8E8E8;
+     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.03);
+     border-radius: 10px;
+}
 
 .wallet_history_main{
-     width:calc(25% - 0px)  ;
-    
-     
-     margin: 10px;
+     width: 25%;
+     padding: 10px;
 }
 
 
@@ -205,7 +208,8 @@
      align-items: center;
 }
 .ammount_monthly{
-     width:120px;
+     max-width: 120px;
+     width: 100%;
      padding-right: 10px;
      text-align: end;
      white-space: nowrap;
@@ -492,7 +496,7 @@
      }
      .wallet_history_main{
           width: 100%; 
-          margin:15px 0;
+          padding: 15px 0;
      }
      .wallet_history_table
      {

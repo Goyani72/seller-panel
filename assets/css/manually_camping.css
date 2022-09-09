@@ -10,7 +10,6 @@
     font-weight: 400;
     font-size: 40px;
     line-height:50px;
-    margin-top: 50px;
 }
 
 .manually_select_marketing{
@@ -441,7 +440,7 @@
     font-weight: 400;
     font-size: 40px;
     color: #000;
-    padding: 45px 0;
+    padding: 20px 0 45px;
   }
   
   .fixed_headers {
@@ -627,7 +626,6 @@
     .create_new_title{
          font-size: 30px;
          line-height: 40px;
-         margin-top: 50px;
     }
     .manuallu_left_txt{
          font-size: 16px;
