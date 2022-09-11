@@ -191,12 +191,12 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .main_content_lg {
     width: 100%;
-    height: calc(100vh - 50px);
+    /* height: calc(100vh - 50px); */
     display: block;
     background-color: #fff;
     border-radius: 30px;
     padding: 15px 30px;
-    overflow-y: auto;
+    /* overflow-y: auto; */
 }
 .sidebar_reduced .sidebar_wrapper {
     width: 160px;

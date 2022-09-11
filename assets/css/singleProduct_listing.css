@@ -239,7 +239,10 @@ input.preview_img {
     color: #fff;
 }
 .price_wrap input{
-    padding-left: 40px;
+    padding-left: 15px;
+}
+.price_wrap_with_ruupry_symbol input{
+    padding-left: 42px;
 }
 .gst_per p{
     color: #000;
@@ -321,7 +324,7 @@ input.preview_img {
     color: #fff !important;
     right: 18px !important;
     position: absolute !important;
-    top: 0px !important;
+    top: 10px !important;
     left: unset !important;
     border: unset !important;
 }
