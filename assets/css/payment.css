@@ -75,6 +75,7 @@
   /* box-shadow: 0px 2px 9px  #00000026; */
   /* overflow: scroll; */
   padding: 10px 15px;
+  border-radius: 8px;
   margin: auto;
 }
 /*Start Transection */
@@ -320,6 +321,7 @@ path[data-ac-wrapper-id="7"]:hover
   /*Start Table */
   .main_table_out_stading{
     display: flex;
+    justify-content: space-around;
   }
   
 .fixed_headers {
@@ -335,7 +337,10 @@ path[data-ac-wrapper-id="7"]:hover
 .total_outstading tr{
   width: 100%;
 }
-.fixed_headers td,
+.fixed_headers th {
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
 .fixed_headers th {
   text-align: center;
   padding: 12px 6px;
@@ -467,3 +472,62 @@ path[data-ac-wrapper-id="7"]:hover
   .main-table-scroll .fixed_headers tbody {
     overflow: unset;
   }
+
+
+  /* panelty */
+.penelty-wrapper td:nth-child(1), .penelty-wrapper th:nth-child(1) {
+    min-width: 95px;
+}
+
+.penelty-wrapper .fixed_headers td:nth-child(5), .fixed_headers th:nth-child(5) {
+  min-width: 95px;
+}
+
+.penelty-wrapper .fixed_headers td:nth-child(6), .fixed_headers th:nth-child(6) {
+  min-width: 140px;
+}
+
+.penelty-wrapper .fixed_headers thead{
+  display: block;
+}
+
+/* completed payment */
+
+
+.completed_payment td:nth-child(1), .completed_payment th:nth-child(1) {
+  min-width: 95px;
+  border-left: 0;
+}
+.completed_payment td:nth-child(8), .completed_payment th:nth-child(8) {
+  min-width: 95px;
+  border-right: 0;
+}
+.completed_payment td:nth-child(3), .completed_payment th:nth-child(3) {
+  min-width: 130px;
+}
+.completed_payment td:nth-child(5), .completed_payment th:nth-child(5) {
+  min-width: 105px;
+}
+.completed_payment td:nth-child(6), .completed_payment th:nth-child(6) {
+  min-width: 140px
+}
+.completed_payment td:nth-child(8), .completed_payment th:nth-child(8){
+  min-width: 140px
+} 
+.fixed_headers tbody{
+  text-align: center;
+}
+
+.completed_payment .fixed_headers_body tr td {
+  text-align: center;
+}
+/* total outstanding */
+.total_outstading td:nth-child(4), .total_outstading th:nth-child(4) {
+  min-width: 95px;
+}
+.total_outstading td:nth-child(5), .total_outstading th:nth-child(5) {
+  min-width: 95px;
+}
+.total_outstading td:nth-child(6), .total_outstading th:nth-child(6) {
+  min-width: 140px;
+}

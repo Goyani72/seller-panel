@@ -288,7 +288,12 @@ input.preview_img {
 .price_text span {
     color: #fff;
 }
-
+.price_wrap input{
+    padding-left: 15px;
+}
+.price_wrap_with_ruupry_symbol input{
+    padding-left: 42px;
+}
 .price_wrap input {
     padding-left: 40px;
 }
@@ -393,7 +398,7 @@ input.preview_img {
     color: #fff !important;
     right: 18px !important;
     position: absolute !important;
-    top: 0px !important;
+    top: 10px !important;
     left: unset !important;
     border: unset !important;
 }
