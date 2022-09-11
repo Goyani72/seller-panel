@@ -29,8 +29,9 @@
 .download_box_main{
   display: flex;
 }
-.download_box_main div ul li{
-    padding:8px 3px;
+.download_box_main div ul li,
+.transection_payment ul li{
+    padding:18px 3px;
 }
 .download_box{
     background: linear-gradient(90deg, #A2CDC5 0%, #DCE4E3 100%);
@@ -70,11 +71,12 @@
 }
 .transection_payment {
   width: 30%;
-  height: 280px;
-  box-shadow: 0px 2px 9px  #00000026;
-  overflow: scroll;
+  /* height: 280px; */
+  /* box-shadow: 0px 2px 9px  #00000026; */
+  /* overflow: scroll; */
   padding: 10px 15px;
   border-radius: 8px;
+  margin: auto;
 }
 /*Start Transection */
 .see_all_color_payment{
@@ -90,8 +92,8 @@
   margin-right: 20px;
 }
 .image_dp_main img{
-  height: 50px;
-  width: 50px;
+  height: 100%;
+  width: 100%;
 }
 
 /* -------- start chart  ---------- */
@@ -152,6 +154,7 @@ path[data-ac-wrapper-id="7"]:hover
 .donut_pie_chart{
   /* background-color: #005FCF; */
   color: rgb(0, 0, 0);
+  margin-left: auto;
 }
 /* End Donut pie chart */
 
@@ -225,6 +228,13 @@ path[data-ac-wrapper-id="7"]:hover
   .left_seide_content_detail{
     width: 70%;
   }
+  .listing-img {
+    background: linear-gradient(135.68deg, rgba(255, 255, 255, 0.41) 2.53%, #FFFFFF 92.19%);
+    box-shadow: 0px 15px 24px rgb(0 0 0 / 3%);
+    border-radius: 20px;
+    width: 70px;
+    height: 63.56px;
+}
 
   /* -------- end chart  ---------- */
 
