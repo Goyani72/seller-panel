@@ -66,7 +66,7 @@
      margin: 10px;
 } */
 .wallet_transaction{
-     width: 50%;
+     width: 47%;
      height: 450px  ;
      overflow: auto;
      color: #43424B;
@@ -79,8 +79,8 @@
 
 }
 .wallet_monthly{
-     width: 25%;
-     height: 450px;
+     width: 27%;
+     height: 785px;
      overflow: auto;
      padding: 10px;
 }
@@ -92,7 +92,7 @@
 }
 
 .wallet_history_main{
-     width: 25%;
+     width: 23%;
      padding: 10px;
 }
 
@@ -100,7 +100,7 @@
 /* Start wallet history  */
 .wallet_history_table{
      border: 0.5px solid #E8E8E8;
-     height: 350px;
+     height: 488px;
      overflow: scroll;
      box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.03);
      border-radius: 10px;
@@ -225,9 +225,6 @@
 }
 .ammount_monthly_sky_blue{
      color: #1ABCB0;
-}
-.wallet_monthly{
-     margin-top: 130px;
 }
 /* End Monthly Used center box */
 
