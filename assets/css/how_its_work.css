@@ -1,0 +1,117 @@
+.back_box_how_its_work{
+    background-color: #FFCE55;
+    max-width: 1035px;
+    height: 152px;
+    width: 100%;
+    border-bottom-left-radius: 75px;
+    border-top-left-radius:75px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 1px solid #000;
+}
+
+.back_box_how_its_work div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.back_box_how_its_work img{
+    width: auto;
+    height: auto;
+    background-size: 100%;
+    max-width: 150px;
+}
+.back_box_how_its_work h2{
+    color: #000;
+    font-size: 65px !important;
+}
+.back_box_how_its_work div div h2:first-child{
+    padding-left: 45px;
+}
+.back_box_how_its_work div div h2:last-child{
+    padding-right: 45px;
+}
+
+
+.back_box_how_its_work_return{
+    border-bottom-left-radius: 15px;
+    border-top-left-radius:15px;
+    border-top-right-radius: 75px;
+    border-bottom-right-radius: 75px;
+    background-color: #4D7C73;
+}
+
+.back_box_how_its_work_return div div {
+    display: block;
+}
+.back_box_how_its_work_return div div h2 {
+    color: #fff;
+}
+.back_box_how_its_work_return div div h3 {
+    color: #000;
+    padding-left: 45px;
+    font-size: 50px;
+}
+
+.back_box_how_its_work_marketing{
+    height: 200px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.back_box_how_its_work_marketing img{
+    background-size: 100%;
+    max-width: 200px;
+}
+.back_box_how_its_work_marketing div div{
+    display: block;
+    padding-left: 45px;
+}
+.back_box_how_its_work_marketing div span {
+    font-weight: 700 !important;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+}
+.back_box_how_its_work_marketing div span p {
+    padding-left: 15px;
+}
+
+.back_box_how_its_work_marketing div div h2:first-child{
+    padding: 0 ;
+}
+
+.back_box_how_its_work_delivery_charges{
+    border-radius: 25px;   
+    max-height: 300px;
+    height: 100%;
+}
+
+.back_box_how_its_work_delivery_charges div div {
+    padding: 15px 35px;
+}
+.back_box_how_its_work_delivery_charges div div ul {
+    padding: 35px 0;
+}
+.back_box_how_its_work_delivery_charges div div ul li {
+    display: flex;
+    align-items: center;
+}
+.back_box_how_its_work_delivery_charges div div ul li p{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 38px;
+    color: #fff;
+    display: inline;
+    padding-left: 15px;
+}
+.back_box_how_its_work_delivery_charges div div span{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+}
