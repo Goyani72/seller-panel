@@ -1007,3 +1007,61 @@ input[type=number]::-webkit-outer-spin-button {
 .support_header {
     overflow: auto;
 }
+
+
+
+
+
+/*begin:: table default css */
+.tableFixHead          { overflow: auto; height: 100px; background-color: #E7F1EF !important;}
+.tableFixHead thead th { position: sticky; top: 0; z-index: 1; text-align: center;}
+.table>:not(:last-child)>:last-child>*{
+  background-color: #E5E5E5;
+  border-bottom: none;
+}
+
+.table-body{
+  height: 10px !important;
+  overflow: scroll;
+}
+.table-body tr td{
+  align-items: center;
+  padding: 10px 10px;
+  text-align: center;
+}
+tbody > tr{
+  padding: 20px 0px !important;
+  background: transparent !important;
+  border: 10px solid transparent ;
+  outline: none;
+}
+.table-warapper{
+  background-color: #E7F1EF !important;
+}
+.table-warapper-seller
+{
+  background-color: #E7F1EF !important;
+}
+.table-striped>tbody>tr:nth-of-type(odd),.table-striped>tbody>tr:nth-of-type(even) {
+  --bs-table-accent-bg: #fff;
+}
+
+
+/* Just common table stuff. Really. */
+table  { border-collapse: collapse; width: 100%; }
+th, td { padding: 8px 16px; }
+/*end:: table default css */
+.total-out-standing
+{
+    height: 550px;
+    border-radius: 5px;
+    overflow: auto;
+    margin-bottom:0px;
+    width: 60%;
+}
+.total-out-standing table thead tr th{
+    font-weight: normal;
+}
+.total-out-standing table{
+    font-size: 12px;
+}
