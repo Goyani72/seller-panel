@@ -349,7 +349,7 @@ path[data-ac-wrapper-id="7"]:hover
 .fixed_headers thead tr {
   display: block;
   position: relative;
-  width: calc(100% - 7px);
+  width: calc(100% - 0px);
 
 }
 .fixed_headers tbody {
