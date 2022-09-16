@@ -316,7 +316,7 @@ path[data-ac-wrapper-id="7"]:hover
   /*Start Table */
   .main_table_out_stading{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   
 .fixed_headers {

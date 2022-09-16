@@ -1016,7 +1016,7 @@ input[type=number]::-webkit-outer-spin-button {
 .tableFixHead          { overflow: auto; height: 100px; background-color: #E7F1EF !important;}
 .tableFixHead thead th { position: sticky; top: 0; z-index: 1; text-align: center;}
 .table>:not(:last-child)>:last-child>*{
-  background-color: #E5E5E5;
+  background-color: #E7F1EF;
   border-bottom: none;
 }
 
