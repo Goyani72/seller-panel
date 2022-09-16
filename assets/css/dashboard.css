@@ -1,3 +1,4 @@
+
 .main-dashboard {
     margin-top: 40px;
 }
@@ -570,6 +571,7 @@ color: #7B7878;
 }
 .top_product_dashboard_wrapper table  {
     display: block;
+    font-family: poppins !important;
 }
 .top_product_dashboard_wrapper table tbody {
     display: block;
@@ -579,16 +581,15 @@ color: #7B7878;
     width: 100%;
 }
 .top_product_dashboard_wrapper table tbody tr{
-    background-color: #EEEEEE;
+    background-color: #EEEEEE !important;
     border-radius: 10px;
     display: flex;
     width: 100%;
     justify-content: space-between;
     max-width: 1120px;
-    padding: 15px;
-    padding-right: 15px;
     align-items: center;
     margin: 10px 0;
+    padding: 0px !important;
 } 
 .top_product_dashboard_wrapper .width_maintained{
     width:50px ;
