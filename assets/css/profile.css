@@ -314,6 +314,35 @@
     opacity: 0.9;
 }
 
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .btn {
+    color: gray;
+    background-color: #4D7C73;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    max-width: 210px;
+    height: 100%;
+    cursor: pointer;
+  }
+
 /* End Image Upload */
 
 

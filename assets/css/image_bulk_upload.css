@@ -1,3 +1,6 @@
+#image_bulk_upload{
+    height: 100vh;
+}
 .image_bluck {
     border: 1px solid #000;
 }
@@ -77,8 +80,13 @@
     .bluk_imges .row>.image_bluck_col:nth-child(n + 4) {
         margin-top: 15px;
     }
-
+    
     .image_bluck_col {
         width: 33.33%;
+    }
+}
+@media screen and (max-width: 1400px) {
+    #image_bulk_upload{
+        height: 100%;
     }
 }
