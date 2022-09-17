@@ -29,11 +29,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/dashboard.css">
 
-    <!-- chart css -->
     <link rel="stylesheet" href="assets/css/chart.css">
-
-    <!-- chart js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
 
 </head>
 
@@ -320,22 +316,14 @@
                                     </div>
                                     <p>68.2% more earnings than last month.</p>
                                 </div>
-                                <div class="earnings-right-arte">
-                                    <div class="widget">
-                                        <div id="chart" class="chart-container"></div>
-                                    </div>
-                                </div>
+                                <div class="earnings-right-arte"></div>
                             </div>
                         </div>
                         <div class="orders-right-col">
                             <div class="orders-right-col-inner">
-                                <div class="turnover-report-row ">
+                                <div class="turnover-report-row">
                                     <div class="turnover-report-col-left">
-                                        <!-- start chart -->
-                                        <div>
-                                            <canvas id="barChart"></canvas>
-                                        </div>
-                                        <!-- end chart -->
+                                        <h3>Turnover Report</h3>
                                     </div>
                                     <div class="turnover-report-col-right">
                                         <div class="turnover-report-select">
@@ -521,11 +509,15 @@
                             <div class="returen-order-title">
                                 <h5>Returen order/panalty</h5>
                             </div>
+
+                            <div class="returen-order-chart"></div>
+
                             <div class="returen-order-chart">
                                 <div class="widget">
                                     <div id="chart" class="chart-container"></div>`
                                 </div>
                             </div>
+
                             <div class="returen-order-color">
                                 <ul>
                                     <li>
@@ -562,7 +554,7 @@
                             </div>
                         </div>
                         <div class="returen-order-right-col">
-                            <div class="reffrel_bonus_history">
+                            <div class="reffrel_bonus_history mb-5">
                                 <div class="">
                                     <h2 class="reffrel_bonus_history_title text-black">Reffrel&nbsp;Bonus&nbsp;history
                                     </h2>
@@ -1086,8 +1078,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
     <script src="assets/js/custom.js"></script>
-    <script src="assets/js/chart.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
 
     <script>
         $(document).ready(function () {
