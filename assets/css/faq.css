@@ -12,7 +12,7 @@
     color: #000;
     padding: 20px 0 35px;
     font-weight: 800;
-    font-size: 65px;
+    font-size: 55px;
     line-height: 100%;
 }
 
@@ -102,14 +102,20 @@ button.beefup-head[aria-disabled],
     color: #000;
     font-weight: 500;    padding: 15px 20px;
 }
+.btn_faq_s_btn_main div a{
+    letter-spacing: 0.50px;
+    background-color: #4D7C73;
+    padding: 8px 25px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 9px;
+}
+
+
+
 /*End faq  */
 
-@media screen and (min-width:1400px) {
-    .fequently_text{
-        font-size: 40px;
-    }
-}
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1366px) {
     .fequently_text{
         font-size: 40px;
     }
