@@ -1,0 +1,65 @@
+#product_upload{
+    padding: 0 ;
+    padding: 0;
+    height: 92vh;
+    position: relative;
+}
+.product_upload_wrapper{
+    padding-top: 50px;
+}
+.product_back_bottom_img{
+    background-size: auto;
+    width: 100%;
+    
+}
+.product_back_bottom_img img{
+    width: 100%;
+    background-size: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.single_listing_upload_main .btn{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 100%;
+    background: linear-gradient(99.54deg, rgba(162, 205, 184, 0.65) 7.46%, rgba(77, 124, 115, 0.65) 95.68%);
+    border-radius: 12px;
+    padding: 10px 35px;
+    display: block;
+}
+
+.single_listing_upload_main {
+    justify-content: center;
+    display: flex;
+}
+.single_listing_upload_main .slider_img_upload{
+    margin-top: 35px;
+}
+.single_listing_upload_main .how_to_upload_main .you_tube_box{
+    width: 88px;
+    height: 68px;   
+    background-color: #C4C4C4;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+.single_listing_upload_main .how_to_upload_main {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+}
+.single_listing_upload_main .how_to_upload_main .you_tube_box img{
+    max-width:35px;
+    width: 100%;
+}
+.single_listing_upload_main .how_to_upload_main .how_do_description{
+    height: 68px;
+    width: 100%;
+    background-color:#F5F3F3 ;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}

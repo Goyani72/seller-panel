@@ -11,10 +11,9 @@
 .fequently_text{
     color: #000;
     padding: 20px 0 35px;
-    width: 35%;
     font-weight: 800;
-    font-size: 71px;
-    line-height: 76px;
+    font-size: 55px;
+    line-height: 100%;
 }
 
 /*Start faq  */
@@ -103,38 +102,53 @@ button.beefup-head[aria-disabled],
     color: #000;
     font-weight: 500;    padding: 15px 20px;
 }
+.btn_faq_s_btn_main div a{
+    letter-spacing: 0.50px;
+    background-color: #4D7C73;
+    padding: 8px 25px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 9px;
+}
+
+
+
 /*End faq  */
 
-@media screen and (min-width:1400px) {
+@media screen and (max-width:1366px) {
     .fequently_text{
-        width: 40%;
-    }
-}
-@media screen and (max-width:1200px) {
-    .fequently_text{
-        width: 45%;
+        font-size: 40px;
     }
     .beefup-head{
     padding: 15px 20px;
 }
 }
 @media screen and (max-width:1000px) {
-    .fequently_text{
-        width: 50%;
-    }
     .beefup-head {
         padding: 15px 20px;
     }
 }
 @media screen and (max-width:900px) {
-    .fequently_text{
-        display: block;
-        width: 100%;
-    }
     .beefup-head {
         padding: 14px 15px;
     }
 }
+@media screen and (max-width:768px) {
+    #faq-main{
+        width: 100%;
+    }
+    .fequently_text{
+        font-size: 28px;
+    }
+    .beefup-head{
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .beefup-head{
+        padding: 11px 15px;
+    }
+}
+
 @media screen and (max-width:425px) {
     .beefup-head{
         padding: 12px 15px;

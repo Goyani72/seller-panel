@@ -91,10 +91,7 @@
   width: 50%;
   margin-right: 20px;
 }
-.image_dp_main img{
-  height: 100%;
-  width: 100%;
-}
+
 
 /* -------- start chart  ---------- */
 
@@ -232,8 +229,6 @@ path[data-ac-wrapper-id="7"]:hover
     background: linear-gradient(135.68deg, rgba(255, 255, 255, 0.41) 2.53%, #FFFFFF 92.19%);
     box-shadow: 0px 15px 24px rgb(0 0 0 / 3%);
     border-radius: 20px;
-    width: 70px;
-    height: 63.56px;
 }
 
   /* -------- end chart  ---------- */
@@ -321,7 +316,7 @@ path[data-ac-wrapper-id="7"]:hover
   /*Start Table */
   .main_table_out_stading{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   
 .fixed_headers {
@@ -349,7 +344,7 @@ path[data-ac-wrapper-id="7"]:hover
 .fixed_headers thead tr {
   display: block;
   position: relative;
-  width: calc(100% - 7px);
+  width: calc(100% - 0px);
 
 }
 .fixed_headers tbody {

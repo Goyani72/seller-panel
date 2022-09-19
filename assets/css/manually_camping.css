@@ -500,7 +500,7 @@
   .fixed_headers thead tr {
     display: block;
     position: relative;
-    width: calc(100% - 7px);
+    width: calc(100% - 0px);
   }
   .fixed_headers tbody {
     display: block;

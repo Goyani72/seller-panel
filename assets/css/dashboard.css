@@ -1,3 +1,4 @@
+
 .main-dashboard {
     margin-top: 40px;
 }
@@ -229,7 +230,6 @@
 
 .turnover-report-row {
     display: flex;
-    flex-wrap: wrap;
     height: 100%
 }
 
@@ -607,4 +607,81 @@ h2.reffrel_bonus_history_title.text-black {
 
 .top-products-item:not(:last-of-type) {
     margin-bottom: 10px;
+}
+
+/* Top Product */
+.top_product_dashboard_wrapper .top_product_title_dashboard{
+    color: #535353;
+    padding: 20px 0;
+}
+.top_product_dashboard_wrapper .top_product_title{
+    padding-left: 15px;
+}
+.top_product_dashboard_wrapper .top_product_title span{
+font-weight: 500;
+font-size: 14px;
+color: #7B7878;
+}
+.top_product_dashboard_wrapper .top_product_title p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    color: #7B7878;
+}
+.top_product_dashboard_wrapper .top_product_title .sale_dashboard{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #7B7878;
+}
+.top_product_dashboard_wrapper table  {
+    display: block;
+    font-family: poppins !important;
+}
+.top_product_dashboard_wrapper table tbody {
+    display: block;
+    overflow-y: scroll;
+    height: 350px;
+    max-width: 1130px;
+    width: 100%;
+}
+.top_product_dashboard_wrapper table tbody tr{
+    background-color: #EEEEEE !important;
+    border-radius: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 1120px;
+    align-items: center;
+    margin: 10px 0;
+    padding: 0px !important;
+} 
+.top_product_dashboard_wrapper .width_maintained{
+    width:50px ;
+}
+.top_product_dashboard_wrapper .top_product_title h5{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+/* scroll */
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #A2CDC5;
 }
