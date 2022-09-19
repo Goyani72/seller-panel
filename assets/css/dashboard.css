@@ -1,4 +1,3 @@
-
 .main-dashboard {
     margin-top: 40px;
 }
@@ -518,7 +517,6 @@ h2.reffrel_bonus_history_title.text-black {
     font-weight: 400;
     font-size: 8px;
     line-height: 20px;
-    /* or 250% */
     color: #000000;
     margin-left: 12px;
 }
@@ -538,21 +536,95 @@ h2.reffrel_bonus_history_title.text-black {
     line-height: 20px;
 }
 
+.top-products-title h2 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #535353;
+}
+
+.top-products-inner {
+    margin-top: 26px;
+    width: 100%;
+    max-width: 1168px;
+}
+
+.top-products-title {
+    margin-bottom: 10px;
+}
+
+.top-products-item {
+    background: #EEEEEE;
+    border-radius: 10px;
+}
+
+.top-products-inner-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 30px;
+}
+
+.top-products-left-col {
+    display: flex;
+    align-items: center;
+}
+
+.top-products-right-col {
+    display: flex;
+    align-items: center;
+    text-align: end;
+    justify-content: space-between;
+}
+
+.top-products-left-text h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7B7878;
+    margin-bottom: 5px;
+}
+
+.top-products-left-text h6 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7B7878;
+}
+
+.top-products-left-text {
+    margin-left: 28px;
+}
+
+.top-products-right-col .top-products-left-text {
+    margin-left: 70px;
+}
+
+.top-products-right-col .top-products-left-text h6 {
+    color: #000000;
+}
+
+.top-products-item:not(:last-of-type) {
+    margin-bottom: 10px;
+}
 
 /* Top Product */
-.top_product_dashboard_wrapper .top_product_title_dashboard{
+.top_product_dashboard_wrapper .top_product_title_dashboard {
     color: #535353;
     padding: 20px 0;
 }
-.top_product_dashboard_wrapper .top_product_title{
+
+.top_product_dashboard_wrapper .top_product_title {
     padding-left: 15px;
 }
-.top_product_dashboard_wrapper .top_product_title span{
-font-weight: 500;
-font-size: 14px;
-color: #7B7878;
+
+.top_product_dashboard_wrapper .top_product_title span {
+    font-weight: 500;
+    font-size: 14px;
+    color: #7B7878;
 }
-.top_product_dashboard_wrapper .top_product_title p{
+
+.top_product_dashboard_wrapper .top_product_title p {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -560,7 +632,8 @@ color: #7B7878;
     line-height: 120%;
     color: #7B7878;
 }
-.top_product_dashboard_wrapper .top_product_title .sale_dashboard{
+
+.top_product_dashboard_wrapper .top_product_title .sale_dashboard {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -568,10 +641,12 @@ color: #7B7878;
     line-height: 21px;
     color: #7B7878;
 }
-.top_product_dashboard_wrapper table  {
+
+.top_product_dashboard_wrapper table {
     display: block;
     font-family: poppins !important;
 }
+
 .top_product_dashboard_wrapper table tbody {
     display: block;
     overflow-y: scroll;
@@ -579,7 +654,8 @@ color: #7B7878;
     max-width: 1130px;
     width: 100%;
 }
-.top_product_dashboard_wrapper table tbody tr{
+
+.top_product_dashboard_wrapper table tbody tr {
     background-color: #EEEEEE !important;
     border-radius: 10px;
     display: flex;
@@ -589,11 +665,13 @@ color: #7B7878;
     align-items: center;
     margin: 10px 0;
     padding: 0px !important;
-} 
-.top_product_dashboard_wrapper .width_maintained{
-    width:50px ;
 }
-.top_product_dashboard_wrapper .top_product_title h5{
+
+.top_product_dashboard_wrapper .width_maintained {
+    width: 50px;
+}
+
+.top_product_dashboard_wrapper .top_product_title h5 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -604,14 +682,21 @@ color: #7B7878;
 
 /* scroll */
 
-::-webkit-scrollbar
-{
-	width: 12px;
-	background-color: #F5F5F5;
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
 }
 
-::-webkit-scrollbar-thumb
-{
-	border-radius: 10px;
-	background-color: #A2CDC5;
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #A2CDC5;
+}
+
+.highcharts-container {
+    height: 205px !important;
+    -webkit-tap-highlight-color: transparent !important;
+}
+
+.highcharts-container svg rect.highcharts-background {
+    fill: transparent;
 }
