@@ -775,8 +775,11 @@ input[type=number]::-webkit-outer-spin-button {
 .compos_border
 {
   border: 2px solid #4D7C73;
-  padding: 10px 60px;
+  padding: 10px 10px;
   border-radius: 10px;
+  font-weight: bolder;
+  font-size: 25px;
+  cursor: pointer;
 }
 .support_header li a
 {
