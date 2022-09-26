@@ -33,8 +33,9 @@
 }
 
 .left-congratulation-inner p {
-    max-width: 185px;
-    width: 100%;
+    /* max-width: 185px;
+    width: 100%; */
+    padding-right: 79px;
 }
 
 .left-congratulation-image {
@@ -693,10 +694,112 @@ h2.reffrel_bonus_history_title.text-black {
 }
 
 .highcharts-container {
-    height: 205px !important;
+    height: 100% !important;
+    width: 100% !important;
     -webkit-tap-highlight-color: transparent !important;
 }
 
 .highcharts-container svg rect.highcharts-background {
     fill: transparent;
+}
+
+.turnover-report-col-left #barChart {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+@media screen and (max-width: 1500px) {
+
+    .orders-right-col {
+        max-width: 100%;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .orders-left-col {
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .earnings-left-content {
+        width: 40%;
+        margin: 0;
+    }
+
+    .left-inner-row {
+        width: 50%;
+    }
+
+    .left-inner-col {
+        max-width: 100%;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+
+    .left-congratulation-inner {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .left-congratulation-image {
+        position: unset;
+        margin: 0 auto;
+    }
+
+    .left-congratulation-inner p {
+        padding: 0 0 20px;
+    }
+
+    .returen-order-row .returen-order-right-col {
+        max-width: 100%;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .returen-order-row .returen-order-mid-col {
+        max-width: 100%;
+        width: 45%;
+    }
+
+    .returen-order-row .returen-order-left-col {
+        max-width: 100%;
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .left-congratulation-col {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .right-congratulation-col {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .left-congratulation-image {
+        position: absolute;
+        width: 30px;
+        height: auto;
+    }
+
+    .statistics-left-col h6,
+    .statistics-right-col h6 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .left-congratulation-inner p {
+        padding: 0 30px 0 0;
+    }
 }
